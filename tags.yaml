@@ -1,0 +1,81 @@
+# Are-Self Learn — Canonical Tag Taxonomy
+#
+# Every course's frontmatter tags MUST come from this file.
+# No free-form tags. New tags require a PR updating this file
+# AND site/docs/tags-reference.md.
+#
+# This list will grow. It will never shrink.
+
+audience:
+  - elementary        # K-5
+  - middle-school     # 6-8
+  - high-school       # 9-12
+  - community-college
+  - university
+  - corporate
+  - small-business
+  - hobbyist
+  - self-learner
+
+subject:
+  - biology
+  - neuroscience
+  - computer-science
+  - software-engineering
+  - python
+  - django
+  - ci-cd
+  - ai-literacy
+  - ai-cost-management
+  - ela               # English / Language Arts
+  - math
+  - science
+  - social-studies
+  - game-development
+  - unreal-engine
+  - business
+  - design-patterns
+
+level:
+  - intro
+  - beginner
+  - intermediate
+  - advanced
+  - expert
+
+duration:
+  - single-lesson
+  - 1-week
+  - 2-week-iteration
+  - 4-week
+  - 6-week-unit
+  - quarter
+  - semester
+
+format:
+  - self-paced
+  - instructor-led
+  - cohort
+  - workshop
+
+standards:
+  - common-core-ela
+  - common-core-math
+  - ngss
+  - c3-social-studies
+  - acm-cs
+  - ieee-cs
+  - none
+
+interactive:
+  - worksheets
+  - labs
+  - projects
+  - videos
+  - live-coding
+
+special:
+  - landmines         # "don't make these mistakes" course format
+  # reviewed-by:<name> tags are dynamic and not listed here.
+  # The linter validates their structure (name, title, institution, date)
+  # rather than their existence in this file.
