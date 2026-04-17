@@ -1,0 +1,16 @@
+name: Trigger docs deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch to are-self-docs
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.DEPLOY_PAT }}
+          repository: scipraxian/are-self-docs
+          event-type: learn-updated
