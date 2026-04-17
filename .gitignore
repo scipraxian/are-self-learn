@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+/build
+site/build/
+.docusaurus/
+.cache-loader/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code local overrides
+.claude/settings.local.json

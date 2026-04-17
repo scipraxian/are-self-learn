@@ -1,0 +1,23 @@
+{
+  "name": "are-self-learn",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Are-Self curriculum framework and course catalog. The site/ workspace hosts the Docusaurus presentation layer; future peers (_template/, driver/, _linter/) will live alongside it.",
+  "workspaces": [
+    "site"
+  ],
+  "scripts": {
+    "start": "npm --workspace @are-self-learn/site run start",
+    "build": "npm --workspace @are-self-learn/site run build",
+    "serve": "npm --workspace @are-self-learn/site run serve",
+    "clear": "npm --workspace @are-self-learn/site run clear"
+  },
+  "engines": {
+    "node": ">=18.0"
+  },
+  "overrides": {
+    "webpackbar": "7.0.0"
+  },
+  "license": "MIT",
+  "author": "Michael Clark"
+}
