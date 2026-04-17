@@ -30,8 +30,32 @@ read it first.
 - **License is MIT. Do not revisit.**
 - **Vocabulary rules in PLAN.md are binding.** No "scrum," no "sprint,"
   no "grooming," no violence metaphors. See PLAN.md §"Vocabulary rules."
-- **The agile/iteration layer is frozen** until Michael says "read the
-  book." See PLAN.md §"The Agile injection — frozen."
+- **The agile/iteration layer is UNFROZEN.** Vocabulary is locked. See
+  PLAN.md §"The Agile injection — UNFROZEN" and
+  `are-self-documents/BOOK-DIGEST.md`.
+- **No "delete before publishing" notes, design notes, TODO comments,
+  or Claude-facing instructions in any publishable .md file.** Every
+  .md file in `site/` and `_template/` is publishable. If Claude needs
+  to leave itself notes, put them in `CLAUDE.md` or `TASKS.md` — never
+  in content a teacher, student, or contributor will read.
+
+## Worksheet rules
+
+- Every lesson has at least one worksheet. Framework-level rule.
+- Worksheets are printable. No interactive JS, no links that require
+  a device during the activity.
+- Reading level must match the course audience tag.
+- Include an answer key for any worksheet with right/wrong answers.
+  Open-ended worksheets skip the answer key.
+- Alt text on any embedded images.
+- Tables render in markdown. Keep them simple — 3-5 columns max for
+  printability.
+- Patterns that work well (from the 4th grade course): matching
+  (name to description), field notes (observe and record during a
+  live activity), planning sheets (design before building), comparison
+  charts (AI output vs. student output), experiment logs (hypothesis
+  to data to conclusion), reflection journals (sentence starters +
+  free write), project proposals (structured planning for capstone).
 
 ## Build order (anti-trap sequence)
 

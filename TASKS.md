@@ -3,7 +3,7 @@
 Work queue for the curriculum framework repo. See `PLAN.md` for the full
 planning context and `CLAUDE.md` for session continuity rules.
 
-Last updated: 2026-04-14.
+Last updated: 2026-04-17.
 
 ## Completed
 
@@ -15,13 +15,32 @@ Last updated: 2026-04-14.
 - [x] Storybook published at `are-self-docs/docs/storybook.md` (done in
       the previous session, but listing here since it unblocks the
       4th-grade curriculum migration).
+- [x] 4th-grade curriculum migrated into
+      `site/docs/courses/elementary-4th-grade/` (13 files, done by Michael).
+- [x] `_template/` directory created with full course template:
+      `index.md` (maximal frontmatter schema), `week-N.md` (lesson plan
+      with stealth DoR/DoD/Retrospective), `worksheets/worksheet-template.md`,
+      `rubrics/rubric-template.md`, `diagrams/.gitkeep`, `README.md`.
+      All six DoR fields embedded as lesson plan sections. DoD = exit
+      ticket. Retrospective = teacher reflection. Demo = showcase.
+- [x] GitHub Pages composite deploy action: builds both `are-self-docs`
+      and `are-self-learn`, merges learn into `/learn/`, deploys as one
+      site. Uses `actions/deploy-pages@v4`, `upload-pages-artifact@v4`,
+      `configure-pages@v5`, Node 22, `npm ci`.
+- [x] Cross-repo deploy trigger: `are-self-learn/.github/workflows/
+      trigger-deploy.yml` fires `repository_dispatch` to `are-self-docs`
+      on push to main. Requires `DEPLOY_PAT` secret (one-time setup).
+- [x] Learn links repointed: navbar, homepage doors (Teacher, Corporate
+      Trainer), news card, and footer all now point to `/learn/` instead
+      of the GitHub repo. Footer retains GitHub source link separately.
+- [x] Glossary created at `site/docs/glossary.md` (A-Z, 40+ terms).
+- [x] Tags reference created at `site/docs/tags-reference.md`.
+- [x] Learn Docusaurus site scaffolded (`site/`) with shared glassmorphic
+      theme, port 3001, monorepo workspace.
 
 ## In progress
 
-- [ ] 4th-grade curriculum full migration into
-      `site/docs/courses/elementary-4th-grade/`. Placeholder index is
-      in place; 13 content files still to copy from `are-self-docs/
-      docs/curriculum/` and update frontmatter.
+(Nothing actively in progress.)
 
 ## Next up (priority order)
 
@@ -29,16 +48,17 @@ Last updated: 2026-04-14.
 
 - [x] Create `tags.yaml` — canonical tag taxonomy. Seeded from PLAN.md.
       Public reference: `site/docs/tags-reference.md`.
-- [ ] Create `_template/` directory with:
-  - [ ] `_template/index.md` — course index with full frontmatter schema
+- [x] Create `_template/` directory with:
+  - [x] `_template/index.md` — course index with full frontmatter schema
         populated with placeholder values and inline comments.
-  - [ ] `_template/week-N.md` — lesson template with required sections
-        (objective, DoR placeholder, activities, worksheet link, DoD
-        placeholder, exit ticket, links to next lesson).
-  - [ ] `_template/worksheets/worksheet-template.md`
-  - [ ] `_template/rubrics/rubric-template.md`
-  - [ ] `_template/diagrams/.gitkeep`
-  - [ ] `_template/README.md` — "how to use this template."
+  - [x] `_template/week-N.md` — lesson template with required sections
+        (objective, DoR fields as section structure, activities, worksheet
+        link, DoD as exit ticket, demo as showcase, retrospective as
+        teacher reflection).
+  - [x] `_template/worksheets/worksheet-template.md`
+  - [x] `_template/rubrics/rubric-template.md`
+  - [x] `_template/diagrams/.gitkeep`
+  - [x] `_template/README.md` — "how to use this template."
 - [ ] Build the linter (`driver/` Django app, `manage.py lint_course
       <course-id>` command). Validates frontmatter against schema,
       checks tags against `tags.yaml`, checks worksheet count, checks
@@ -67,36 +87,31 @@ Last updated: 2026-04-14.
 
 ### P1 — Site integration
 
-- [ ] **DECIDED: Option B.** Learn gets its **own Docusaurus instance**
-      inside `are-self-learn/site/`, deployed to `are-self.com/learn`
-      via subpath (or `learn.are-self.com` subdomain — decide at
-      deploy time). Separate build, separate contributor surface,
-      separate release cadence. Teachers contributing a worksheet do
-      not have to PR against the developer docs.
+- [x] **DECIDED: Option B → Option A composite deploy.** Learn gets
+      its own Docusaurus instance inside `are-self-learn/site/`,
+      deployed to `are-self.com/learn` via composite GitHub Action.
+      Both sites build in one action, learn output copied into
+      `build/learn/`. Cross-repo dispatch triggers redeploy on
+      learn pushes.
 - [x] Scaffold the Learn Docusaurus instance (`site/`) under
       `are-self-learn/`. Shared glassmorphic theme CSS copied from
       `are-self-docs`. Port 3001 to avoid conflict with docs on 3000.
       `start.bat` convenience script included.
 - [ ] `/learn` landing page. Filter panel driven by `tags.yaml`.
       Course table sourced from course frontmatter.
-- [ ] `/learn/tags` page — public canonical taxonomy.
+- [x] `/learn/tags` page — public canonical taxonomy. Done at
+      `site/docs/tags-reference.md`.
 - [ ] `/learn/about` page — trust-building explainer (template,
       linter, OER stance, license, review process).
-- [ ] **Top-nav link "Learn"** added to `are-self-docs` pointing at
-      `/learn` (external-in-appearance but served from same domain
-      root).
-- [ ] **Glossary / terms reference.** Single authoritative doc listing
-      100% of the terms used across Are-Self, HSH, scipraxianism,
-      brain-region architecture, Django-app naming, the Twelve
-      Variables, the Creed binary codes, and the curriculum
-      vocabulary. Proposed location:
-      `are-self-learn/site/docs/glossary.md` — one page, A-Z, with
-      cross-links to the doc that defines each term in full. Discovery
-      path: Learn top-nav → "Glossary" link in footer, AND docs
-      top-nav → same URL. One source of truth, two front doors.
-      Initial seed pulls from `are-self-documents/scipraxian/*.md`,
-      `are-self-docs/docs/brain-regions/*.md`, and the PLAN.md tag
-      taxonomy.
+- [x] **Top-nav link "Learn"** added to `are-self-docs` pointing at
+      `/learn`. All homepage doors, footer, and news card repointed
+      from GitHub repo to live `/learn/` URLs.
+- [x] **Glossary / terms reference.** Single authoritative doc at
+      `are-self-learn/site/docs/glossary.md` — A-Z, 40+ terms,
+      covering Are-Self, HSH, scipraxianism, brain-region
+      architecture, Django-app naming, the Twelve Variables, the
+      Creed, and the curriculum vocabulary. Discoverable from Learn
+      top-nav, footer, and docs footer.
 
 ### P2 — Remaining courses (in rough order)
 
