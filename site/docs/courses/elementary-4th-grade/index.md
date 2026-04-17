@@ -78,7 +78,7 @@ This curriculum addresses the following 4th grade Common Core clusters:
 
 *Mira and the Are-Self* is a companion text written for this age group. Each week's opening activity references a chapter. You can read it aloud (10–15 minutes), assign it as independent reading, or skip it entirely — the curriculum works without it. But if you read it, the habits land harder, because students see a kid their age practicing them before they do.
 
-The full text is available here: [Mira and the Are-Self](../storybook). It's a draft — we'd love your feedback.
+The full text is available here: [Mira and the Are-Self](https://are-self.com/docs/storybook). It's a draft — we'd love your feedback.
 
 ---
 
