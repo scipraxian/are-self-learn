@@ -59,11 +59,6 @@ Last updated: 2026-04-18.
   - [x] `_template/rubrics/rubric-template.md`
   - [x] `_template/diagrams/.gitkeep`
   - [x] `_template/README.md` — "how to use this template."
-- [ ] Build the linter (`driver/` Django app, `manage.py lint_course
-      <course-id>` command). Validates frontmatter against schema,
-      checks tags against `tags.yaml`, checks worksheet count, checks
-      heading hierarchy, checks for banned link text ("click here"),
-      checks for transcript presence when videos > 0.
 
 ### P0 — Visual deliverables (SDCC forcing function)
 
@@ -122,6 +117,14 @@ Last updated: 2026-04-18.
 - [ ] Python Beginner / Intermediate / Advanced (three courses).
 - [ ] Small Business Training.
 - [ ] Unreal Engine: Don't Make These Mistakes (the "landmines" format).
+
+### P3 — Tooling (deferred)
+
+- [ ] Build the linter (`driver/` Django app, `manage.py lint_course
+      <course-id>` command). Validates frontmatter against schema,
+      checks tags against `tags.yaml`, checks worksheet count, checks
+      heading hierarchy, checks for banned link text ("click here"),
+      checks for transcript presence when videos > 0.
 
 ### Unfrozen — ready to build
 

@@ -874,6 +874,125 @@ input::placeholder {
 }
 
 /* ============================================================================
+   COURSE CARDS (Learn landing page)
+   ============================================================================ */
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.course-card {
+  display: block;
+  background: rgba(26, 26, 46, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+  color: inherit !important;
+  overflow: hidden;
+}
+
+/* Remove the animated underline from course card links */
+a.course-card::after {
+  display: none !important;
+}
+
+a.course-card:hover {
+  border-color: var(--accent-teal);
+  box-shadow: 0 8px 32px rgba(6, 182, 212, 0.25);
+  transform: translateY(-4px);
+  color: inherit !important;
+}
+
+.course-card--coming-soon {
+  opacity: 0.85;
+}
+
+.course-card--planned {
+  opacity: 0.6;
+}
+
+.course-card h3 {
+  color: var(--text-primary);
+  margin: 0.75rem 0 0.5rem 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+a.course-card:hover h3 {
+  color: var(--accent-teal);
+}
+
+.course-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.course-card__audience {
+  color: var(--accent-purple) !important;
+  font-size: 0.8rem !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.5rem 0 !important;
+}
+
+.course-card__badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2rem;
+}
+
+.course-card__badge--published {
+  background: rgba(34, 197, 94, 0.15);
+  color: var(--accent-green);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.course-card__badge--coming {
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--accent-amber);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.course-card__badge--planned {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-tertiary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.course-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--glass-border);
+}
+
+.course-card__meta span {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.2rem 0.6rem;
+  border-radius: 1rem;
+}
+
+/* ============================================================================
    RESPONSIVE ADJUSTMENTS
    ============================================================================ */
 
@@ -896,5 +1015,9 @@ input::placeholder {
 
   .sidebar {
     padding: 0.75rem;
+  }
+
+  .course-grid {
+    grid-template-columns: 1fr;
   }
 }

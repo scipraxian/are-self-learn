@@ -1,9 +1,7 @@
 ---
 # ── Identity ──────────────────────────────────────────────────────
-id: "hs-bio-brain"
 title: "The Human Brain and the Are-Self"
 subtitle: "A six-week exploration of neuroanatomy through a working AI mirror"
-slug: /learn/hs-bio-brain
 
 # ── Authorship ────────────────────────────────────────────────────
 author: "Michael Clark"

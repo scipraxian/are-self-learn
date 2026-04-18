@@ -1,4 +1,4 @@
-# Are-Self Curriculum Framework — Master Planning Doc
+    # Are-Self Curriculum Framework — Master Planning Doc
 
 *Status: Repo created and scaffolded. Template, linter, and Django driver still to build. This is the memory layer so nothing gets lost between sessions.*
 
