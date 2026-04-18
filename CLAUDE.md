@@ -104,8 +104,22 @@ driver and linter are internal.
 - HS Bio course skeleton complete: `courses/hs-bio-brain/` with index,
   6 week files (30 days), 30 worksheets, rubrics, lab protocols, sidebar
   registered. UCSD-pitch ready.
-- **Next:** Linter, Hypothalamus Cost Management skeleton, NanoBanana
-  diagram.
+- 12 courses total now in the catalog, all with sidebar entries and
+  landing page cards:
+  - 4th Grade Curriculum (elementary, 6 weeks)
+  - Middle School Brain (grades 6-8, 6 weeks)
+  - Summer Camp: Brains, Bytes & Big Questions (ages 12-14, 5 days)
+  - HS Biology: The Human Brain & the Are-Self (high school, 6 weeks)
+  - What Is AI (online, 6 modules, universal entry point)
+  - Python Beginner / Intermediate / Advanced (self-paced, 8 modules each)
+  - CS Frameworks: Django, DRF, Are-Self (community college, 10 weeks)
+  - Corporate CI/CD: Neural Pathways (1 week intensive)
+  - Hypothalamus Cost Management (2 weeks, corporate)
+  - Agile / Experience Master (7 modules, for PMs and Workers)
+- All courses have prerequisites cross-linked to other courses in catalog.
+- Landing page redesigned with glassmorphic course cards.
+- **Next:** Build verification, linter (P3), NanoBanana diagram,
+  Unreal Engine course (waiting for Michael), Small Business (TBD).
 
 ## Scipraxianism
 

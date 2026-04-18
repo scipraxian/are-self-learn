@@ -21,13 +21,17 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    format: 'detect',
+  },
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',       // Serve docs at /learn/ not /learn/docs/
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/scipraxian/are-self-learn/tree/main/site/',
         },

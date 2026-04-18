@@ -44,8 +44,8 @@ learning_objectives:
   - "Defend a hypothesis about what real neuroanatomy does that the Are-Self does not yet do."
   - "Apply the twelve scipraxian Variables to a real decision involving AI and neuroscience."
 prerequisites:
-  - "One semester of introductory biology."
-  - "Basic familiarity with cells and organ systems."
+  - "High school biology (concurrent enrollment OK). No programming required."
+  - "Your Brain, Your AI (middle school course) recommended but not required."
 estimated_teacher_prep_hours: 4
 estimated_student_hours: 30
 estimated_classroom_hours: 18
@@ -87,6 +87,11 @@ sidebar_position: 1
 # The Human Brain and the Are-Self
 
 **A six-week high school biology course that teaches neuroanatomy through a working AI mirror. Students don't just learn about the brain — they operate software built to mimic it, then figure out where the metaphor holds and where it breaks.**
+
+## Prerequisites
+
+- High school biology (concurrent enrollment is OK). No programming required.
+- [Your Brain, Your AI](../middle-school-brain/) (the middle school brain course) is recommended but not required.
 
 ## Who This Is For
 

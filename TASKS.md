@@ -76,10 +76,29 @@ Last updated: 2026-04-18.
 - [x] Draft HS Bio course skeleton (`courses/hs-bio-brain/`). Complete:
       index + 6 week files (30 days of lesson plans), 30 worksheets,
       rubrics, lab protocols, sidebar registered. UCSD-pitch ready.
-- [ ] Draft Hypothalamus Cost Management course skeleton
-      (`courses/corporate-ai-cost-management/`). Pull content from
-      existing hypothalamus design docs in `are-self-docs/docs/brain-
-      regions/hypothalamus.md`.
+- [x] Draft Hypothalamus Cost Management course skeleton
+      (`courses/corporate-ai-cost-management/`). 2 weeks: Biology of
+      Budgets + Operating at Scale. Circuit breakers, failover chains,
+      vector routing, fleet economics.
+- [x] Python Beginner (`courses/python-beginner/`). 8 modules, self-paced.
+      Entry point for programming — no prerequisites.
+- [x] Python Intermediate (`courses/python-intermediate/`). 8 modules.
+      Classes, inheritance, APIs, testing, signals. Uses real Are-Self patterns.
+- [x] Python Advanced (`courses/python-advanced/`). 8 modules.
+      Metaprogramming, concurrency, vectors, design patterns, deployment.
+      Capstone: design a new brain region.
+- [x] CS Frameworks: Django, DRF, Are-Self (`courses/cc-frameworks-django/`).
+      10 weeks, 1 quarter. ACM/IEEE CS aligned. Experience Master vocabulary.
+- [x] Corporate CI/CD: Neural Pathways (`courses/corporate-ci-cd/`).
+      5 days. Neural Pathways, Spike Trains, Axon routing, Fleet Management.
+- [x] Middle School Brain (`courses/middle-school-brain/`). 6 weeks.
+      Bridge between 4th grade and HS Bio. All twelve Variables.
+- [x] Summer Camp: Brains, Bytes & Big Questions (`courses/summer-camp-neurotech/`).
+      5 days, 1hr each. Ages 12-14.
+- [x] What Is AI (`courses/what-is-ai/`). 6 modules. 100% online.
+      Tokens, models, vectors, training, datacenters, business models.
+- [x] Agile / Experience Master (`courses/agile-experience-master/`).
+      7 modules. For PMs, Workers, and agile addon developers.
 
 ### P1 — Site integration
 
@@ -111,12 +130,9 @@ Last updated: 2026-04-18.
 
 ### P2 — Remaining courses (in rough order)
 
-- [ ] Middle School Brain (`courses/middle-school-brain/`).
-- [ ] CS Frameworks: Django, DRF, Are-Self (`courses/cc-frameworks-django/`).
-- [ ] Corporate CI/CD Training (`courses/corporate-ci-cd/`).
-- [ ] Python Beginner / Intermediate / Advanced (three courses).
 - [ ] Small Business Training.
 - [ ] Unreal Engine: Don't Make These Mistakes (the "landmines" format).
+      Waiting for Michael to finish the modifier first.
 
 ### P3 — Tooling (deferred)
 
