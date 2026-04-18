@@ -23,12 +23,22 @@ const sidebars = {
         'courses/elementary-4th-grade/admin-guide',
       ],
     },
+    {
+      type: 'category',
+      label: 'HS Biology: The Human Brain & the Are-Self',
+      items: [
+        'courses/hs-bio-brain/index',
+        'courses/hs-bio-brain/week-1-architecture',
+        'courses/hs-bio-brain/week-2-memory',
+        'courses/hs-bio-brain/week-3-reasoning',
+        'courses/hs-bio-brain/week-4-homeostasis',
+        'courses/hs-bio-brain/week-5-communication',
+        'courses/hs-bio-brain/week-6-capstone',
+        'courses/hs-bio-brain/rubrics',
+        'courses/hs-bio-brain/labs',
+      ],
+    },
     // --- Future courses (uncomment as they ship) ---
-    // {
-    //   type: 'category',
-    //   label: 'HS Biology: The Human Brain & the Are-Self',
-    //   items: ['courses/hs-bio-brain/index'],
-    // },
     // {
     //   type: 'category',
     //   label: 'CS Frameworks: Django, DRF, Are-Self',

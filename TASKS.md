@@ -3,7 +3,7 @@
 Work queue for the curriculum framework repo. See `PLAN.md` for the full
 planning context and `CLAUDE.md` for session continuity rules.
 
-Last updated: 2026-04-17.
+Last updated: 2026-04-18.
 
 ## Completed
 
@@ -78,8 +78,9 @@ Last updated: 2026-04-17.
 - [ ] Migrate existing 4th-grade curriculum (`are-self-docs/docs/
       curriculum/`) into `courses/elementary-4th-grade/`. Update
       frontmatter to new schema. Run linter. Leave redirect at old URL.
-- [ ] Draft HS Bio course skeleton (`courses/hs-bio-brain/`). Wait for
-      diagram + vocabulary lock before writing body.
+- [x] Draft HS Bio course skeleton (`courses/hs-bio-brain/`). Complete:
+      index + 6 week files (30 days of lesson plans), 30 worksheets,
+      rubrics, lab protocols, sidebar registered. UCSD-pitch ready.
 - [ ] Draft Hypothalamus Cost Management course skeleton
       (`courses/corporate-ai-cost-management/`). Pull content from
       existing hypothalamus design docs in `are-self-docs/docs/brain-
@@ -135,8 +136,8 @@ Last updated: 2026-04-17.
       Stealth adoption for K-12; explicit naming for CC Frameworks.
 - [ ] Build the Django authoring app (forms, admin, etc.). Template and
       linter must come first.
-- [ ] Write the HS Bio course body. Diagram + vocabulary + template
-      come first.
+- [x] Write the HS Bio course body. Skeleton complete with full lesson
+      plans, worksheets, rubrics, and lab protocols.
 
 ## Cosmetic / cross-repo
 

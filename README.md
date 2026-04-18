@@ -7,23 +7,12 @@ curriculum delivery mechanism for Are-Self. One repo, one template, many
 courses, many audiences — from 4th grade through community college through
 corporate training.
 
-**What lives here:**
+**Architecture:** File-based content rendered by Docusaurus. Files are the
+source of truth. Git is the database. Deployed to `are-self.com/learn` via
+a composite GitHub Action that builds both `are-self-docs` and
+`are-self-learn` into a single site.
 
-- A standardized course template (`_template/`)
-- A canonical tag taxonomy (`tags.yaml`)
-- A linter that enforces frontmatter and structural rules
-- A Django "driver" app that generates the `/learn` landing page and
-  `sidebars.js` from the authoritative YAML
-- The course content itself, as markdown + YAML + static assets
-
-**What this is not:**
-
-- Not a database-backed authoring tool. Files are the source of truth.
-  Git is the database.
-- Not developer documentation for Are-Self — that lives in `are-self-docs`.
-- Not a React app. Authoring is plain-text-and-commits.
-
-## Layout (planned)
+## Layout
 
 ```
 are-self-learn/
@@ -33,37 +22,41 @@ are-self-learn/
 ├── PLAN.md                    ← master planning doc (the memory layer)
 ├── LICENSE                    ← MIT
 ├── tags.yaml                  ← canonical tag taxonomy
-├── _template/                 ← the course template (copy-paste-and-rewrite)
-│   ├── index.md
-│   ├── week-1.md
+├── _template/                 ← course template (copy-paste-and-rewrite)
+│   ├── README.md              ← how to use the template
+│   ├── index.md               ← course landing page + full frontmatter
+│   ├── week-N.md              ← lesson plan template
 │   ├── worksheets/
 │   ├── rubrics/
-│   └── ...
-├── courses/
-│   ├── elementary-4th-grade/           ← migrated from are-self-docs
-│   ├── hs-bio-brain/                   ← 🔥 UCSD dean pitch artifact
-│   ├── middle-school-brain/
-│   ├── cc-frameworks-django/
-│   ├── corporate-ai-cost-management/   ← 🔥 sleeper hit
-│   ├── corporate-ci-cd/
-│   ├── small-business/
-│   ├── python-beginner/
-│   ├── python-intermediate/
-│   ├── python-advanced/
-│   └── unreal-landmines/
-├── driver/                    ← Django app
-│   ├── manage.py
-│   ├── curriculum/            ← Django app package
-│   └── ...
-└── site/                      ← Docusaurus rendering layer
-    └── ...
+│   └── diagrams/
+└── site/                      ← Docusaurus instance (npm workspace)
+    ├── package.json
+    ├── docusaurus.config.js
+    ├── sidebars.js
+    ├── start.bat
+    ├── src/css/custom.css
+    └── docs/
+        ├── index.md           ← /learn landing page
+        ├── glossary.md        ← A-Z terms reference
+        ├── tags-reference.md  ← canonical tag taxonomy (public)
+        └── courses/
+            └── elementary-4th-grade/   ← shipped (13 files)
+```
+
+## Quick start (local dev)
+
+```bash
+cd site
+npm install
+npm start          # runs on port 3001
 ```
 
 ## License
 
 MIT. See `LICENSE`.
 
-## Status
+## Contributing
 
-Planning. The master planning doc is `PLAN.md`. If you are reading this
-for the first time, start there.
+Copy `_template/` into `site/docs/courses/<your-course-slug>/`, fill in
+every `[PLACEHOLDER]`, and open a PR. See `_template/README.md` for the
+full process. Every tag must exist in `tags.yaml` — no free-form tags.

@@ -59,14 +59,11 @@ read it first.
 
 ## Build order (anti-trap sequence)
 
-1. Template first (`_template/`).
+1. ~~Template first (`_template/`).~~ DONE.
 2. Linter second (`driver/` Django management command).
 3. Authoring app third (Django forms / CLI only if the linter isn't
    enough). **Do not start with the Django app.**
-4. Migrate the existing 4th-grade curriculum from `are-self-docs/docs/
-   curriculum/` into `courses/elementary-4th-grade/` as the first real
-   course. Update frontmatter to match schema. Leave a redirect at the
-   old URL.
+4. ~~Migrate the 4th-grade curriculum.~~ DONE (by Michael, 13 files).
 5. Build the NanoBanana diagram v0 (depends on the logo refresh and
    locks the vocabulary — see `are-self-documents/primary-diagram-prompt.md`).
 6. Draft HS Bio course skeleton (for the UCSD dean pitch).
@@ -74,16 +71,13 @@ read it first.
 
 ## Cross-repo references
 
-- `are-self-docs/` — developer documentation. The storybook lives here
-  at `docs/storybook.md`. The 4th-grade curriculum currently lives at
-  `docs/curriculum/` and will migrate here.
+- `are-self-docs/` — developer documentation. Storybook at
+  `docs/storybook.md`. Composite GitHub Action deploys both sites.
 - `are-self-documents/` — non-code planning, research, media plan,
-  scripts, and the book. Holds `logo-prompt.md` and
-  `primary-diagram-prompt.md`, which feed this repo's visual
-  deliverables. Holds `research/Experience_Master_The_Book_20170308.pdf`
-  — the book Claude must read before unfreezing the agile discussion.
-- `are-self-api/identity/addons/agile_addon.py` — the already-implemented
-  agile addon. Also required reading before unfreezing.
+  scripts. Holds `logo-prompt.md`, `primary-diagram-prompt.md`,
+  `BOOK-DIGEST.md`, and `scipraxian/` reference docs.
+- `are-self-api/identity/addons/agile_addon.py` — the agile addon
+  that encodes Experience Master vocabulary into Are-Self.
 
 ## Audience reminder
 
@@ -92,16 +86,26 @@ reviewers. It is NOT primarily read by developers. The README, PLAN,
 and landing page should be welcoming to non-developers. The Django
 driver and linter are internal.
 
-## Current session context (2026-04-14)
+## Current status (2026-04-18)
 
-- Storybook published to `are-self-docs/docs/storybook.md`. Done.
-- This repo scaffolded: README, CLAUDE, TASKS, PLAN in place.
-- `_template/`, `tags.yaml`, and `driver/` are NOT YET CREATED. Those
-  are the next work items.
-- SDCC 2026 is the hard external deadline for booth-ready visual
-  deliverables (diagram, logo).
-- Michael's relationship with the UCSD Dean of Neuroscience is the
-  forcing function for the HS Bio course quality bar.
+- Repo scaffolded: README, CLAUDE, TASKS, PLAN, tags.yaml all in place.
+- `_template/` created with full course template (index, week-N,
+  worksheets, rubrics, diagrams, README).
+- 4th-grade curriculum migrated (13 files in `site/docs/courses/
+  elementary-4th-grade/`).
+- Learn Docusaurus site running (`site/`, port 3001, glassmorphic theme).
+- Glossary and tags reference published.
+- GitHub Pages composite deploy action written (builds both sites).
+- Cross-repo deploy trigger written (learn push → docs redeploy).
+- All docs homepage links repointed to `/learn/`.
+- Agile layer unfrozen. Book digested. Vocabulary locked.
+- SDCC 2026 is the hard external deadline for booth-ready visuals.
+- UCSD Dean of Neuroscience is the quality bar for HS Bio course.
+- HS Bio course skeleton complete: `courses/hs-bio-brain/` with index,
+  6 week files (30 days), 30 worksheets, rubrics, lab protocols, sidebar
+  registered. UCSD-pitch ready.
+- **Next:** Linter, Hypothalamus Cost Management skeleton, NanoBanana
+  diagram.
 
 ## Scipraxianism
 

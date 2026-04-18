@@ -269,8 +269,8 @@ subtitle: "A 6-week exploration of neuroanatomy through a working AI mirror"
 slug: /learn/hs-bio-brain                 # URL path under /learn
 
 # Authorship
-author: "Michael Chen"
-author_email: "michael@hauntedspacehotel.com"
+author: "Michael Clark"
+author_email: "scipraxian@are-self.com"
 contributors: []                          # list
 reviewed_by:                              # list of objects, for endorsements
   - name: "[Name]"
