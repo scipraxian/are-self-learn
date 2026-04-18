@@ -16,6 +16,11 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  // Unregister any stale service worker left behind by a previous
+  // deploy of the root are-self.com site. See static/sw.js and
+  // src/clientModules/unregisterStaleSW.js for the full story.
+  clientModules: [require.resolve('./src/clientModules/unregisterStaleSW.js')],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
