@@ -1,10 +1,10 @@
 ---
-title: "Course Rubric: [Course Title]"
-sidebar_position: 1
+title: "Course Rubric (Coaching Aid)"
+sidebar_position: 9
 version: v1.5
 ---
 
-# Course Rubric: [Course Title]
+# Course Rubric: The Human Brain and the Are-Self
 
 Learner: ______________________ &nbsp; Facilitator: ______________________ &nbsp; Date: __________
 
@@ -15,14 +15,19 @@ Learner: ______________________ &nbsp; Facilitator: ______________________ &nbsp
 
 | Subject | Learner (O) | Learner (S) | Facilitator (O) | Facilitator (S) |
 |---|:-:|:-:|:-:|:-:|
-| [Subject 1] |   |   |   |   |
-| [Subject 2] |   |   |   |   |
-| [Subject 3] |   |   |   |   |
-| [Subject 4] |   |   |   |   |
-| [Subject 5] |   |   |   |   |
-| [Subject 6] |   |   |   |   |
-| [Subject 7] |   |   |   |   |
-| [Subject 8] |   |   |   |   |
+| Neurons & action potentials |   |   |   |   |
+| Hippocampus |   |   |   |   |
+| Frontal Lobe |   |   |   |   |
+| Prefrontal Cortex |   |   |   |   |
+| Hypothalamus |   |   |   |   |
+| Temporal Lobe |   |   |   |   |
+| Central Nervous System |   |   |   |   |
+| Peripheral Nervous System |   |   |   |   |
+| Thalamus |   |   |   |   |
+| Synaptic Cleft |   |   |   |   |
+| Brain ↔ software metaphor |   |   |   |   |
+| Experimental method |   |   |   |   |
+| The Twelve Variables |   |   |   |   |
 
 ## Learning Outcomes
 

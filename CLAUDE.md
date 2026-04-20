@@ -39,6 +39,44 @@ read it first.
   to leave itself notes, put them in `CLAUDE.md` or `TASKS.md` — never
   in content a teacher, student, or contributor will read.
 
+## Rubric rules
+
+- **Three files per course.** `rubrics.md` = detailed per-subject
+  criteria (the grade-book ancestor). `course-rubric.md` = course-scale
+  coaching aid (single page, all subjects at a glance). `lesson-rubric.md`
+  = lesson-scale coaching aid (today's subjects only, plus carry-forward).
+  Sidebar positions 9, 10, 11 respectively.
+- **The ladder is locked.** 0 Blank · 1 Term Recognition · 2 Limited
+  Awareness · 3 Applicable Awareness · 4 Synergetic · 5 Instructor Level.
+  These are the 2005 UCSD names. "Synergetic" is standalone — the
+  keystone word. Do not rename, renumber, re-tier, or re-scale.
+- **O/S dual axis is universal.** Every rubric has Objective ("can I do
+  it?") and Subjective ("do I understand it?"). This comes from Michael's
+  PhD thesis and applies to 100% of Are-Self courses.
+- **Role vocabulary is locked.** Learner and Facilitator. Never Student /
+  Teacher, never Worker / Experience Master in a rubric — those map to
+  master/slave framings that aren't scipraxian in a coaching context.
+- **Work product vocabulary is locked.** Course-scale Learning Outcomes:
+  Demo, Log, Explorations, Current Events. Lesson-scale: Standup, Demo,
+  Log. "Homework" is a dirty word — use Explorations. There is no
+  "work" — use Learning Outcomes.
+- **Coaching tone, not grading tone.** "All answers are correct."
+  Growth on the ladder is the point. A Learner who climbs from 1 to 3
+  has learned more than one who sat at 4 without moving. Rubrics are
+  coaching aids, not grade sheets.
+- **Markdown-native rendering.** GFM tables with digit cells (0–5).
+  No fenced code blocks with Unicode boxes — they break on font
+  fallback.
+- **Templates live at** `_template/rubrics/rubric-template.md` and
+  `_template/rubrics/rubric-template-lesson.md`. UCSD lineage banked
+  at `are-self-documents/scipraxian/UCSD/`.
+- **Before touching any existing rubric file:** existing content is
+  the product. If you're adding a new shape, give it a new file. If
+  you think content needs to be genuinely replaced, ASK FIRST with
+  a diff of what would be lost. Git history is a backup, not permission.
+  See PLAN.md §"The rubric system (v1.5 — locked 2026-04-20)" for full
+  context.
+
 ## Worksheet rules
 
 - Every lesson has at least one worksheet. Framework-level rule.
@@ -86,7 +124,7 @@ reviewers. It is NOT primarily read by developers. The README, PLAN,
 and landing page should be welcoming to non-developers. The Django
 driver and linter are internal.
 
-## Current status (2026-04-18)
+## Current status (2026-04-20)
 
 - Repo scaffolded: README, CLAUDE, TASKS, PLAN, tags.yaml all in place.
 - `_template/` created with full course template (index, week-N,
@@ -118,7 +156,17 @@ driver and linter are internal.
   - Agile / Experience Master (7 modules, for PMs and Workers)
 - All courses have prerequisites cross-linked to other courses in catalog.
 - Landing page redesigned with glassmorphic course cards.
-- **Next:** Build verification, linter (P3), NanoBanana diagram,
+- **Rubric system v1.5 locked (2026-04-20).** Three-file pattern per
+  course (`rubrics.md` detailed + `course-rubric.md` + `lesson-rubric.md`
+  coaching aids). Ladder preserved from 2005 UCSD. O/S dual axis from
+  Michael's PhD. Learner/Facilitator roles. Coaching tone, not grading.
+  Generic templates minted in `_template/rubrics/`. HS Bio converted as
+  the reference implementation (35 criteria × 6 levels = 210 descriptor
+  cells). Cog Sci UCSD banked for dean send. PLAN.md and CLAUDE.md
+  updated with canonical rules. See §"Rubric rules" above and
+  PLAN.md §"The rubric system (v1.5 — locked 2026-04-20)".
+- **Next:** Apply the v1.5 three-file rubric pattern to the remaining
+  11 courses. Build verification, linter (P3), NanoBanana diagram,
   Unreal Engine course (waiting for Michael), Small Business (TBD).
 
 ## Scipraxianism

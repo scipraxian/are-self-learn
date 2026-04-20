@@ -3,7 +3,7 @@
 Work queue for the curriculum framework repo. See `PLAN.md` for the full
 planning context and `CLAUDE.md` for session continuity rules.
 
-Last updated: 2026-04-18.
+Last updated: 2026-04-20.
 
 ## Completed
 
@@ -37,6 +37,28 @@ Last updated: 2026-04-18.
 - [x] Tags reference created at `site/docs/tags-reference.md`.
 - [x] Learn Docusaurus site scaffolded (`site/`) with shared glassmorphic
       theme, port 3001, monorepo workspace.
+- [x] **Rubric system v1.5 minted (2026-04-20).** Three-file pattern per
+      course: `rubrics.md` (detailed per-subject criteria), `course-rubric.md`
+      (course-scale coaching aid), `lesson-rubric.md` (lesson-scale coaching
+      aid). Ladder preserved from 2005 UCSD original: 0 Blank · 1 Term
+      Recognition · 2 Limited Awareness · 3 Applicable Awareness · 4
+      Synergetic · 5 Instructor Level. O/S dual axis from Michael's PhD
+      (Objective: "can I do it?" · Subjective: "do I understand it?").
+      Roles: Learner / Facilitator. Learning Outcomes vocabulary: Demo,
+      Log, Explorations, Current Events (course-scale); Standup, Demo,
+      Log (lesson-scale). GFM tables, markdown-native. Generic templates
+      at `_template/rubrics/rubric-template.md` and
+      `_template/rubrics/rubric-template-lesson.md`.
+- [x] HS Bio rubrics converted to v1.5. `rubrics.md` (detailed criteria)
+      rebuilt with full 6-level ladder across 35 criteria × 6 levels
+      (210 descriptor cells). `course-rubric.md` and `lesson-rubric.md`
+      added as sibling coaching aids at sidebar_position 9 and 11.
+- [x] UCSD Cog Sci in the Modern Media rubric banked in v1.5 at
+      `are-self-documents/scipraxian/UCSD/Cog_Sci_Modern_Media_Course_Rubric_v1_5.md`
+      and companion lesson rubric. Lineage frontmatter:
+      `v1.0–v1.3 .xls (2005) → v1.5 .md (2026)`. For UCSD dean send.
+- [x] PLAN.md updated with canonical "The rubric system (v1.5 — locked
+      2026-04-20)" section.
 
 ## In progress
 
@@ -127,6 +149,19 @@ Last updated: 2026-04-18.
       architecture, Django-app naming, the Twelve Variables, the
       Creed, and the curriculum vocabulary. Discoverable from Learn
       top-nav, footer, and docs footer.
+
+### P1 — Rubric rollout
+
+- [ ] Apply the v1.5 three-file pattern to the remaining 11 courses.
+      Each course needs: `rubrics.md` (detailed per-subject criteria with
+      6-level ladder descriptors), `course-rubric.md` (course-scale
+      coaching aid), `lesson-rubric.md` (lesson-scale coaching aid).
+      Sidebar positions 9, 10, 11 by convention. HS Bio is the reference
+      implementation — copy its structure.
+- [ ] Update `rubrics_count` in HS Bio `index.md` frontmatter to
+      reflect the new three-file shape.
+- [ ] Audit other courses' index.md for `rubrics_count` consistency
+      once they're converted.
 
 ### P2 — Remaining courses (in rough order)
 

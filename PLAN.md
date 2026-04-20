@@ -165,6 +165,136 @@ schema. The linter enforces their presence.
 
 ---
 
+## The rubric system (v1.5 — locked 2026-04-20)
+
+Every course ships with three rubric files, not one. Vocabulary and shape
+are locked as of this date. Working drafts live in
+`are-self-documents/rubric-rebuild/`. The 2005 UCSD original that seeded
+the whole system is
+`are-self-documents/scipraxian/UCSD/Cog_Sci_Modern_Media_Rubric_1_3.xls`.
+
+### The three files
+
+Every course folder has:
+
+1. **`rubrics.md`** — the detailed per-week/per-unit criteria rubric.
+   Every criterion rated across the full 0–5 ladder. Standards-aligned
+   where relevant (NGSS for HS Bio, etc.). Includes cross-cutting AI
+   Collaboration, Scipraxian Variables, and Learner Self-Assessment
+   tables. This is the facilitator's assessment instrument.
+
+2. **`course-rubric.md`** — the v1.5 coaching aid. One page. Ladder
+   legend at top. Two tables (Subjects and Learning Outcomes) with five
+   columns each: `Subject · Learner (O) · Learner (S) · Facilitator (O)
+   · Facilitator (S)`. Learner writes a digit 0–5 in each cell. Shared
+   coaching instrument — learner and facilitator both fill it out.
+
+3. **`lesson-rubric.md`** — same shape as `course-rubric.md`, scaled to
+   a single lesson. Slots for today's terms, plus two universal rows:
+   "Connection to prior lesson" and "Connection to the world." Learning
+   Outcomes at lesson scale are `Standup · Demo · Log`. Includes a
+   free-text "Carry forward" line at the bottom.
+
+### The ladder (0→5 is growth)
+
+Named levels are preserved verbatim from the 2005 UCSD original.
+**Do not rename.**
+
+- **0 Blank** — not yet on the map
+- **1 Term Recognition** — recognizes the term when heard
+- **2 Limited Awareness** — partial or shallow understanding
+- **3 Applicable Awareness** — can apply with support
+- **4 Synergetic** — combines with other concepts, makes novel connections
+- **5 Instructor Level** — could teach it
+
+"Synergetic" is the keystone word — standalone, no "Understanding"
+tail. Its hermeneutic weight earns the placement.
+
+### The O/S dual axis (keystone, from Michael's PhD)
+
+Every subject and every Learning Outcome is rated twice:
+
+- **(O) Objective** — *can I do it?* — practical, applied performance
+- **(S) Subjective** — *do I understand it?* — internal, felt grasp
+
+And each of those is rated by both Learner and Facilitator. Four numbers
+per row. This is non-negotiable at every age level across 100% of
+Are-Self courses.
+
+### Role vocabulary (locked)
+
+- **Learner** — never "Student." "Student/Teacher" maps to
+  "Master/Slave" and is not scipraxian.
+- **Facilitator** — never "Worker," "Experience Master," "Instructor."
+  The Agile book's vocabulary applies to work products, not to roles.
+  The master-servant framing of "Experience Master" is incompatible with
+  scipraxian consent philosophy.
+
+### Work product vocabulary (locked)
+
+The word "work" is out. The category is **Learning Outcomes**.
+
+Course-scale canonical outcomes:
+
+- **Demo** (from Experience Master — review of completed work)
+- **Log** (cumulative record)
+- **Explorations** (replaces "Homework" — reframes duty as discovery)
+- **Current Events** (ties subject matter to the world)
+
+Lesson-scale canonical outcomes:
+
+- **Standup** (daily check-in, from Experience Master)
+- **Demo**
+- **Log**
+
+Courses may specialize this list (a Python course might have `Repl ·
+Script · Test · Explorations`) but must not adopt banned terms
+("Homework," "Work," "Worker," etc.).
+
+### Tone
+
+"All answers are correct. This is a coaching aid, not a grade sheet."
+No grading language anywhere. Growth is the metric. A learner who climbs
+from **1 Term Recognition** to **3 Applicable Awareness** has learned
+more than one who sat at **4 Synergetic** without moving.
+
+### Template locations
+
+- `_template/rubrics/rubric-template.md` — generic course rubric (v1.5)
+- `_template/rubrics/rubric-template-lesson.md` — generic lesson rubric
+
+Courses copy these and populate with their own subjects. The `rubrics.md`
+detailed criteria rubric is authored fresh per course (no template yet;
+may be deferred or kept bespoke).
+
+### Lineage
+
+The rubric is not new. It is Michael's UCSD Summer 2005 rubric
+(`Cog_Sci_Modern_Media_Rubric_1_3.xls`), migrated off Excel into
+markdown and Are-Self-canonical vocabulary. The filled legacy Cog Sci
+rubric is banked at:
+
+- `are-self-documents/scipraxian/UCSD/Cog_Sci_Modern_Media_Course_Rubric_v1_5.md`
+- `are-self-documents/scipraxian/UCSD/Cog_Sci_Modern_Media_Lesson_Rubric_v1_5.md`
+
+These are the UCSD dean's send — proof that the new framework is the
+same pedagogy Michael has been using for 21 years, not an untested fresh
+design.
+
+### Rules for Claude touching rubric files
+
+- **Existing content is the product.** When applying a new rubric shape,
+  add a new file. Do not overwrite substantial content without asking
+  first, with a diff of what will be lost.
+- Git history is a backup, not permission.
+- The O/S dual axis, the 6-level ladder, and the Learner/Facilitator
+  role naming are universal across 100% of Are-Self courses. No course
+  gets to opt out.
+- Level-5 descriptors in the detailed rubric consistently start with
+  "Could teach it" — the "Instructor Level" name defines itself.
+
+---
+
 ## Tag taxonomy (canonical)
 
 The tag list is public. There is a `/learn/tags` page that shows every tag
