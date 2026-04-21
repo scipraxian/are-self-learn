@@ -69,7 +69,7 @@ worksheets_count: 12
 labs_count: 4
 videos_count: 0
 transcripts_available: false
-rubrics_count: 6
+rubrics_count: 3
 
 # ── Links ─────────────────────────────────────────────────────────
 hero_diagram: ""
@@ -124,7 +124,7 @@ Every meaningful decision weighs against all twelve. The course surfaces them na
 
 - **Weekly Lesson Plans** — Five days of activities per week, each with objectives, materials, procedures, differentiation, and assessment notes.
 - **[Worksheets](./worksheets)** — Printable student-facing materials for every week.
-- **[Rubrics](./rubrics)** — NGSS-aligned rubrics for every major assignment.
+- **[Rubrics](./rubrics)** — NGSS-aligned rubrics for every major assignment. Companion coaching aids: **[Course Rubric](./course-rubric)** (single-page, all subjects at a glance) and **[Lesson Rubric](./lesson-rubric)** (today's subjects + carry-forward).
 - **[Lab Protocols](./labs)** — Four structured lab activities with full protocols.
 
 ## What Students Will Be Able to Do

@@ -41,7 +41,7 @@ These come from the companion storybook *Mira and the Are-Self* (Book One of the
 - **[Teacher Setup Guide](./teacher-setup)** — Get Are-Self running in your classroom. Written for non-technical teachers and IT volunteers. If your grandma could follow it, so can you.
 - **[Classroom Norms & Safety](./classroom-norms)** — How to introduce AI use to students, the three habits, and the ground rules that keep learning productive.
 - **Weekly Lesson Plans** — Five days of activities per week, each with objectives, materials, procedures, differentiation, and assessment notes.
-- **[Rubrics](./rubrics)** — Standards-aligned rubrics for every major assignment, designed for 4th grade Common Core.
+- **[Rubrics](./rubrics)** — Standards-aligned rubrics for every major assignment, designed for 4th grade Common Core. Companion coaching aids: **[Course Rubric](./course-rubric)** (single-page, all subjects at a glance) and **[Lesson Rubric](./lesson-rubric)** (today's subjects + carry-forward).
 - **[Worksheets & Handouts](./worksheets)** — Printable student-facing materials for every week.
 - **[Parent/Guardian Letter](./parent-letter)** — A template letter explaining what Are-Self is, why you're using it, and why it's safe.
 - **[Administrator & IT Guide](./admin-guide)** — For principals, IT staff, and district leaders: privacy, compliance, and infrastructure.

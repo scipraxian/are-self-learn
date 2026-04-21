@@ -1,196 +1,197 @@
 ---
 title: "Rubrics"
 sidebar_position: 10
+version: v1.5
 ---
 
-# Rubrics
+# Rubrics: Are-Self in the 4th Grade Classroom
 
 ## How to Use These Rubrics
 
-These rubrics are designed to support both **formative** and **summative** assessment throughout the 6-week curriculum. Use them to:
+Share the relevant rubric with learners at the start of each week. Use them formatively — comment on specific criteria while work is in progress, not just at the end. These are coaching aids, not grade sheets. The companion single-page aids live at [Course Rubric](./course-rubric) (course-scale) and [Lesson Rubric](./lesson-rubric) (day-scale).
 
-- **Provide feedback** on student work in progress (formative)
-- **Evaluate** final products and demonstrations (summative)
-- **Support self-assessment** using the simplified student version below
-- **Guide discussions** with students about their growth and next steps
+These tables emphasize the core practices of Are-Self: asking better questions, thinking critically, iterating with feedback, and collaborating with AI as a partner.
 
-The rubrics reflect Common Core standards for 4th grade and emphasize the core practices of Are-Self: asking better questions, thinking critically, iterating with feedback, and collaborating with AI as a partner.
+**Standards alignment.** The criteria in these rubrics align to 4th-grade Common Core (ELA W.4, Math 4.OA / 4.NBT / 4.NF / 4.MD, MP.1 / MP.3), NGSS (4-PS4, 4-ESS, SEP-1 / SEP-3 / SEP-4), and the C3 Social Studies framework (D1–D4). The full standards map lives on the [course index page](./) — kept there so the rubric cells themselves stay in plain language for learners, facilitators, and anyone else reading along.
 
-### Grading Philosophy
+**Ladder (0→5 is growth):** 0 Blank · 1 Term Recognition · 2 Limited Awareness · 3 Applicable Awareness · 4 Synergetic · 5 Instructor Level
 
-**The goal is not perfection — it's growth.** A student who starts at "Beginning" and ends at "Approaching" has learned more than a student who stays at "Exceeds." Track growth across the 6 weeks and celebrate progress in thinking, reasoning, and collaboration.
+### Coaching Philosophy
+
+**Growth is the goal.** A learner who climbs from **1 Term Recognition** to **3 Applicable Awareness** has learned more than a learner who sat at **4 Synergetic** without moving. Track growth across the six weeks and celebrate progress in thinking, reasoning, and collaboration. All answers correct — the number records where a learner stands today so the next step is visible.
 
 ---
 
 ## Week 1: Brain Region Understanding
 
-| Criteria | 4 - Exceeds | 3 - Meets | 2 - Approaching | 1 - Beginning |
-|----------|----------|----------|----------|----------|
-| **Identifies Brain Regions Correctly** | Correctly labels and locates all major brain regions introduced (prefrontal cortex, hippocampus, amygdala, cerebellum). Distinguishes between them with confidence. | Correctly identifies 3-4 major brain regions with accurate locations. May need minor prompts for details. | Identifies 2-3 brain regions; some confusion about location or function. | Unable to identify or locate most brain regions; requires significant support. |
-| **Explains Functions in Own Words** | Explains what each brain region does using specific examples and age-appropriate language. Descriptions are clear and original, not memorized. | Explains the basic function of each brain region with some specific details. Language shows understanding, not just repetition. | Provides partial or unclear explanations of brain functions. May mix up which region does what. | Unable to explain brain functions; relies on direct copying or guessing. |
-| **Makes Connections Between Are-Self and Real Brain** | Draws clear, thoughtful connections between how Are-Self works and how the human brain works. Articulates why understanding the real brain matters for using the tool. | Makes a few solid connections between Are-Self's design and actual brain function. Understands the parallels with some guidance. | Makes surface-level connections or needs significant prompting to link Are-Self to brain science. | Struggles to see connections between Are-Self and the brain; sees them as unrelated. |
-| **Quality of Identity Design** | Creates a detailed, multi-faceted Identity that reflects deep thinking about how brain regions influence personality and thinking style. Thoughtful use of metaphors or examples. | Designs a clear, coherent Identity with 3-4 characteristics tied to brain regions. Shows understanding of how they work together. | Identity is simple or somewhat disconnected from brain learning. May have only 1-2 features tied to regions. | Identity is incomplete, generic, or shows little understanding of brain concepts. |
-| **Participation in Discussions** | Actively contributes thoughtful comments, asks follow-up questions, and builds on peers' ideas. Demonstrates deep listening and engagement. | Participates regularly with relevant comments and questions. Listens respectfully to others. | Participates occasionally; comments may be surface-level or off-topic. Needs reminders to engage. | Rarely participates or stays silent during discussions. |
+| Criteria | 0 Blank | 1 Term Recognition | 2 Limited Awareness | 3 Applicable Awareness | 4 Synergetic | 5 Instructor Level |
+|---|---|---|---|---|---|---|
+| **Identifies brain regions correctly** | Cannot locate any region | Recognizes region names when heard | Identifies 2–3 regions; some location or function confusion | Correctly locates and names prefrontal cortex, hippocampus, amygdala, cerebellum | All regions located with confidence; distinguishes them clearly in discussion | Could teach the map; helps classmates locate regions on their own |
+| **Explains functions in own words** | Cannot explain any function | Recognizes function words like "memory" or "thinking" | Partial or memorized-sounding explanations; may swap functions between regions | Explains each region's basic function with age-appropriate examples | Clear, original explanations using multiple examples; ties function to real behavior | Could teach the functions; invents fresh analogies on the fly |
+| **Makes connections between Are-Self and the real brain** | Sees no connection | Recognizes that Are-Self and the brain are related | Makes surface connections; needs prompting | Draws a few solid connections between Are-Self's design and brain function | Articulates multiple, specific parallels; explains why the parallel matters | Could teach the parallel; predicts where the parallel will hold or break |
+| **Quality of Identity design** | No Identity attempted | Recognizes what an Identity is | Simple or generic Identity; one or two features tied to regions | Coherent Identity with 3–4 characteristics linked to brain regions | Multi-faceted Identity showing deep thinking about how regions shape personality; uses metaphors | Could coach a peer through designing their own Identity |
+| **Participation in discussions** | Does not participate | Recognizes conversation norms | Participates occasionally; comments surface-level or off-topic | Contributes regularly with relevant comments and questions | Builds on peers' ideas, asks follow-ups, demonstrates deep listening | Facilitates discussion for others; draws quiet voices in |
 
 ---
 
 ## Week 2: Writing & AI Collaboration
 
-| Criteria | 4 - Exceeds | 3 - Meets | 2 - Approaching | 1 - Beginning |
-|----------|----------|----------|----------|----------|
-| **Writing Quality (Ideas, Organization, Voice, Conventions per CCSS W.4)** | Ideas are clear, relevant, and well-developed with strong supporting details. Writing is well-organized with smooth transitions. Voice is consistent and engaging. Conventions (grammar, spelling, punctuation) are correct. | Ideas are clear and mostly well-developed. Organization is logical with appropriate paragraphing. Voice is present. Minor errors in conventions that do not impede understanding. | Ideas are present but may lack detail or clear organization. Some paragraphing issues. Voice is inconsistent. Errors in conventions sometimes affect clarity. | Ideas are unclear or poorly organized. Significant errors in conventions that impede reading. Little to no discernible voice. |
-| **Critical Evaluation of AI Output** | Consistently questions AI suggestions, asks "why" and "how," and evaluates ideas against personal knowledge. Accepts only what makes sense; rejects or revises weak suggestions. | Evaluates most AI output before using it. Asks some critical questions and doesn't blindly accept suggestions. | Evaluates AI output inconsistently. Sometimes asks questions, but may accept ideas without full consideration. | Accepts AI suggestions without question or evaluation. Treats AI output as automatically correct. |
-| **Revision Process (Used Feedback from Both AI and Peers)** | Uses feedback from multiple sources (AI and peers) to make substantive revisions. Shows evidence of multiple revision rounds that improve the piece. | Makes revisions based on feedback from AI and/or peers. Revisions improve clarity, organization, or ideas. | Makes minor revisions or revises based on only one source of feedback. Some improvement visible. | Makes few or no revisions; does not incorporate feedback. |
-| **Reflection on AI's Role in Writing** | Thoughtfully articulates what AI helped with and what the student provided. Recognizes strengths and limitations of AI. Expresses the partnership clearly. | Reflects on how AI helped and acknowledges student's own contributions. Shows understanding that AI is a tool, not the writer. | Reflection is present but vague or unclear about AI's specific role. | No reflection or reflection that misunderstands AI's function. |
+| Criteria | 0 Blank | 1 Term Recognition | 2 Limited Awareness | 3 Applicable Awareness | 4 Synergetic | 5 Instructor Level |
+|---|---|---|---|---|---|---|
+| **Writing quality (ideas, organization, voice, conventions)** | Missing or off-topic | Recognizes what a paragraph is | Ideas present but organization unclear; voice inconsistent; errors affect clarity | Clear ideas, logical organization, minor convention errors that don't impede meaning | Well-developed ideas, smooth transitions, consistent engaging voice, clean conventions | Could teach the four traits; coaches peers on their drafts |
+| **Critical evaluation of AI output** | Accepts AI output without thought | Recognizes AI output can be wrong | Evaluates inconsistently; sometimes accepts weak suggestions | Checks most AI suggestions against own knowledge before using them | Questions AI consistently, accepts only what makes sense, rephrases weak suggestions | Could teach evaluation moves; helps peers spot when AI is off |
+| **Revision process (used feedback from AI and peers)** | No revision | Recognizes what revision means | Minor revision or only one source of feedback used | Revises based on feedback from AI and/or peers; improvements visible | Multiple revision rounds drawing on multiple feedback sources; substantive improvement | Could teach a revision routine; coaches peers through theirs |
+| **Reflection on AI's role in writing** | No reflection | Recognizes the word "reflection" | Reflection present but vague about AI's specific role | Reflects clearly on what AI helped with and what the learner provided | Articulates strengths and limits of AI in the writing partnership with specific examples | Could teach peers to articulate the partnership in their own work |
 
 ---
 
 ## Week 3: Mathematical Reasoning
 
-| Criteria | 4 - Exceeds | 3 - Meets | 2 - Approaching | 1 - Beginning |
-|----------|----------|----------|----------|----------|
-| **Problem-Solving Strategy** | Selects efficient and logical strategies (multi-digit multiplication, division, fractions per CCSS 4.NBT and 4.NF). Explains why the strategy was chosen. Can adapt strategies when needed. | Selects appropriate strategies for the problem. Explains the steps clearly. Solves the problem correctly. | Uses a strategy that works but may not be the most efficient. Explanation of steps may be unclear or incomplete. | Struggles to choose or apply a strategy; work is disorganized or incorrect. |
-| **Mathematical Communication (Explains Thinking)** | Explains reasoning clearly using precise mathematical vocabulary. Shows all steps. Language is clear enough that someone unfamiliar with the problem could follow. | Explains how the problem was solved with mostly clear steps and some appropriate vocabulary. Generally easy to follow. | Explanation is present but may lack clarity, steps, or mathematical vocabulary. Requires some interpretation. | Explanation is missing, unclear, or shows confusion about the mathematics. |
-| **Quality of Word Problems Created** | Word problems are clear, realistic, age-appropriate, and correctly solvable. Problems have appropriate complexity and interesting contexts. Multiple problems show variety. | Word problems are clear and solvable. Contexts are appropriate and mostly interesting. May have minor clarity issues. | Word problems are present but may have unclear wording, unrealistic contexts, or minor mathematical errors. | Word problems are confusing, unsolvable, or show significant mathematical errors. |
-| **Effective Use of AI as Math Partner** | Asks AI for help with strategies, not answers. Uses AI to check work and explore "what if" questions. Evaluates AI suggestions and adapts them. | Uses AI to brainstorm strategies or check solutions. Asks clarifying questions. Generally treats AI as a tool to extend thinking. | Uses AI occasionally for help. May sometimes ask for answers rather than strategies. | Relies on AI to solve problems without doing own thinking, or doesn't use AI meaningfully. |
-| **Application of "One More Question" Technique** | Consistently asks deeper questions (Why does this work? What if we changed...? Can this be solved another way?). Pushes thinking beyond the initial answer. | Asks follow-up questions that extend thinking. Shows curiosity about the mathematics beyond the basic solution. | Asks one or two follow-up questions, or questions are somewhat surface-level. | Does not ask follow-up questions or does not move beyond the initial task. |
+| Criteria | 0 Blank | 1 Term Recognition | 2 Limited Awareness | 3 Applicable Awareness | 4 Synergetic | 5 Instructor Level |
+|---|---|---|---|---|---|---|
+| **Problem-solving strategy** | Cannot choose a strategy | Recognizes strategy names | Strategy works but may not fit the problem; explanation shaky | Selects an appropriate strategy and explains the steps | Efficient strategy, clear rationale for the choice, adapts when it stops working | Could teach strategy selection; names trade-offs between approaches |
+| **Mathematical communication** | Explanation missing | Recognizes the idea of showing work | Steps present but hard to follow | Clear steps with appropriate vocabulary | Precise vocabulary, all steps shown, a classmate could follow without prompts | Could teach mathematical communication; coaches peers' explanations |
+| **Quality of word problems created** | None created | Recognizes what a word problem is | Word problem present but unclear or mathematically off | Clear, solvable word problems with appropriate contexts | Interesting contexts, correct math, appropriate complexity, variety across problems | Could teach peers to write word problems; critiques and improves others' |
+| **Effective use of AI as math partner** | No use | Recognizes AI can help with math | Uses AI occasionally; sometimes asks for answers instead of strategy | Asks AI for strategies or to check work; does own thinking | Uses AI to explore "what if" questions; extends thinking without surrendering it | Could teach peers to use AI as a math partner without giving up the thinking |
+| **Application of "one more question"** | Does not ask follow-ups | Recognizes the phrase | One surface-level follow-up | Asks meaningful follow-up questions that extend thinking | Consistently pushes beyond the answer with "why" and "what if" questions | Could teach the technique; prompts peers to go deeper |
 
 ---
 
 ## Week 4: Scientific Investigation
 
-| Criteria | 4 - Exceeds | 3 - Meets | 2 - Approaching | 1 - Beginning |
-|----------|----------|----------|----------|----------|
-| **Clear Research Question and Hypothesis** | Research question is specific, testable, and shows genuine curiosity. Hypothesis is scientifically grounded and clearly linked to the question. Both are refined based on initial thinking. | Research question is clear and testable. Hypothesis is reasonable and shows cause-and-effect thinking. Both are connected logically. | Research question or hypothesis is vague or only partially testable. Connection between them is unclear. | Research question is missing, untestable, or shows little thought. Hypothesis is missing or illogical. |
-| **Experimental Design Quality** | Design includes all essential elements: clear variables (independent, dependent, controlled), logical steps in sequence, and appropriate tools. Could be replicated by someone else. | Design includes most essential elements: variables are mostly clear, steps are logical, tools are appropriate. Generally replicable. | Design is incomplete or unclear. Some variables may be missing or confused. Steps are partially logical. | Design is missing key elements or is confusing. Variables are unclear or variables are not controlled. |
-| **Data Collection Accuracy** | Data is collected carefully and systematically. Measurements or observations are accurate and recorded clearly. All trials or observations are completed as planned. | Data is collected with reasonable care. Measurements are mostly accurate. Recording is clear and organized. | Data is collected but may have some inaccuracies or unclear organization. Some planned observations may be missing. | Data is missing, inaccurate, or so poorly recorded that conclusions are unreliable. |
-| **Analysis and Conclusions (Goes Beyond the Data)** | Analyzes data with clear patterns identified. Conclusion addresses the hypothesis and research question. Student discusses what results mean and raises new questions about implications. | Identifies patterns in data and draws a conclusion that matches the evidence. Connects results back to the hypothesis. | Identifies some patterns but analysis may be incomplete. Conclusion is present but may not fully address the hypothesis. | Analysis is missing or confused. Conclusion does not connect to the data. |
-| **Use of Are-Self as Research Tool** | Uses Are-Self to brainstorm questions, refine hypothesis, think through design, analyze results, or explore implications. Shows Are-Self as a thinking partner throughout the investigation. | Uses Are-Self at one or more stages (planning, analysis, interpretation). Treats it as a tool to extend thinking. | Uses Are-Self briefly or for limited purposes. May use it as a fact-checker rather than a thinking partner. | Does not use Are-Self meaningfully or treats it as the primary investigator. |
+| Criteria | 0 Blank | 1 Term Recognition | 2 Limited Awareness | 3 Applicable Awareness | 4 Synergetic | 5 Instructor Level |
+|---|---|---|---|---|---|---|
+| **Clear research question and hypothesis** | Missing | Recognizes what a hypothesis is | Vague or only partially testable | Clear, testable question; reasonable, linked hypothesis | Specific, refined question; scientifically grounded hypothesis with clear cause-and-effect | Could teach hypothesis formation; coaches peers to sharpen theirs |
+| **Experimental design quality** | Missing key parts | Recognizes experiment parts (variables, steps) | Design incomplete; variables or steps unclear | Variables identified, logical steps, appropriate tools | Controls, variables, and procedures tight enough for a classmate to replicate | Could teach design; critiques others' designs constructively |
+| **Data collection accuracy** | Data missing | Recognizes "data" | Data present but inconsistent or poorly organized | Data recorded clearly; most measurements accurate | Systematic, accurate measurements across all trials; organized for analysis | Could teach data practices; helps peers tighten their recording |
+| **Analysis and conclusions (goes beyond the data)** | Missing or only listing results | Recognizes what a conclusion is | Pattern noticed but not tied to hypothesis | Patterns identified; conclusion addresses hypothesis | Conclusion explains what results mean, raises new questions, connects back to the bigger picture | Could teach analysis; coaches peers toward stronger conclusions |
+| **Use of Are-Self as research tool** | No use | Recognizes Are-Self can help with investigation | Uses Are-Self briefly or as a fact-checker only | Uses Are-Self at one or more stages of the investigation | Uses Are-Self as a thinking partner throughout planning, analysis, and interpretation | Could teach peers how to use Are-Self as a research partner |
 
 ---
 
 ## Week 5: Historical Inquiry & Inclusion
 
-| Criteria | 4 - Exceeds | 3 - Meets | 2 - Approaching | 1 - Beginning |
-|----------|----------|----------|----------|----------|
-| **Quality of Research Questions** | Questions are thoughtful, open-ended, and show genuine curiosity about the historical topic. Questions invite multiple perspectives and deeper thinking. | Questions are clear, focused, and prompt investigation. Show appropriate curiosity about the topic. | Questions are present but may be narrow, surface-level, or fact-based rather than inquiry-based. | Questions are missing, very basic, or don't prompt real investigation. |
-| **Evaluation of Sources (Including AI-Generated Information)** | Evaluates sources critically: considers author perspective, bias, date, reliability. Questions AI-generated information specifically (Is this accurate? Whose perspective is this?). Uses multiple source types. | Evaluates sources with some critical thinking. Recognizes that AI information should be checked. Uses a variety of sources. | Evaluates sources inconsistently. May accept AI information without questioning. Uses limited source variety. | Accepts sources without evaluation. Treats all information equally regardless of source or reliability. |
-| **Identification of Missing Perspectives** | Clearly articulates which groups, perspectives, or voices are absent from common historical narratives. Explains why their perspectives matter. Actively seeks out marginalized or underrepresented voices. | Identifies at least one missing perspective and explains its importance. Shows awareness that some groups are underrepresented in history. | Identifies missing perspectives with prompting or explanation is unclear about why they matter. | Does not identify or notice missing perspectives. |
-| **Quality of Written Work** | Writing is well-organized, clearly expresses ideas, and uses evidence to support claims. Integrates multiple sources smoothly. Tone is analytical and respectful when discussing different perspectives. | Writing is clear and organized. Uses evidence appropriately. Integrates sources. Some sophistication in handling multiple perspectives. | Writing is present and understandable but may lack clear organization or sufficient evidence. Source integration may be awkward. | Writing is unclear, poorly organized, or lacks evidence and source support. |
-| **Application of Inclusion Habit** | Actively invites others into conversations about history. Asks peers what they think. Seeks out and shares underrepresented perspectives. Models curiosity about different viewpoints. | Demonstrates inclusion by asking questions and listening to others. Shows openness to different perspectives. | Shows some inclusive behaviors but may be inconsistent or prompted. | Shows little effort to include others or consider different perspectives. |
+| Criteria | 0 Blank | 1 Term Recognition | 2 Limited Awareness | 3 Applicable Awareness | 4 Synergetic | 5 Instructor Level |
+|---|---|---|---|---|---|---|
+| **Quality of research questions** | Missing | Recognizes what a research question is | Narrow or fact-based; little room for investigation | Clear, focused, prompts real investigation | Open-ended, thoughtful, invites multiple perspectives | Could teach inquiry questions; coaches peers to broaden theirs |
+| **Evaluation of sources (including AI-generated)** | Accepts all sources equally | Recognizes sources can differ in reliability | Evaluates inconsistently; may accept AI info without checking | Evaluates sources; recognizes AI information needs verification | Considers author, perspective, bias, date; questions AI output specifically; uses variety | Could teach source evaluation; coaches peers through their own checks |
+| **Identification of missing perspectives** | Does not notice | Recognizes the idea of "missing voices" | Identifies missing perspectives with prompting | Names at least one missing perspective and explains why it matters | Actively seeks marginalized voices; explains stakes; pulls in multiple perspectives | Could teach perspective-taking; helps peers see what they are missing |
+| **Quality of written work** | Missing or unclear | Recognizes writing should have evidence | Ideas present but weak evidence or organization | Organized, uses evidence, integrates sources | Analytical tone, multiple sources integrated smoothly, respects multiple perspectives | Could teach peers to integrate sources; edits their work for clarity |
+| **Application of inclusion habit** | Works in isolation | Recognizes the word "inclusion" | Inconsistent or prompted inclusive behavior | Asks peers what they think; listens openly to different perspectives | Invites quieter voices, shares underrepresented perspectives, models curiosity about different viewpoints | Could teach inclusion; changes classroom culture by example |
 
 ---
 
 ## Week 6: Capstone Project
 
-| Criteria | 4 - Exceeds | 3 - Meets | 2 - Approaching | 1 - Beginning |
-|----------|----------|----------|----------|----------|
-| **Creativity and Originality** | Project demonstrates imaginative thinking and a unique approach. Combines ideas in novel ways. Shows personal investment and distinct student voice. | Project is creative with some original ideas. Shows effort to make it personal or unique. | Project is present and shows some creativity but may follow predictable patterns. Limited original thinking. | Project lacks creativity or originality; is generic or copied. |
-| **Technical Implementation (Identity, Tools, Hippocampus Use)** | Skillfully uses Are-Self features (detailed Identity, multiple tools, effective Hippocampus integration). Demonstrates sophisticated understanding of how to use the platform for the project's goals. | Uses Are-Self features effectively (clear Identity, appropriate tools, Hippocampus use). Shows solid understanding of the platform. | Uses some Are-Self features but may be incomplete or underutilized. Understanding is developing. | Minimal use of Are-Self features or misunderstands how to use them. |
-| **Presentation Quality (Clear, Engaging, Organized)** | Presentation is well-organized and easy to follow. Information is presented clearly with strong visual or verbal communication. Holds audience interest. Anticipates and answers questions. | Presentation is organized and clear. Uses visuals or examples effectively. Engages the audience. | Presentation is understandable but may lack organization or engagement. Some information is unclear. | Presentation is disorganized, hard to follow, or lacks clarity. |
-| **Reflection on Process and Learning** | Thoughtful reflection on what was learned, challenges faced, and how they were overcome. Articulates growth and identifies future directions. Honest about the process, including struggles. | Reflects on learning and process. Identifies what went well and what was challenging. Shows growth in understanding. | Reflection is present but may be surface-level or incomplete. Limited depth. | Reflection is missing or unclear. Does not address process or learning. |
-| **Demonstration of Scipraxian Habits** | Clearly demonstrates inclusion (sought input from peers), humility (acknowledged limitations), and inquiry (asked deeper questions). Shows these habits integrated throughout the project. | Demonstrates inclusion, humility, and/or inquiry in the project. Shows these habits in practice. | Demonstrates one habit inconsistently or with prompting. | Does not demonstrate scipraxian habits or demonstrates them minimally. |
+| Criteria | 0 Blank | 1 Term Recognition | 2 Limited Awareness | 3 Applicable Awareness | 4 Synergetic | 5 Instructor Level |
+|---|---|---|---|---|---|---|
+| **Creativity and originality** | Missing or copied | Recognizes what originality means | Predictable or generic project with limited original thinking | Project shows effort to be personal with some original ideas | Imaginative and unique; combines ideas in new ways; clear personal voice | Could teach peers how to push past the predictable |
+| **Technical implementation (Identity, tools, Hippocampus)** | No use of features | Recognizes Are-Self features exist | Uses some features but incompletely or off-purpose | Uses Identity, tools, Hippocampus appropriately for the project | Skillful combination of features; Identity, tool choice, and memory use all serve the project's goals | Could teach peers to choose the right features for their own project |
+| **Presentation quality (clear, engaging, organized)** | Missing or inaudible | Recognizes presentation basics | Understandable but disorganized or disengaging | Organized, clear, uses visuals/examples, engages the audience | Confident delivery, clear visuals or verbal communication, anticipates and answers questions | Could teach presentation; coaches peers on clarity and energy |
+| **Reflection on process and learning** | Missing | Recognizes the word "reflection" | Surface-level or incomplete reflection | Names what was learned, what was hard, and what went well | Honest, detailed reflection including struggles, growth, and future directions | Could teach reflection; helps peers surface their own growth |
+| **Demonstration of scipraxian habits** | Habits absent | Recognizes the three habits | One habit visible inconsistently | Inclusion, humility, and/or inquiry visible in the project | All three habits integrated throughout; habits are clearly internalized | Could teach the habits; models them so other learners adopt them |
 
 ---
 
-## AI Collaboration (Cross-Cutting)
+## Cross-Cutting: AI Collaboration
 
-Use this rubric throughout all weeks to assess how students work with AI as a partner.
+Use this table across all six weeks — the habits of working with AI aren't tied to a single subject. Pair with the weekly rubric, or score on its own during AI-heavy activities.
 
-| Criteria | 4 - Exceeds | 3 - Meets | 2 - Approaching | 1 - Beginning |
-|----------|----------|----------|----------|----------|
-| **Asks Thoughtful Questions of the AI** | Questions are specific, open-ended, and prompt deeper thinking. Student asks "why" and "how" questions. Shows curiosity and builds on previous responses. | Questions are clear and prompt meaningful responses from the AI. Student asks about thinking and reasoning, not just facts. | Questions are present but may be vague or fact-based. Shows some curiosity but limited depth. | Questions are missing, unclear, or closed-ended. Shows little effort to engage the AI meaningfully. |
-| **Evaluates AI Responses Critically** | Consistently questions AI output, checks against personal knowledge, and distinguishes between accuracy and opinion. Does not accept suggestions blindly. | Evaluates most AI responses before using them. Asks clarifying questions and considers validity. | Evaluates AI responses inconsistently. May accept some suggestions without full consideration. | Accepts AI responses without question or evaluation. Treats AI output as automatically correct. |
-| **Iterates and Refines (Uses Feedback Loops)** | Uses AI feedback to revise work multiple times. Shows willingness to try again with new approaches. Builds on each interaction to improve output. | Engages in feedback loops with AI. Revises based on suggestions and tries alternative approaches. | Iterates occasionally or with prompting. May revise once but doesn't push for further refinement. | Does not iterate or revise based on AI feedback. Treats first response as final. |
-| **Documents AI's Contribution Honestly** | Clearly identifies what AI helped with and what the student did independently. Honest about when ideas came from AI versus student thinking. Cites or notes AI involvement transparently. | Notes where AI was used in the process. Acknowledges AI's role without overstating or understating it. | Mentions AI use but may be vague about specific contributions. Documentation is incomplete. | Does not document AI use or misrepresents AI's role. |
-| **Uses AI as a Partner, Not a Replacement** | Treats AI as a tool to extend thinking and push deeper, not as a shortcut to avoid work. Student does the core thinking; AI amplifies it. Makes independent judgments about what to keep or change. | Uses AI to support thinking and explore ideas. Does own intellectual work while using AI to brainstorm or refine. | Sometimes uses AI as a partner; other times may over-rely on it or under-utilize it. | Treats AI as a replacement for thinking or barely uses it. Does not collaborate with it effectively. |
-
----
-
-## Scipraxian Habits (Cross-Cutting)
-
-Use this rubric throughout all weeks to assess growth in the core practices of Are-Self.
-
-| Criteria | 4 - Exceeds | 3 - Meets | 2 - Approaching | 1 - Beginning |
-|----------|----------|----------|----------|----------|
-| **Demonstrates Inclusion** | Actively invites peers into conversations and work. Seeks out and values different perspectives. Ensures quieter students are heard. Celebrates diverse thinking. Creates space for others to contribute. | Regularly asks peers for input. Listens to different ideas. Includes others in discussions and tasks. | Shows some inclusive behaviors but may be inconsistent. Needs reminders to include others or seek different perspectives. | Rarely invites input from others or dismisses alternative perspectives. Works in isolation. |
-| **Demonstrates Humility** | Confidently says "I don't know yet" and views it as a learning opportunity. Shows openness to being wrong. Asks for help without hesitation. Adjusts thinking when presented with new information. | Acknowledges gaps in knowledge. Open to feedback and alternative viewpoints. Willing to revise thinking. | Shows humility inconsistently. May be defensive about mistakes or reluctant to ask for help. | Resists acknowledging limitations. Defensive about mistakes or feedback. |
-| **Demonstrates Inquiry** | Asks one more question consistently. Pushes thinking deeper and beyond the obvious. Curious about implications and connections. Shows persistent wondering throughout the week. | Regularly asks follow-up questions. Shows curiosity about ideas and asks "why" and "how." Explores beyond initial answers. | Asks some follow-up questions but may settle quickly. Curiosity is present but inconsistent. | Rarely asks follow-up questions or shows limited curiosity about deeper learning. |
-| **Applies Habits Across Subjects and Contexts** | Consistently uses inclusion, humility, and inquiry in different subjects (writing, math, science, history) and contexts (individual work, group work, AI collaboration). Habits are automatic. | Uses habits regularly across subjects and contexts. Shows understanding that they apply everywhere. | Uses habits sometimes in some contexts. May focus on them in one subject more than others. | Habits are limited to one subject or context; does not transfer them. |
+| Criteria | 0 Blank | 1 Term Recognition | 2 Limited Awareness | 3 Applicable Awareness | 4 Synergetic | 5 Instructor Level |
+|---|---|---|---|---|---|---|
+| **Asks thoughtful questions of the AI** | No questions asked | Recognizes you can ask the AI things | Closed or vague questions | Clear, open-ended questions that prompt meaningful responses | Specific "why" and "how" questions that build on prior responses | Could teach peers how to ask better questions of the AI |
+| **Evaluates AI responses critically** | Accepts everything | Recognizes AI can be wrong | Evaluates inconsistently | Checks most responses against own knowledge | Consistently questions accuracy, bias, and opinion; rejects weak suggestions | Could teach AI evaluation; helps peers spot AI errors |
+| **Iterates and refines (uses feedback loops)** | Treats first response as final | Recognizes revision is possible | Revises once or only with prompting | Engages in feedback loops; tries alternative approaches | Iterates multiple times, uses each response to sharpen the next | Could teach iteration; coaches peers through their loops |
+| **Documents AI's contribution honestly** | No documentation or misrepresented | Recognizes attribution matters | Vague documentation | Notes where AI was used and what the learner added | Transparent, specific attribution throughout; clear about each contribution | Could teach attribution practice; holds peers to honest accounting |
+| **Uses AI as a partner, not a replacement** | AI does the thinking | Recognizes the difference | Over-relies on AI or under-uses it | Uses AI to support thinking while doing the core work themselves | Treats AI as amplifier; makes independent judgments about what to keep | Could teach the partner mindset; models it for peers |
 
 ---
 
-## Student Self-Assessment Rubric
+## Cross-Cutting: Scipraxian Habits
 
-Students can use this simplified 3-level rubric to evaluate their own work throughout the 6 weeks. This builds metacognitive awareness and helps students recognize their own growth.
+Use this table across all six weeks. Inclusion, humility, and inquiry are the heartbeat of this curriculum.
+
+| Criteria | 0 Blank | 1 Term Recognition | 2 Limited Awareness | 3 Applicable Awareness | 4 Synergetic | 5 Instructor Level |
+|---|---|---|---|---|---|---|
+| **Demonstrates inclusion** | Works in isolation | Recognizes "inclusion" as a word | Inconsistent or prompted inclusion | Regularly asks peers for input; listens to different ideas | Invites quieter voices; values diverse thinking; ensures others are heard | Could teach inclusion; builds inclusive culture around them |
+| **Demonstrates humility** | Defensive about mistakes | Recognizes "I don't know yet" as a phrase | Inconsistent; sometimes defensive | Acknowledges gaps; open to feedback; willing to revise | Views "I don't know yet" as opportunity; adjusts thinking with new information | Could teach humility; models it so peers feel safe admitting gaps |
+| **Demonstrates inquiry** | Rarely asks follow-ups | Recognizes the "one more question" idea | Asks some follow-ups but settles quickly | Regularly asks "why" and "how"; explores beyond initial answers | Pushes thinking deeper consistently; curious about implications and connections | Could teach inquiry; sparks deeper questions in the room |
+| **Applies habits across subjects and contexts** | Habits tied to one context | Recognizes habits apply broadly | Uses habits in some contexts but not others | Uses habits regularly across subjects | Habits are automatic across subjects, contexts, and group sizes | Could teach habit transfer; helps peers take habits into new spaces |
+
+---
+
+## Learner Self-Check (kid-voice translator to the ladder)
+
+These short 4th-grade-voice tables are a translation aid, not a different scale. They help learners recognize themselves in the rungs of the canonical ladder. The mapping is:
+
+- **Still Learning** — the learner is at **0 Blank** or **1 Term Recognition** on the ladder.
+- **Getting There** — the learner is at **2 Limited Awareness** or **3 Applicable Awareness**.
+- **Got It** — the learner is at **4 Synergetic** or **5 Instructor Level**.
+
+A learner who says "Got It" is saying "I'm at 4 or 5 on the ladder for this thing." Facilitators can use either column in conversation.
 
 ### Brain Region Understanding (Week 1)
 
-| Criteria | Still Learning | Getting There | Got It |
-|----------|----------|----------|----------|
-| **I can name and explain what brain regions do** | I can name some brain regions, but I'm not sure what they do. | I can name most brain regions and explain what some of them do. | I can name all the main brain regions and explain what they do in my own words. |
-| **I see how Are-Self and the real brain are connected** | I'm not sure how Are-Self is like the real brain. | I see some connections between Are-Self and the brain. | I can explain how Are-Self works like the real brain. |
-| **My Identity design shows what I learned** | My Identity is simple or doesn't connect to the brain. | My Identity has some connections to what I learned about brain regions. | My Identity shows what I learned and connects to how the brain works. |
+| Criteria | Still Learning (0–1) | Getting There (2–3) | Got It (4–5) |
+|---|---|---|---|
+| I can name brain regions and explain what they do | I can name some, but I'm not sure what they do | I can name most and explain what some do | I can name all the main regions and explain what they do in my own words |
+| I see how Are-Self and the real brain are connected | I'm not sure how they're connected | I see some connections | I can explain how Are-Self works like the real brain |
+| My Identity design shows what I learned | My Identity is simple or doesn't connect to the brain | My Identity has some connections | My Identity shows what I learned and connects to how the brain works |
 
 ### Writing & AI Collaboration (Week 2)
 
-| Criteria | Still Learning | Getting There | Got It |
-|----------|----------|----------|----------|
-| **I write with clear ideas and good organization** | My ideas are hard to follow or not well organized. | My ideas are mostly clear and organized, but could be better. | My ideas are clear, organized, and easy to follow. |
-| **I think critically about AI suggestions** | I usually just use what the AI gives me. | I check some of the AI's ideas before I use them. | I always ask questions about what the AI suggests and decide if it makes sense. |
-| **I revise my work based on feedback** | I don't revise much after getting feedback. | I revise some based on feedback, from AI or peers. | I revise my work multiple times based on feedback from different sources. |
+| Criteria | Still Learning (0–1) | Getting There (2–3) | Got It (4–5) |
+|---|---|---|---|
+| I write with clear ideas and good organization | My ideas are hard to follow | My ideas are mostly clear | My ideas are clear, organized, and easy to follow |
+| I think critically about AI suggestions | I usually just use what the AI gives me | I check some of the AI's ideas | I always question AI and decide if it makes sense |
+| I revise my work based on feedback | I don't revise much | I revise some | I revise multiple times using different sources of feedback |
 
 ### Mathematical Reasoning (Week 3)
 
-| Criteria | Still Learning | Getting There | Got It |
-|----------|----------|----------|----------|
-| **I choose a good strategy and explain it** | I'm not sure which strategy to use, or my explanation is unclear. | I pick a reasonable strategy and explain most of my steps. | I choose an efficient strategy and clearly explain all my steps. |
-| **I ask one more question to go deeper** | I usually just get the answer and stop. | I sometimes ask why or what if questions. | I regularly ask follow-up questions that help me think deeper about math. |
-| **I use AI to help me think, not to get answers** | I ask AI to just give me the answer. | I sometimes ask AI about the strategy, but often just ask for help. | I ask AI for strategies and ideas, then do the thinking myself. |
+| Criteria | Still Learning (0–1) | Getting There (2–3) | Got It (4–5) |
+|---|---|---|---|
+| I choose a good strategy and explain it | I'm not sure which strategy to use | I pick a reasonable strategy and explain most steps | I choose an efficient strategy and clearly explain all steps |
+| I ask one more question to go deeper | I usually stop after the answer | I sometimes ask why or what-if | I regularly ask follow-ups that go deeper |
+| I use AI to help me think, not to get answers | I ask AI to just give me the answer | I sometimes ask for the strategy | I ask AI for ideas, then do the thinking myself |
 
 ### Scientific Investigation (Week 4)
 
-| Criteria | Still Learning | Getting There | Got It |
-|----------|----------|----------|----------|
-| **My research question and hypothesis are clear and testable** | My question or hypothesis is unclear or can't be tested. | My question is testable, and my hypothesis makes some sense. | My question is clear and testable, and my hypothesis is scientific and connected to it. |
-| **My experiment is designed well** | My design is missing important pieces or steps are unclear. | My design has most parts (variables, steps, tools), but something is missing. | My design is complete and clear with all variables identified and controlled. |
-| **I analyze my data and go beyond just reporting it** | I just list my results without analyzing them. | I look at my data and see some patterns, but the conclusion is basic. | I analyze my data, see patterns, and discuss what the results mean. |
+| Criteria | Still Learning (0–1) | Getting There (2–3) | Got It (4–5) |
+|---|---|---|---|
+| My research question and hypothesis are clear and testable | Unclear or can't be tested | Testable; hypothesis makes some sense | Clear, testable, scientifically grounded |
+| My experiment is designed well | Missing important pieces | Has most parts | Complete and clear with variables controlled |
+| I analyze my data and go beyond just reporting it | I just list my results | I see some patterns | I analyze patterns and discuss what results mean |
 
 ### Historical Inquiry & Inclusion (Week 5)
 
-| Criteria | Still Learning | Getting There | Got It |
-|----------|----------|----------|----------|
-| **I ask good questions and check my sources** | I don't ask why, or I accept information without checking it. | I ask some good questions and try to check a few sources. | I ask thoughtful questions and check sources, including AI information. |
-| **I notice missing perspectives** | I don't think about who might be left out of the story. | I can name some groups whose perspectives might be missing. | I can explain which perspectives are missing and why they matter. |
-| **I include others in conversations about history** | I usually just work alone or listen quietly. | I sometimes ask others what they think or share ideas. | I actively ask peers questions and welcome different viewpoints. |
+| Criteria | Still Learning (0–1) | Getting There (2–3) | Got It (4–5) |
+|---|---|---|---|
+| I ask good questions and check my sources | I don't ask why or check sources | I ask some good questions and check a few sources | I ask thoughtful questions and check sources, including AI |
+| I notice missing perspectives | I don't think about who's left out | I can name some missing voices | I explain which perspectives are missing and why they matter |
+| I include others in conversations about history | I mostly work alone | I sometimes ask others for ideas | I actively ask peers and welcome different viewpoints |
 
 ### Capstone Project (Week 6)
 
-| Criteria | Still Learning | Getting There | Got It |
-|----------|----------|----------|----------|
-| **My project is creative and shows my own thinking** | My project feels generic or copied. | My project has some of my own ideas mixed in. | My project is creative and shows what I think and learned. |
-| **I use Are-Self tools effectively** | I'm not sure how to use Are-Self features. | I use some Are-Self features but could use them better. | I use Identity, tools, and Hippocampus to make my project work well. |
-| **I can explain what I learned and how I grew** | I didn't think much about what I learned. | I can name some things I learned. | I can explain what I learned, what was hard, and how I grew. |
+| Criteria | Still Learning (0–1) | Getting There (2–3) | Got It (4–5) |
+|---|---|---|---|
+| My project is creative and shows my own thinking | My project feels generic | My project has some of my own ideas | My project is creative and shows what I think and learned |
+| I use Are-Self tools effectively | I'm not sure how to use features | I use some features but could use them better | I use Identity, tools, and Hippocampus to make my project work well |
+| I can explain what I learned and how I grew | I didn't think about it much | I can name some things I learned | I can explain what I learned, what was hard, and how I grew |
 
 ### AI & Scipraxian Habits (All Weeks)
 
-| Criteria | Still Learning | Getting There | Got It |
-|----------|----------|----------|----------|
-| **I ask thoughtful questions and think critically** | I ask simple questions or accept answers without thinking. | I ask some follow-up questions and check some answers. | I ask "why" and "how" and always think about whether ideas make sense. |
-| **I show inclusion, humility, and inquiry** | I mostly work alone or don't ask deeper questions. | I sometimes include others, admit what I don't know, or ask one more question. | I include others, say "I don't know yet," and always ask one more question. |
+| Criteria | Still Learning (0–1) | Getting There (2–3) | Got It (4–5) |
+|---|---|---|---|
+| I ask thoughtful questions and think critically | I accept answers without thinking | I ask some follow-ups and check some answers | I ask "why" and "how" and always think about whether ideas make sense |
+| I show inclusion, humility, and inquiry | I mostly work alone and don't ask deeper questions | I sometimes include others, admit what I don't know, or ask one more question | I include others, say "I don't know yet," and always ask one more question |
 
 ---
 
 ## Tips for Using These Rubrics
 
-1. **Share rubrics with students at the start of each week.** Let them know what they're working toward.
-
-2. **Use formatively.** Comment on specific criteria as students work, giving them feedback on next steps.
-
-3. **Conference with students.** Discuss rubric performance together. Ask: "What does a 3 look like in your work? What would it take to get to a 4?"
-
-4. **Self-assess together.** Have students use the student version to evaluate their own work, then compare with your assessment.
-
-5. **Track growth, not just grades.** A student moving from 1 to 2 is making progress. Celebrate that.
-
-6. **Make it about thinking, not perfection.** Emphasize that the rubrics measure how students think, collaborate, and learn—not whether they're "right."
+1. **Share rubrics with learners at the start of each week.** Let them know what they're working toward.
+2. **Use formatively.** Comment on specific criteria while work is in progress — the rung tells the learner their next step.
+3. **Conference with learners.** Discuss rubric performance together. Ask: "What does 3 Applicable Awareness look like in your work? What would it take to get to 4 Synergetic?"
+4. **Self-assess together.** Use the learner self-check tables above, then compare with the facilitator's read. When you disagree, that's the most useful conversation of the week.
+5. **Track growth, not just grades.** A learner moving from 1 to 2 is making progress. Celebrate that.
+6. **Make it about thinking, not perfection.** The rubrics measure how learners think, collaborate, and learn — not whether they're "right." All answers correct.
