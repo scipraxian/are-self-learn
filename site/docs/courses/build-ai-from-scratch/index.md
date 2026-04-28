@@ -120,12 +120,14 @@ mechanism in Module 3 is the same mechanism the LLMs Are-Self routes
 to are running inside. The training loop in Module 6 is the same loop
 that produced the embeddings the Hippocampus uses for memory search.
 
-This course also ships with a **neural pathway**, defined in
-[`pathway.md`](./pathway), that walks through the same eight steps as
-an Are-Self pathway: a graph of Neurons connected by Axons, with each
-Neuron mapping to one module of this course. You can run the pathway
-inside Are-Self and watch your tiny model assemble itself spike by
-spike. The pathway is the course made executable.
+This course also ships as a set of **Neural Modifiers** — one
+installable bundle per module (`bafs-tokenizer`, `bafs-embeddings`,
+…, `bafs-data`) plus a composition modifier
+(`bafs-pathway-composition`) that wires them into the
+`BuildTinyTransformer` neural pathway. See each module's "Module
+Genome — Neural Modifier" section for what its bundle registers,
+and the [pathway companion](./pathway) for how the eight modules
+compose into an end-to-end pipeline you can run inside Are-Self.
 
 ## A Note on Difficulty
 

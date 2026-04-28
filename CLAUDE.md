@@ -161,11 +161,19 @@ driver and linter are internal.
   - **Graphs and Sleep Consolidation** (6 modules + pathway, draft
     2026-04-28) — typed-edge hypergraphs, anchored to the Hippocampus
     Hypergraph Migration paper (Frerichs/Clark)
-- **Pathway-companion pattern (2026-04-28).** Three new courses each
-  ship with a `pathway.md` companion — a NeuralPathway specification
-  that mirrors the course as an executable graph of Effectors. Course
-  = teaching version, pathway = machine version. The Effectors and
-  fixtures themselves are P2 work in `are-self-api`.
+- **Module-modifier + course-pathway pattern (refined 2026-04-28).**
+  Each module of the three new courses ships its own NeuralModifier
+  bundle (`<prefix>-<slug>` zip in `neuroplasticity/genomes/`) that
+  registers the Effectors / Parietal tools / Log parsers / Environments
+  the module's content produces. A composition modifier per course
+  (`<prefix>-pathway-composition`) ships the course-level NeuralPathway
+  fixture and depends on the per-module bundles via the Modifier
+  Garden's `requires` field. The "Module Genome — Neural Modifier"
+  section in each module is the bundle's spec. Production workflow:
+  Michael plays through each course in his own Are-Self instance,
+  captures screenshots from the Modifier Garden, and refines the
+  bundles as edge cases surface. The are-self.mcp may drive
+  regeneration later (P3 in TASKS.md) but is not the first-ship path.
 - All courses have prerequisites cross-linked to other courses in catalog.
 - Landing page redesigned with glassmorphic course cards.
 - **Rubric system v1.5 locked (2026-04-20).** Three-file pattern per

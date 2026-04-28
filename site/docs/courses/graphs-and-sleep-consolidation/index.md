@@ -95,10 +95,16 @@ through vector similarity). The migration described in the
 connections into explicit, typed, queryable edges.
 
 The course teaches the math behind that migration. The paper is
-the formal specification. The pathway companion to this course
-([`pathway.md`](./pathway)) is the executable spec — a NeuralPathway
-that performs the consolidation cycle described in the paper's
-future-work section, made concrete.
+the formal specification. This course also ships as a set of
+**Neural Modifiers** — one installable bundle per module
+(`gsc-graphs-101`, `gsc-edges-and-types`, `gsc-graph-algorithms`,
+`gsc-brain-as-graph`, `gsc-consolidation`, `gsc-implementation`)
+plus a composition modifier (`gsc-pathway-composition`) that wires
+them into the `HippocampalConsolidation` neural pathway. See each
+module's "Module Genome — Neural Modifier" section for what its
+bundle registers, and the [pathway companion](./pathway) for how
+the modules compose into the seven-phase consolidation cycle that
+runs during the `Sleeping` shift of an iteration.
 
 ## A Note on Voice
 

@@ -19,6 +19,21 @@ that ship with the new courses — it is the implementation
 specification for the future-work section of the *Hippocampus
 Hypergraph Migration* paper.
 
+## How the Course's Modifiers Compose Into This Pathway
+
+Each module of the course ships its own **NeuralModifier** bundle —
+one zip in `neuroplasticity/genomes/`, registered via the Modifier
+Garden. Module 2's bundle (`gsc-edges-and-types`) provides the typed-
+edge primitives. Module 3's bundle (`gsc-graph-algorithms`) registers
+the graph-traversal Effectors. Module 5's bundle
+(`gsc-consolidation`) registers the seven sleep-consolidation
+Effectors.
+
+This pathway does not redefine those Effectors. It *composes* them
+into the seven-phase consolidation cycle. Module 5's modifier is the
+heaviest contributor — it registers all seven phase Effectors that
+this pathway then wires together.
+
 ## Pathway Overview
 
 **Name:** `HippocampalConsolidation`
@@ -84,10 +99,14 @@ sees a clean engram with the cycle's results.
   For high-volume consolidation, this should be a locally-served
   fine-tune (see *Tune Pretrained Models*) rather than a paid API.
 
-## Effector Authoring Notes
+## Where the Effectors Come From
 
-Seven new Effectors are needed in
-`hippocampus/effectors/consolidation/`:
+The seven phase Effectors are registered by the per-module
+NeuralModifier bundles (primarily Module 5's `gsc-consolidation`,
+with the typed-edge primitives from Module 2 and the graph-
+algorithm primitives from Module 3 as dependencies).
+
+The Effectors:
 
 1. `strengthen_active_edges` — increment weight on edges incident
    to recently-retrieved engrams
@@ -109,10 +128,17 @@ expensive phase. Phase 7 makes one LLM call per recent engram in
 the worst case — bounded by a window size.
 
 The `MaterializeClusters` and `GenerateSummaryEngrams` Effectors
-require careful idempotency: rerunning the consolidation pathway
-on the same data should not double-count clusters or summaries.
-The implementation should check for an existing edge or engram
-before creating a new one.
+require careful idempotency: rerunning the consolidation pathway on
+the same data should not double-count clusters or summaries. The
+implementation should check for an existing edge or engram before
+creating a new one. This idempotency requirement is part of the
+contract that `gsc-consolidation`'s install must verify.
+
+A composition modifier (`gsc-pathway-composition`) wraps the
+pathway fixture and depends on the six module bundles via the
+Modifier Garden's `requires` field. The Module 6 modifier
+(`gsc-implementation`) ships the `EngramEdge` migration itself —
+without it, none of the others have anything to write to.
 
 ## Tunable Parameters
 
@@ -145,14 +171,16 @@ The course content and the pathway must agree at all times.
 |---------|--------|
 | Course modules 1–6 | Drafted |
 | Pathway specification (this doc) | Drafted |
-| `EngramEdge` model in `are-self-api/hippocampus` | Not yet (blocks pathway) |
-| Edge-extraction synchronous Effector | Not yet (separate from this pathway) |
-| Effectors implemented in `are-self-api/hippocampus/effectors/consolidation/` | Not yet |
-| Genome fixture | Not yet |
-| End-to-end runnable | Blocked on EngramEdge model + seven Effectors |
+| Per-module NeuralModifier bundles (6 of them) | Not yet — see TASKS.md |
+| `EngramEdge` model migration (shipped inside `gsc-implementation`) | Not yet (blocks all others) |
+| Edge-extraction synchronous Effector | Not yet (out of this pathway's scope) |
+| Composition modifier (`gsc-pathway-composition`) | Not yet — depends on the six |
+| End-to-end runnable | Blocked on `gsc-implementation` (schema migration) |
 
-The schema work is the first dependency. Until `EngramEdge`
-exists, none of the consolidation Effectors have anything to do.
+The Module 6 modifier is the first dependency. Until it ships and
+the `EngramEdge` migration runs, none of the consolidation Effectors
+have anything to write to. Module 6's modifier is also the first one
+Michael will produce in his play-through.
 
 ## Reading
 

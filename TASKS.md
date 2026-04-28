@@ -180,30 +180,62 @@ Last updated: 2026-04-28.
 - [x] Add `course-card__badge--draft` style to `site/src/css/custom.css`
       (cyan tone) so the new courses' Draft badges render correctly.
 
-### P2 — Pathway implementations (cross-repo, blocked on `are-self-api`)
+### P2 — Per-module Neural Modifier bundles (Michael's play-through queue)
 
-Each of the three new courses ships with a `pathway.md` companion
-specifying a NeuralPathway. The pathway specs are implementation-
-ready; the actual Effectors and fixtures live in `are-self-api`.
+Each course module ships its own NeuralModifier bundle. Michael
+produces these by playing through the course in his own Are-Self
+instance, capturing screenshots from the Modifier Garden as each
+bundle installs, and refining the bundle's contributions as edge
+cases surface. Each module's "Module Genome — Neural Modifier"
+section in the course content is the spec; the bundle zip ends up
+in `are-self-api/neuroplasticity/genomes/`.
 
-- [ ] **`BuildTinyTransformer` pathway**. Implement five new Effectors
-      under `central_nervous_system/effectors/build_from_scratch/`;
-      add an Environment with PyTorch in its requirements; ship a
-      genome fixture creating the NeuralPathway, Neurons, and Axons.
-      Roughly one engineering week.
-- [ ] **`TunePretrainedModel` pathway**. Six new Effectors under
-      `central_nervous_system/effectors/tune_pretrained/`; reuse the
-      PyTorch Environment from above; add a `services/` region (or
-      equivalent) for the long-lived serve process; ship a genome
-      fixture. CONDITIONAL axon predicate enforces eval quality bar
-      before catalog registration. Roughly two engineering weeks
-      (the `services/` region is the unknown).
-- [ ] **`HippocampalConsolidation` pathway**. Hardest of the three —
-      blocks on the `EngramEdge` schema migration in
-      `are-self-api/hippocampus`, which itself blocks on Frerichs/
-      Clark paper finalization. Once the schema lands, seven new
-      Effectors implement the consolidation cycle. Coordinate with
-      Samuel Frerichs.
+**Build an AI From Scratch — 7 module bundles + 1 composition:**
+
+- [ ] `bafs-tokenizer` (Module 1) — BPE training + encode/decode tools
+- [ ] `bafs-embeddings` (Module 2) — token + position embedding builder
+- [ ] `bafs-attention` (Module 3) — multi-head causal attention block
+- [ ] `bafs-transformer-block` (Module 4) — pre-norm block + stacker
+- [ ] `bafs-tiny-model` (Module 5) — end-to-end model + generation
+- [ ] `bafs-training-loop` (Module 6) — Celery training task + PyTorch Environment
+- [ ] `bafs-data` (Module 7) — corpus tokenization + streaming dataloader
+- [ ] `bafs-pathway-composition` (Module 8 capstone) — `BuildTinyTransformer`
+      pathway fixture, `requires` all seven above
+
+**Tune Pretrained Models — 7 module bundles + 1 composition:**
+
+- [ ] `tune-decision-rubric` (Module 1) — build-vs-tune Parietal tool
+- [ ] `tune-load-checkpoint` (Module 2) — safetensors loader + arch
+- [ ] `tune-eval-harness` (Module 3) — eval harness Effector + tool
+- [ ] `tune-lora` (Module 4) — LoRA adapter + injection helpers
+- [ ] `tune-fine-tune-loop` (Module 5) — Celery fine-tune task + Environment
+- [ ] `tune-eval-compare` (Module 6) — comparison report + capability profile
+- [ ] `tune-serve` (Module 7) — local serving + Hypothalamus registration
+- [ ] `tune-pathway-composition` (Module 8 capstone) — `TunePretrainedModel`
+      pathway fixture with CONDITIONAL axon, `requires` all seven above.
+      Blocks on `services/` region in `are-self-api` (open question)
+
+**Graphs and Sleep Consolidation — 6 module bundles + 1 composition:**
+
+- [ ] `gsc-implementation` (Module 6) — **first dependency** — `EngramEdge`
+      schema migration + extract_edges_on_save Effector + admin pages
+- [ ] `gsc-graphs-101` (Module 1) — base `Graph` dataclass + inspection tool
+- [ ] `gsc-edges-and-types` (Module 2) — typed-edge primitives, `EdgeType` enum
+- [ ] `gsc-graph-algorithms` (Module 3) — BFS/DFS/Dijkstra/Louvain Effectors and tools
+- [ ] `gsc-brain-as-graph` (Module 4) — reference brain-region graph + glossary tool
+- [ ] `gsc-consolidation` (Module 5) — **the heart** — seven phase Effectors
+- [ ] `gsc-pathway-composition` — `HippocampalConsolidation` pathway fixture,
+      `requires` all six above (in dependency order: `gsc-implementation`
+      first because the schema must land before anything else can write to it)
+
+### P3 — MCP-driven modifier regeneration (deferred)
+
+Once the modifier shapes per course are locked from manual play-through,
+build out the are-self.mcp surface that lets a Claude session
+regenerate any modifier programmatically — useful for keeping the
+bundles in sync with `are-self-api` schema changes, and for CI that
+re-packs every modifier and runs install pipelines against a fresh
+database. Not first-ship work; ecosystem-and-maintenance work.
 
 ### P2 — Remaining courses (in rough order)
 
@@ -253,11 +285,22 @@ ready; the actual Effectors and fixtures live in `are-self-api`.
 - **SDCC 2026** is the hard deadline for booth-ready visuals.
 - **UCSD Dean of Neuroscience** review is the quality bar for HS Bio.
 - **MIT license.** Not revisited.
-- **Pathway-companion pattern (introduced 2026-04-28).** Three courses
-  now ship with a `pathway.md` companion that mirrors the course as
-  an executable NeuralPathway in Are-Self. Future implementation-heavy
-  courses should follow the pattern. Course = teaching version,
-  pathway = machine version, same operations described two ways.
+- **Module-modifier + course-pathway pattern (refined 2026-04-28).**
+  Each course module is a NeuralModifier bundle (`<prefix>-<slug>` zip
+  in `neuroplasticity/genomes/`). The course's pathway is shipped by a
+  composition modifier (`<prefix>-pathway-composition`) that depends
+  on the per-module bundles via the Modifier Garden's `requires` field.
+  Each module's "Module Genome — Neural Modifier" section in the
+  course content is the spec for its bundle. Future implementation-
+  heavy courses should follow the same pattern.
+- **Manual play-through is the production workflow.** Michael produces
+  the first version of each modifier by playing through the course in
+  his Are-Self instance, capturing screenshots, and refining the
+  bundle's contributions as edge cases surface. The are-self.mcp may
+  drive regeneration later (P3 above) but the first ship is human-
+  mediated because the screenshots are pedagogically load-bearing
+  and human play-through catches edge cases an MCP-driven generation
+  would silently paper over.
 - **Sovereignty stance for the AI courses.** No HuggingFace runtime
   dependency. PyTorch the library is fine; HuggingFace Hub is not. The
   reasoning lives in each course's index — autonomy, dependency surface,

@@ -263,3 +263,23 @@ fires; during waking shifts, it does not.
    edge point?
 
 Module 6 is the implementation in Are-Self.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is the heaviest modifier
+in the course — `gsc-consolidation`
+(`neuroplasticity/genomes/gsc-consolidation.zip`). It registers all
+seven phase Effectors that the consolidation pathway composes.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/gsc-consolidation.zip` |
+| Registers | `strengthen_active_edges`, `decay_inactive_edges`, `prune_stale_edges`, `run_louvain` (or alias to Module 3's), `materialize_clusters`, `generate_summary_engrams`, `detect_contradictions` Effectors |
+| Requires | `gsc-edges-and-types`, `gsc-graph-algorithms`, `gsc-implementation` (the schema migration) |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/gsc-consolidation.zip")` |
+| Screenshot | *Modifier Garden after install + a successful test run of the pathway against synthetic data — captured during play-through.* |
+
+This modifier provides the heart of the pathway. The course-level
+[pathway](./pathway) sequences the seven Effectors registered here
+into the consolidation cycle that runs during the `Sleeping` shift
+of an Are-Self iteration.

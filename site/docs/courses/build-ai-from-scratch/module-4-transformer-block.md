@@ -203,3 +203,21 @@ Once you understand the block, you understand the unit of price.
    change about training? About inference cost?
 
 Onward to assembling a model.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `bafs-transformer-block` (`neuroplasticity/genomes/bafs-transformer-block.zip`).
+It adds the pre-norm transformer-block builder (LayerNorm + attention
++ MLP + residuals) to your Are-Self instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/bafs-transformer-block.zip` |
+| Registers | `build_transformer_block` Effector; `stack_transformer_blocks` Effector |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/bafs-transformer-block.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) wires the Effectors registered here into
+the rest of the build pipeline.

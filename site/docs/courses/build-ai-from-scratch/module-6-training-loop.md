@@ -227,3 +227,22 @@ step. Everything else is the choice of target.
    tendency to overfit?
 
 Module 7 is where the data comes from.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `bafs-training-loop` (`neuroplasticity/genomes/bafs-training-loop.zip`).
+It adds the autoregressive training loop (Celery task) and
+checkpoint I/O to your Are-Self instance, plus an Environment
+configured with PyTorch.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/bafs-training-loop.zip` |
+| Registers | `run_training_loop` Effector (long-running, Celery task); `save_checkpoint` / `load_checkpoint` Effectors; PyTorch Environment |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/bafs-training-loop.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) wires the Effectors registered here into
+the rest of the build pipeline.

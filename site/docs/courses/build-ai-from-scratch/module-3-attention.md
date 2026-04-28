@@ -193,3 +193,21 @@ that differs.
    the next token anyway, what would the model learn?
 
 Ready to wrap this up into a transformer block.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `bafs-attention` (`neuroplasticity/genomes/bafs-attention.zip`).
+It adds the multi-head causal-self-attention block to your Are-Self
+instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/bafs-attention.zip` |
+| Registers | `build_multihead_attention_block` Effector |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/bafs-attention.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) wires the Effector registered here into
+the rest of the build pipeline.

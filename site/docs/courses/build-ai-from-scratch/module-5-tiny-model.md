@@ -191,3 +191,22 @@ simply to keep more inference local — this module is the foundation.
    distribution being sampled from?
 
 Module 6 is where we make this thing actually learn.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `bafs-tiny-model` (`neuroplasticity/genomes/bafs-tiny-model.zip`).
+It adds the end-to-end tiny-transformer assembly (embedding +
+transformer stack + LM head with weight tying) to your Are-Self
+instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/bafs-tiny-model.zip` |
+| Registers | `instantiate_tiny_transformer` Effector; `generate_from_model` Effector |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/bafs-tiny-model.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) wires the Effectors registered here into
+the rest of the build pipeline.

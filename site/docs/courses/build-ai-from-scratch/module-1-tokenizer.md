@@ -211,3 +211,20 @@ Before moving on, you should be able to answer:
    happen to the average length of an encoded sequence?
 
 If those answers are crisp, you are ready for Module 2.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `bafs-tokenizer` (`neuroplasticity/genomes/bafs-tokenizer.zip`).
+It adds BPE tokenizer training to your Are-Self instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/bafs-tokenizer.zip` |
+| Registers | `train_bpe_tokenizer` Effector; `tokenize_text` and `detokenize_ids` Parietal tools |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/bafs-tokenizer.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) wires the Effectors registered here into
+the rest of the build pipeline.

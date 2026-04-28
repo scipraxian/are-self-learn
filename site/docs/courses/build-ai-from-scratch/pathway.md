@@ -20,6 +20,24 @@ If you complete the course and load this pathway, you can watch your
 own training pipeline assemble itself spike by spike inside Are-Self.
 The course is the *what*. The pathway is the *how it lives*.
 
+## How the Course's Modifiers Compose Into This Pathway
+
+Each module of the course ships its own **NeuralModifier** bundle —
+one zip in `neuroplasticity/genomes/`, registered via the Modifier
+Garden. The bundle for Module 1 (`bafs-tokenizer`) registers the
+tokenizer Effectors. Module 2's bundle registers the embedding
+Effector. And so on for each of the eight modules.
+
+This pathway does not redefine those Effectors. It *composes* them.
+The Neurons in the table below reference the Effectors that the
+per-module modifiers register; this pathway wires them together with
+Axons into a working pipeline.
+
+If you have not yet installed all eight per-module modifiers, this
+pathway will not run end-to-end — it will spike up to the first
+unregistered Effector and stop. That is the right behavior. The
+pathway is the assembly; the modifiers are the parts.
+
 ## Pathway Overview
 
 **Name:** `BuildTinyTransformer`
@@ -89,28 +107,26 @@ This pathway crosses several Are-Self regions:
   appropriate low-cost requests, with a cost profile that reflects
   it being purely local.
 
-## Effector Authoring Notes
+## Where the Effectors Come From
 
-The Effectors named above are **proposed** — they do not exist in
-`are-self-api/central_nervous_system/effectors/` yet. Building this
-pathway means:
+The Effectors above are not defined here. They are registered by the
+per-module NeuralModifier bundles, one bundle per course module. See
+each module's "Module Genome — Neural Modifier" section for what its
+bundle registers and how to install it.
 
-1. Adding the four new Effectors (`train_bpe_tokenizer`,
-   `tokenize_corpus_to_bin`, `instantiate_tiny_transformer`,
-   `run_training_loop`, `generate_samples`) under
-   `central_nervous_system/effectors/build_from_scratch/`.
-2. Wiring an `Environment` that has PyTorch in its requirements so
-   the heavy Effectors can run.
-3. Producing a fixture that creates the NeuralPathway, all Neurons
-   and Axons, and the EffectorContext with sensible defaults
-   (vocab_size 8000, d_model 128, etc.).
-4. Adding a `boot.py`-style genome promotion path so the pathway
-   ships as part of an Are-Self installation that opts into the
-   curriculum.
+This pathway adds one piece on top of those bundles: a fixture that
+creates the NeuralPathway, all Neurons, and all Axons, with sensible
+EffectorContext defaults (vocab_size 8000, d_model 128, etc.). That
+fixture itself can be packaged as a final composition modifier
+(`bafs-pathway-composition`) that depends on the eight module
+modifiers — the Modifier Garden's `requires` field is the right
+mechanism for that dependency.
 
-This is roughly a one-week effort, scoped as a separate task in
-`TASKS.md`. The course can ship before the pathway implementation
-exists — the pathway document, like a software spec, can come first.
+Building all of this is roughly a one-week effort, tracked in
+`TASKS.md` under the per-module modifier queue. The course can ship
+before any of the modifiers exist — the pathway document, like a
+software spec, can come first, and Michael's play-through will
+produce the bundles in order as the course is finalized.
 
 ## Genome Versioning
 
@@ -144,9 +160,10 @@ pathways.
 |---------|--------|
 | Course modules 1–8 | Drafted |
 | Pathway specification (this doc) | Drafted |
-| Effectors implemented in `are-self-api` | Not yet |
-| Genome fixture in `are-self-api` | Not yet |
-| End-to-end runnable | Blocked on Effector + Environment work |
+| Per-module NeuralModifier bundles (8 of them) | Not yet — see TASKS.md |
+| Composition modifier (`bafs-pathway-composition`) | Not yet — depends on the eight |
+| End-to-end runnable | Blocked on the eight per-module modifiers |
 
-The Effector and fixture work are tracked separately as P2 tasks in
-the `are-self-learn` and `are-self-api` repos.
+The per-module bundles are produced by Michael's play-through of the
+course, with screenshots captured during install and shipped back
+into each module's "Module Genome" section. Composition follows.

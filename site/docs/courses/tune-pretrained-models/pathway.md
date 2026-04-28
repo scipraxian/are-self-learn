@@ -13,6 +13,20 @@ The course is the human-facing version. The pathway is the machine-
 facing version: a graph of Effectors that performs the same work,
 shipped as a Genome that loads into a running Are-Self instance.
 
+## How the Course's Modifiers Compose Into This Pathway
+
+Each module of the course ships its own **NeuralModifier** bundle —
+one zip in `neuroplasticity/genomes/`, registered via the Modifier
+Garden. Module 2's bundle (`tune-load-checkpoint`) registers the
+checkpoint-loader Effector. Module 4's bundle (`tune-lora`) registers
+the LoRA-injection Effector. And so on for each of the eight modules.
+
+This pathway does not redefine those Effectors. It *composes* them
+into the seven-step fine-tune-and-register pipeline below. The
+Neurons reference Effectors that the per-module modifiers register;
+this pathway wires them together with Axons (including the
+CONDITIONAL gate) into a working pipeline.
+
 ## Pathway Overview
 
 **Name:** `TunePretrainedModel`
@@ -86,27 +100,34 @@ prevents bad fine-tunes from leaking into the catalog.
   in `CompareRuns`. From this moment, the Hypothalamus considers
   the new model when scoring requests.
 
-## Effector Authoring Notes
+## Where the Effectors Come From
 
-Six new Effectors are needed in
-`central_nervous_system/effectors/tune_pretrained/`:
+The Effectors above are not defined here. They are registered by the
+per-module NeuralModifier bundles, one bundle per course module. See
+each module's "Module Genome — Neural Modifier" section for what its
+bundle registers.
 
-1. `load_safetensors_checkpoint` — load a model checkpoint by path
-2. `inject_lora_adapters` — apply the LoRA wrapper to named layers
-3. `run_lora_fine_tune` — execute the training loop
-4. `run_eval_harness` — execute the eval loop on a checkpoint or
-   adapter
-5. `compare_eval_runs` — produce a comparison report and capability
-   profile from two eval runs
-6. `serve_and_register` — start a serving process and register
-   with the Hypothalamus
+The roster:
+
+1. `load_safetensors_checkpoint` — registered by `tune-load-checkpoint`
+   (Module 2)
+2. `inject_lora_adapters` — registered by `tune-lora` (Module 4)
+3. `run_lora_fine_tune` — registered by `tune-fine-tune-loop` (Module 5)
+4. `run_eval_harness` — registered by `tune-eval-harness` (Modules 3 + 6)
+5. `compare_eval_runs` — registered by `tune-eval-compare` (Module 6)
+6. `serve_and_register` — registered by `tune-serve` (Module 7)
 
 The eval and fine-tune Effectors run inside Environments with GPU
-support. The serve Effector launches a long-lived process; the CNS
-should treat it as a managed service rather than a single Celery
-task. This may require a small extension to the Environments app
-(or to a new `services/` region) — flagged for the are-self-api
-roadmap.
+support — that Environment configuration is itself part of the
+modifier bundle for Module 5. The serve Effector launches a long-
+lived process; the CNS should treat it as a managed service rather
+than a single Celery task. This may require a small extension to
+the Environments app (or to a new `services/` region) — flagged for
+the are-self-api roadmap and tracked in TASKS.md.
+
+A composition modifier (`tune-pathway-composition`) wraps this
+pathway fixture and depends on the seven module bundles via the
+Modifier Garden's `requires` field.
 
 ## Genome Versioning
 
@@ -122,10 +143,12 @@ in lockstep.
 |---------|--------|
 | Course modules 1–8 | Drafted |
 | Pathway specification (this doc) | Drafted |
-| Effectors implemented in `are-self-api` | Not yet |
+| Per-module NeuralModifier bundles (7 of them; M1 + M8 are decision/composition) | Not yet — see TASKS.md |
 | `services/` region for long-lived serve processes | Open question |
-| Genome fixture | Not yet |
-| End-to-end runnable | Blocked on Effectors + serving infrastructure |
+| Composition modifier (`tune-pathway-composition`) | Not yet — depends on the seven |
+| End-to-end runnable | Blocked on the seven per-module modifiers + services/ region |
 
-The infrastructure work is tracked separately as P2 in
-`are-self-learn/TASKS.md` and `are-self-api/TASKS.md`.
+The per-module bundles are produced by Michael's play-through of the
+course, with screenshots captured during install. The `services/`
+region is a real architectural decision that needs to land in
+`are-self-api` before the serve modifier can ship.

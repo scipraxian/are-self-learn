@@ -229,3 +229,23 @@ small ones — turns a guess into a routing decision.
    Llama-7B. Which model should you not use as the judge, and why?
 
 Once you have a baseline, you are ready to inject LoRA.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `tune-eval-harness`
+(`neuroplasticity/genomes/tune-eval-harness.zip`). It adds the
+EvalHarness primitive — load an eval set, run it against any
+loaded model, save outputs as a run record for later comparison.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/tune-eval-harness.zip` |
+| Registers | `run_eval_harness` Effector; `mcp_eval_run` Parietal tool |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/tune-eval-harness.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier is used twice in the course-level
+[pathway](./pathway) — once to capture the baseline (before LoRA
+injection) and once to capture the tuned-model's behavior (after
+fine-tuning). Module 6's modifier compares the two runs.

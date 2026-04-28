@@ -300,3 +300,22 @@ adapters per use case.
    are two things you could try?
 
 Module 6 is where you compare your fine-tune to the baseline.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `tune-fine-tune-loop`
+(`neuroplasticity/genomes/tune-fine-tune-loop.zip`). It adds the
+LoRA-aware fine-tuning loop (Celery task) and the instruction-
+formatted dataset loader to your Are-Self instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/tune-fine-tune-loop.zip` |
+| Registers | `run_lora_fine_tune` Effector (long-running, Celery task); `make_instruction_dataloader` Effector; PyTorch+CUDA Environment with bfloat16 AMP support |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/tune-fine-tune-loop.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) calls `run_lora_fine_tune` after
+`inject_lora_adapters` and before the post-tune eval.

@@ -208,3 +208,25 @@ Axons, and the system *is* that graph.
    software pattern does it suggest for Are-Self's engram graph?
 
 Module 5 is where the brain (and Are-Self) goes to sleep.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `gsc-brain-as-graph`
+(`neuroplasticity/genomes/gsc-brain-as-graph.zip`). This is the
+lightest of the course's modifiers — most of this module is
+conceptual. The bundle ships a reference brain-region graph (the
+macroscale connectome at the resolution Are-Self mirrors) as a
+loadable diagram, plus a glossary of the neuroscience terms used
+in the rest of the course.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/gsc-brain-as-graph.zip` |
+| Registers | `brain_region_reference_graph` (loadable JSON); `mcp_brain_glossary` Parietal tool |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/gsc-brain-as-graph.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. It is
+optional for the [pathway](./pathway) to run, but useful for
+Identities that want to reason about their own architecture.

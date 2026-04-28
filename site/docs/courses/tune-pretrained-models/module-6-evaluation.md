@@ -207,3 +207,23 @@ input to a routing policy.
    before re-running the entire fine-tune.
 
 Module 7 takes the shipped fine-tune and serves it.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `tune-eval-compare`
+(`neuroplasticity/genomes/tune-eval-compare.zip`). It adds the
+two-run comparison primitive — produce a stratified comparison
+report and a capability profile from a baseline run record and a
+tuned run record.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/tune-eval-compare.zip` |
+| Registers | `compare_eval_runs` Effector; `mcp_eval_compare` Parietal tool |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/tune-eval-compare.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+The output of this Effector is what the course-level
+[pathway](./pathway)'s CONDITIONAL axon evaluates to decide whether
+the tuned model gets served and registered with the Hypothalamus.

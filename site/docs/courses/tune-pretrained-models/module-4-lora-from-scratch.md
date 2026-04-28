@@ -215,3 +215,22 @@ specialized model with the Hypothalamus.
    for fine-tuning?
 
 Module 5 is the actual training loop.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `tune-lora` (`neuroplasticity/genomes/tune-lora.zip`).
+It adds Low-Rank Adaptation as a thin PyTorch wrapper —
+`LoRAAdapter`, `inject_lora`, and the save/load helpers — to your
+Are-Self instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/tune-lora.zip` |
+| Registers | `inject_lora_adapters` Effector; `save_lora_adapters` / `load_lora_adapters` Effectors; `LoRAAdapter` (importable PyTorch module) |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/tune-lora.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) calls `inject_lora_adapters` after the
+baseline eval and before fine-tuning.

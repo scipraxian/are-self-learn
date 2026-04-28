@@ -166,3 +166,34 @@ Include in your eval report a one-page reflection:
 
 The model and the report are the artifacts. The reflection is the
 work.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this capstone is the **composition
+modifier** named `tune-pathway-composition`
+(`neuroplasticity/genomes/tune-pathway-composition.zip`). It is what
+turns the seven module-modifiers above into a working
+NeuralPathway: it ships the `TunePretrainedModel` pathway fixture
+(including the CONDITIONAL axon predicate) and depends on
+`tune-decision-rubric`, `tune-load-checkpoint`, `tune-eval-harness`,
+`tune-lora`, `tune-fine-tune-loop`, `tune-eval-compare`, and
+`tune-serve` via the Modifier Garden's `requires` field.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/tune-pathway-composition.zip` |
+| Registers | `TunePretrainedModel` NeuralPathway fixture (Neurons + Axons + CONDITIONAL predicate + EffectorContext defaults) |
+| Requires | All seven `tune-*` module modifiers from this course |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/tune-pathway-composition.zip")` |
+| Screenshot | *Modifier Garden after full install (eight bundles ENABLED) + a successful pathway run completing through `ServeAndRegister` — captured during play-through.* |
+
+When all eight modifiers are installed and ENABLED, the
+[TunePretrainedModel pathway](./pathway) runs end-to-end. Firing
+its Begin Play Neuron triggers: load checkpoint, evaluate baseline,
+inject LoRA, fine-tune, evaluate tuned, compare, conditionally
+serve and register, record outcome.
+
+This is what completing this course produces: the *capability to
+specialize pretrained models* — sovereignly, locally, with rigorous
+evaluation as a precondition for shipping — added to your Are-Self
+instance as eight composable bundles.

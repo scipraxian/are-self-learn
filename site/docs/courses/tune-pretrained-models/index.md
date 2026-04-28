@@ -123,9 +123,15 @@ the Hypothalamus can reach for when a request matches its
 specialization, with a cost profile that reflects "free, except for
 electricity."
 
-The pathway companion ([`pathway.md`](./pathway)) describes the same
-sequence as a NeuralPathway: load weights, evaluate baseline, inject
-LoRA, train adapters, evaluate, register with Hypothalamus.
+This course also ships as a set of **Neural Modifiers** — one
+installable bundle per module (`tune-decision-rubric`,
+`tune-load-checkpoint`, `tune-eval-harness`, `tune-lora`,
+`tune-fine-tune-loop`, `tune-eval-compare`, `tune-serve`) plus a
+composition modifier (`tune-pathway-composition`) that wires them
+into the `TunePretrainedModel` neural pathway. See each module's
+"Module Genome — Neural Modifier" section for what its bundle
+registers, and the [pathway companion](./pathway) for how the modules
+compose into an end-to-end fine-tune-evaluate-serve pipeline.
 
 ## Why Skip HuggingFace, Really
 

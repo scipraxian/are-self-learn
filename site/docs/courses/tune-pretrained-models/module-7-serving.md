@@ -239,3 +239,25 @@ catalog, doing useful work, on hardware you own, every day.
 
 Module 8 is the capstone — pick a model, pick a domain, ship the
 whole thing.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `tune-serve` (`neuroplasticity/genomes/tune-serve.zip`).
+It adds the local serving stack (FastAPI endpoint + KV caching +
+optional int8 quantization) and the Hypothalamus registration
+hook to your Are-Self instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/tune-serve.zip` |
+| Registers | `serve_and_register` Effector (managed long-lived service); `int8_quantize_linear` helper; FastAPI server scaffolding |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/tune-serve.zip")` |
+| Screenshot | *Modifier Garden after install + Hypothalamus catalog showing the new local model — captured during play-through.* |
+
+This modifier closes the loop. After it installs and the served
+model registers with the Hypothalamus, the Hypothalamus can route
+real requests to your locally-served fine-tune. The course-level
+[pathway](./pathway)'s `ServeAndRegister` Neuron calls this
+Effector — but only when the CONDITIONAL axon predicate (Module 6's
+output) clears.

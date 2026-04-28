@@ -36,6 +36,11 @@ protects the brain from harmful substances in the bloodstream. In
 Are-Self, the `blood_brain_barrier` Django app — the safety and filtering
 layer that controls what input/output passes through the system.
 
+**Bundle** — Are-Self's word for an installable extension package. A
+single `.zip` archive at `neuroplasticity/genomes/<slug>.zip` containing
+a manifest, data rows, code, and a README. Synonym for **NeuralModifier**.
+Installed and managed through the **Modifier Garden** UI.
+
 ## C
 
 **Central Nervous System (CNS)** — In biology, the brain and spinal cord.
@@ -90,6 +95,15 @@ constraints. Managed by the Hypothalamus.
 planning, and decision-making. In Are-Self, the `frontal_lobe` Django
 app — the reasoning loop, focus economy, and session status manager.
 
+## G
+
+**Genome** — Are-Self's metaphor for "which bundle owns this row." Every
+database row that could be contributed by a bundle carries a `genome`
+foreign key. Core rows point at the **INCUBATOR** (the canonical "this
+came from core" genome); bundle rows point at their **NeuralModifier**.
+The genome cascade is what makes uninstall clean — removing a bundle
+deletes only rows whose genome matches it, leaving core untouched.
+
 ## H
 
 **Haunted Space Hotel (HSH)** — A game franchise co-created by Michael
@@ -120,6 +134,11 @@ operating rules. The "who-am-I" layer.
 check who you left outside. One of the three kid-scale variables and one
 of the twelve adult variables.
 
+**INCUBATOR** — The canonical "this came from core, not from a bundle"
+genome in Are-Self. Default value of the `genome` foreign key on every
+bundle-extensible model. Protects core rows from being cascade-deleted
+when a **NeuralModifier** is uninstalled.
+
 **Inquiry** — The third scipraxian habit. After every answer, ask one
 more question. One of the three kid-scale variables and one of the twelve
 adult variables.
@@ -146,7 +165,18 @@ cloud-hosted model.
 Scipraxian Tales. A ten-year-old who learns the three habits through
 conversation with an Are-Self on her living room rug.
 
+**Modifier Garden** — The Are-Self UI page (`/modifiers`) where you
+install, uninstall, and inspect **NeuralModifier** bundles. The
+browser-driven surface for the genome system; the path of least
+resistance for everyday bundle operations.
+
 ## N
+
+**NeuralModifier** — Are-Self's formal name for an installable extension
+bundle. Synonym for **Bundle**. Tracked as a Django model row in the
+`neuroplasticity` app; carries the bundle's slug, version, manifest hash,
+and status (AVAILABLE, INSTALLED, BROKEN). See also **Genome**, **Modifier
+Garden**.
 
 **Neural Pathway** — In Are-Self, a directed graph of neurons connected
 by axons, built in the CNS Editor. Spike trains flow through neural
@@ -155,6 +185,13 @@ pathways to accomplish work.
 **Neuron** — In biology, a nerve cell. In Are-Self, a single processing
 node in a neural pathway — it receives axoplasm, does work (reasoning,
 tool use, memory lookup), and sends results down its output axons.
+
+**Neurotransmitter** — Are-Self's metaphor for typed real-time event
+signals fired through the **Synaptic Cleft**. Five types: **Dopamine**
+(success), **Cortisol** (errors), **Acetylcholine** (data sync),
+**Glutamate** (streaming data), **Norepinephrine** (monitoring and
+heartbeats). The frontend subscribes to neurotransmitter events and
+reacts without polling.
 
 ## O
 
@@ -214,6 +251,13 @@ speaking order. Purpose: facilitate the removal of blockages. From
 **Spike Train** — In neuroscience, a sequence of action potentials fired
 by a neuron. In Are-Self, the sequence of data packets (axoplasm) flowing
 through a neural pathway as it executes.
+
+**Synaptic Cleft** — In biology, the tiny gap between two neurons where
+signals jump across using neurotransmitters. In Are-Self, the
+`synaptic_cleft` Django app — the real-time event bus built on Django
+Channels (WebSocket). Replaces polling entirely: the frontend reacts to
+typed **Neurotransmitter** events whenever the backend says something
+changed.
 
 ## T
 

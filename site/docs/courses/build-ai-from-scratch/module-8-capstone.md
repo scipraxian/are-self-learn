@@ -168,3 +168,31 @@ answering:
 
 That reflection is the real deliverable. The model is the proof you
 did the work. The reflection is what the work produced in *you*.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this capstone is the **composition
+modifier** named `bafs-pathway-composition`
+(`neuroplasticity/genomes/bafs-pathway-composition.zip`). It is what
+turns the seven module-modifiers above into a working
+NeuralPathway: it ships the `BuildTinyTransformer` pathway fixture
+and depends on `bafs-tokenizer`, `bafs-embeddings`, `bafs-attention`,
+`bafs-transformer-block`, `bafs-tiny-model`, `bafs-training-loop`,
+and `bafs-data` via the Modifier Garden's `requires` field.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/bafs-pathway-composition.zip` |
+| Registers | `BuildTinyTransformer` NeuralPathway fixture (Neurons + Axons + EffectorContext defaults) |
+| Requires | All seven `bafs-*` module modifiers from this course |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/bafs-pathway-composition.zip")` |
+| Screenshot | *Modifier Garden after full install (eight bundles ENABLED) — captured during play-through.* |
+
+When all eight modifiers are installed and ENABLED, the
+[BuildTinyTransformer pathway](./pathway) runs end-to-end. Firing
+its Begin Play Neuron triggers the full pipeline: train tokenizer,
+tokenize corpus, init model, train, evaluate, record outcome.
+
+This is what completing this course produces. Not a trained model
+you keep on disk — a modifier garden of eight bundles that, together,
+add the *capability to train tiny transformers* to your Are-Self.

@@ -237,3 +237,25 @@ The math you have just seen is the data model for that table.
    words what this means about the edge.
 
 Module 3 is where you start walking the graph.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `gsc-edges-and-types`
+(`neuroplasticity/genomes/gsc-edges-and-types.zip`). It adds the
+typed-edge primitives — the `EdgeType` enum (TEMPORAL, CAUSAL,
+CONTRADICTS, ELABORATES, GENERALIZES, CLUSTERS), the `TypedEdge`
+dataclass (with hyperedge support), and the `TypedGraph` extension —
+to your Are-Self instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/gsc-edges-and-types.zip` |
+| Registers | `EdgeType` enum; `TypedEdge` dataclass; `TypedGraph` (importable); `mcp_typed_edge_summary` Parietal tool |
+| Requires | `gsc-graphs-101` |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/gsc-edges-and-types.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. Modules 3
+(graph algorithms) and 5 (consolidation) both depend on the
+typed-edge primitives this modifier provides.

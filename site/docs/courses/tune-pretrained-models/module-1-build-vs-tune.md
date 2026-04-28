@@ -207,3 +207,25 @@ shipping that bad fine-tune.
 
 If you are convinced that fine-tuning is the right answer for *your*
 problem, go to Module 2 and start by loading a checkpoint.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `tune-decision-rubric`
+(`neuroplasticity/genomes/tune-decision-rubric.zip`). It adds a
+build-vs-tune decision-rubric Parietal tool to your Are-Self
+instance — Identities can call it during reasoning to score a
+problem against the five-step decision tree before recommending
+fine-tuning.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/tune-decision-rubric.zip` |
+| Registers | `mcp_build_vs_tune_score` Parietal tool |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/tune-decision-rubric.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) calls this tool early in any tuning
+NeuralPathway to gate whether the rest of the pipeline should
+execute at all.

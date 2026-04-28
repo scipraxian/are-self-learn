@@ -288,3 +288,39 @@ how to put it in software. That is rare.
   ([`pathway.md`](./pathway)) is the spec to follow.
 
 The migration is in flight. There is room to contribute.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is the most
+*infrastructural* modifier in the course — `gsc-implementation`
+(`neuroplasticity/genomes/gsc-implementation.zip`). It ships the
+`EngramEdge` schema migration, the typed-edge API extensions to
+the Hippocampus, and the synchronous edge-extraction Effector that
+fires on every `save_engram` call.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/gsc-implementation.zip` |
+| Registers | `EngramEdge` Django model + migration; `extract_edges_on_save` Effector (synchronous, hooks `Engram.save`); typed-engram-search API extensions; admin pages for edge inspection |
+| Requires | `gsc-edges-and-types` |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/gsc-implementation.zip")` |
+| Screenshot | *Modifier Garden after install + Django admin showing the new EngramEdge table populated by edge extraction — captured during play-through.* |
+
+This modifier is the **first dependency** of the course-level
+[consolidation pathway](./pathway). Until it ships and the
+`EngramEdge` migration runs, the consolidation Effectors from
+Module 5 have nothing to write to. It is also the modifier that
+makes the *Hippocampus Hypergraph Migration* paper a real
+implementation rather than a proposal — the schema in this bundle
+*is* the migration.
+
+A composition modifier (`gsc-pathway-composition`) wraps the
+`HippocampalConsolidation` pathway fixture and depends on all six
+module modifiers via the Modifier Garden's `requires` field. When
+all six (plus the composition) are installed and ENABLED, the
+pathway runs end-to-end during the `Sleeping` shift of an iteration.
+
+This is what completing this course produces: the *capability for
+typed-edge memory and offline consolidation* — the implementation
+of the migration paper's future-work section — added to your
+Are-Self instance as six composable bundles plus a composition.

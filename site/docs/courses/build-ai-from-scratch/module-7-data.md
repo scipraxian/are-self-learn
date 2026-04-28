@@ -196,3 +196,21 @@ sound like you. This is a feature.
 
 Module 8 is the capstone — train your own tiny model and generate
 samples.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `bafs-data` (`neuroplasticity/genomes/bafs-data.zip`).
+It adds the corpus-tokenization-to-disk Effector and the
+streaming dataloader to your Are-Self instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/bafs-data.zip` |
+| Registers | `tokenize_corpus_to_bin` Effector; `make_token_stream_loader` Effector |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/bafs-data.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) wires the Effectors registered here into
+the rest of the build pipeline.

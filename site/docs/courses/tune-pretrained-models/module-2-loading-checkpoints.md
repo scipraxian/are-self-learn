@@ -244,3 +244,22 @@ model the same way it routes to a remote API.
    what techniques (to be covered in Modules 4–5) address it?
 
 Onward — let's see what the model already knows.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `tune-load-checkpoint`
+(`neuroplasticity/genomes/tune-load-checkpoint.zip`). It adds the
+ability to load Llama-family checkpoints from local
+safetensors files into a transformer architecture you control.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/tune-load-checkpoint.zip` |
+| Registers | `load_safetensors_checkpoint` Effector; `verify_checkpoint_load` Effector; `LlamaLikeTransformer` reference architecture (importable) |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/tune-load-checkpoint.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) wires the Effector registered here into
+the start of the tuning pipeline.

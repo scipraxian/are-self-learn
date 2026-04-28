@@ -275,3 +275,27 @@ Module 5.
    bounded to what depth, with what edge type filter?
 
 Module 4 is where you look at the graph as a brain.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `gsc-graph-algorithms`
+(`neuroplasticity/genomes/gsc-graph-algorithms.zip`). It adds the
+type-aware traversal and clustering primitives — BFS, DFS,
+Dijkstra, Louvain — to your Are-Self instance, exposed as both
+Effectors (for pathway use) and Parietal tools (for Identity use
+during reasoning).
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/gsc-graph-algorithms.zip` |
+| Registers | `bfs_typed`, `dfs_typed`, `dijkstra_strongest_path`, `run_louvain` Effectors; `mcp_graph_expand`, `mcp_causal_chain`, `mcp_cluster_of` Parietal tools |
+| Requires | `gsc-edges-and-types` |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/gsc-graph-algorithms.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) calls `run_louvain` during
+consolidation Phase 4. The Parietal tools are usable by Identities
+in waking reasoning sessions, independent of the consolidation
+pathway.

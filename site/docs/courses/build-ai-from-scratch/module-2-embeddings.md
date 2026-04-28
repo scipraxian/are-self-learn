@@ -182,3 +182,21 @@ embeddings and got compressed by a transformer.
    slower, what stays the same?
 
 If those land cleanly, on to attention.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `bafs-embeddings` (`neuroplasticity/genomes/bafs-embeddings.zip`).
+It adds the token-and-position embedding builder to your Are-Self
+instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/bafs-embeddings.zip` |
+| Registers | `build_token_position_embedding` Effector |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/bafs-embeddings.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) wires the Effector registered here into
+the rest of the build pipeline.

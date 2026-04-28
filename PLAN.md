@@ -493,15 +493,36 @@ The linter validates:
 All fourteen courses planned so far. Each is a folder. Each gets its own
 frontmatter, its own template instantiation, its own page under `/learn`.
 
-**The pathway-companion pattern.** Three of the courses (Build AI From
-Scratch, Tune Pretrained Models, Graphs and Sleep Consolidation) ship
-with a `pathway.md` companion document — a NeuralPathway specification
-that mirrors the course's content as an executable graph of Effectors
-inside Are-Self. Course = teaching version. Pathway = machine version.
-Same eight (or six) operations described two ways. The pattern was
-introduced 2026-04-28; future implementation-heavy courses should
-follow it. The pathway specs are implementation-ready; the Effectors
-themselves live in `are-self-api/` and are P2 work tracked separately.
+**The module-modifier + course-pathway pattern (refined 2026-04-28).**
+Three of the courses (Build AI From Scratch, Tune Pretrained Models,
+Graphs and Sleep Consolidation) ship as sets of **NeuralModifier
+bundles** — one installable bundle per course module
+(`<course-prefix>-<module-slug>`), each one registering the Effectors,
+Parietal tools, Log parsers, or Environments that its module's
+content produces. A learner who completes a course ends up with a
+modifier garden of N bundles installed (one per module) plus a
+**composition modifier** (`<course-prefix>-pathway-composition`)
+that depends on the N module bundles via the Modifier Garden's
+`requires` field and ships the course-level NeuralPathway fixture
+that wires the registered Effectors together. Course = teaching
+script. Module = unit of installable capability. Composition modifier
+= the assembly. Pathway = the executable graph that the composition
+ships. Each module's `## Module Genome — Neural Modifier` section
+captures bundle name, registered contributions, install command, and
+a screenshot slot for the play-through capture.
+
+**Production workflow.** The first version of each modifier is
+produced by Michael's manual play-through of the course in his own
+Are-Self instance — using the Modifier Garden UI, capturing
+screenshots, refining the bundle's contributions as edge cases
+surface during install. The are-self.mcp could in principle generate
+the modifiers programmatically, and may become useful later for
+maintenance and CI (regenerating modifiers when the
+`are-self-api` schema evolves, packing in CI, etc.) — but for the
+first ship, manual play-through is correct because the screenshots
+are pedagogically load-bearing and human play-through is what
+catches edge cases an MCP-driven generation would silently paper
+over.
 
 **Sovereignty stance for the AI courses.** The two AI-engineering
 courses (#12, #13) explicitly avoid HuggingFace as a runtime
@@ -525,9 +546,9 @@ checkpoints and write LoRA wrappers themselves.
 | 9 | Python Intermediate | Self-learner | Medium | Same angle, harder problems. |
 | 10 | Python Advanced | Self-learner | Medium | Same angle, production concerns. |
 | 11 | Unreal Engine: Don't Make These Mistakes | Hobbyist / Game Dev | Medium | The "landmines" format. Novel genre. Reusable chapter template — every advanced course may include a `landmines` chapter. |
-| 12 | Build an AI From Scratch | Self-learner / University | High — sovereignty + reviewer-trust | 8 modules, self-paced. nanoGPT arc: tokenizer → embeddings → attention → transformer block → tiny model → training → data → capstone. PyTorch only, no HuggingFace, no hub dependencies. Ships with a `pathway.md` companion (NeuralPathway: `BuildTinyTransformer`). Prereqs: *What Is AI*, *Python Intermediate*. |
-| 13 | Tune Pretrained Models | Self-learner / Corporate | High — practical complement to #12 | 8 modules, self-paced. Build vs tune decision → load checkpoints → baseline eval → LoRA from scratch → fine-tune loop → eval → serve → capstone. PyTorch only, NO HuggingFace runtime dependency. Sovereignty stance: download base weights from stable open sources (Meta, Mistral, Microsoft Phi, Allen AI OLMo) once, never depend on a hub. Ships with `pathway.md` companion (NeuralPathway: `TunePretrainedModel`, includes a CONDITIONAL axon that gates Hypothalamus registration on eval quality). Prereq: course #12 (so we can dispense with HF entirely). |
-| 14 | Graphs and Sleep Consolidation | Self-learner / University / Hobbyist | High — strongest Are-Self differentiator + research-curriculum bridge | 6 modules, self-paced. Graphs 101 → typed edges + hypergraphs → graph algorithms → brain-as-graph → sleep consolidation → Are-Self implementation. Anchored to the *Hippocampus Hypergraph Migration* paper (Frerichs/Clark, U. Pittsburgh). Ships with `pathway.md` companion (NeuralPathway: `HippocampalConsolidation`, the executable form of the paper's future-work section). Prereq: *What Is AI*. |
+| 12 | Build an AI From Scratch | Self-learner / University | High — sovereignty + reviewer-trust | 8 modules, self-paced. nanoGPT arc: tokenizer → embeddings → attention → transformer block → tiny model → training → data → capstone. PyTorch only, no HuggingFace, no hub dependencies. Ships as 7 module modifiers (`bafs-tokenizer`, `bafs-embeddings`, `bafs-attention`, `bafs-transformer-block`, `bafs-tiny-model`, `bafs-training-loop`, `bafs-data`) + composition modifier (`bafs-pathway-composition`) wiring the `BuildTinyTransformer` NeuralPathway. Prereqs: *What Is AI*, *Python Intermediate*. |
+| 13 | Tune Pretrained Models | Self-learner / Corporate | High — practical complement to #12 | 8 modules, self-paced. Build vs tune decision → load checkpoints → baseline eval → LoRA from scratch → fine-tune loop → eval → serve → capstone. PyTorch only, NO HuggingFace runtime dependency. Sovereignty stance: download base weights from stable open sources (Meta, Mistral, Microsoft Phi, Allen AI OLMo) once, never depend on a hub. Ships as 7 module modifiers (`tune-decision-rubric`, `tune-load-checkpoint`, `tune-eval-harness`, `tune-lora`, `tune-fine-tune-loop`, `tune-eval-compare`, `tune-serve`) + composition modifier (`tune-pathway-composition`) wiring the `TunePretrainedModel` NeuralPathway with a CONDITIONAL axon that gates Hypothalamus registration on eval quality. Prereq: course #12 (so we can dispense with HF entirely). |
+| 14 | Graphs and Sleep Consolidation | Self-learner / University / Hobbyist | High — strongest Are-Self differentiator + research-curriculum bridge | 6 modules, self-paced. Graphs 101 → typed edges + hypergraphs → graph algorithms → brain-as-graph → sleep consolidation → Are-Self implementation. Anchored to the *Hippocampus Hypergraph Migration* paper (Frerichs/Clark, U. Pittsburgh). Ships as 6 module modifiers (`gsc-graphs-101`, `gsc-edges-and-types`, `gsc-graph-algorithms`, `gsc-brain-as-graph`, `gsc-consolidation`, `gsc-implementation`) + composition modifier (`gsc-pathway-composition`) wiring the `HippocampalConsolidation` NeuralPathway, the executable form of the paper's future-work section. The `gsc-implementation` modifier ships the `EngramEdge` schema migration itself. Prereq: *What Is AI*. |
 
 **Worksheets are always required.** Every lesson in every course has at
 least one interactive worksheet. This is a framework-level rule.

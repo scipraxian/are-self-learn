@@ -235,3 +235,23 @@ work.
    between the same pair of facts?
 
 Module 2 is where edges start to mean something.
+
+## Module Genome — Neural Modifier
+
+The runnable deliverable from this module is a **NeuralModifier**
+bundle named `gsc-graphs-101` (`neuroplasticity/genomes/gsc-graphs-101.zip`).
+It adds the basic untyped graph data model (the `Graph` dataclass
+plus `add_vertex` / `add_edge` / `neighbors` / `weight` helpers) as
+an importable module to your Are-Self instance.
+
+| Field | Value |
+|-------|-------|
+| Bundle | `neuroplasticity/genomes/gsc-graphs-101.zip` |
+| Registers | `Graph` dataclass (importable); `mcp_graph_inspect` Parietal tool |
+| Install via | `install_bundle_from_archive("neuroplasticity/genomes/gsc-graphs-101.zip")` |
+| Screenshot | *Modifier Garden after install — captured during play-through.* |
+
+This modifier composes with the others in the course. The course-
+level [pathway](./pathway) does not call it directly, but Module 2
+(`gsc-edges-and-types`) extends `Graph` into the typed-edge variant
+the rest of the pipeline needs.
