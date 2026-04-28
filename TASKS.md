@@ -3,7 +3,7 @@
 Work queue for the curriculum framework repo. See `PLAN.md` for the full
 planning context and `CLAUDE.md` for session continuity rules.
 
-Last updated: 2026-04-20.
+Last updated: 2026-04-28.
 
 ## Completed
 
@@ -163,6 +163,48 @@ Last updated: 2026-04-20.
 - [ ] Audit other courses' index.md for `rubrics_count` consistency
       once they're converted.
 
+### P1 — New courses (drafted 2026-04-28)
+
+- [x] **Build an AI From Scratch** (`courses/build-ai-from-scratch/`).
+      8 modules + pathway.md. Tokenizer through capstone, all in
+      PyTorch, no HuggingFace. Karpathy nanoGPT arc as the spine.
+      Prereqs: *What Is AI*, *Python Intermediate*. Sidebar registered;
+      landing-page card in place (Draft).
+- [x] **Tune Pretrained Models** (`courses/tune-pretrained-models/`).
+      8 modules + pathway.md. Build-vs-tune decision through capstone.
+      No HuggingFace runtime dependency — sovereignty stance baked
+      into every module. Prereq: course above. Sidebar + landing card.
+- [x] **Graphs and Sleep Consolidation** (`courses/graphs-and-sleep-consolidation/`).
+      6 modules + pathway.md. Anchored to the Hippocampus Hypergraph
+      Migration paper (Frerichs/Clark). Sidebar + landing card.
+- [x] Add `course-card__badge--draft` style to `site/src/css/custom.css`
+      (cyan tone) so the new courses' Draft badges render correctly.
+
+### P2 — Pathway implementations (cross-repo, blocked on `are-self-api`)
+
+Each of the three new courses ships with a `pathway.md` companion
+specifying a NeuralPathway. The pathway specs are implementation-
+ready; the actual Effectors and fixtures live in `are-self-api`.
+
+- [ ] **`BuildTinyTransformer` pathway**. Implement five new Effectors
+      under `central_nervous_system/effectors/build_from_scratch/`;
+      add an Environment with PyTorch in its requirements; ship a
+      genome fixture creating the NeuralPathway, Neurons, and Axons.
+      Roughly one engineering week.
+- [ ] **`TunePretrainedModel` pathway**. Six new Effectors under
+      `central_nervous_system/effectors/tune_pretrained/`; reuse the
+      PyTorch Environment from above; add a `services/` region (or
+      equivalent) for the long-lived serve process; ship a genome
+      fixture. CONDITIONAL axon predicate enforces eval quality bar
+      before catalog registration. Roughly two engineering weeks
+      (the `services/` region is the unknown).
+- [ ] **`HippocampalConsolidation` pathway**. Hardest of the three —
+      blocks on the `EngramEdge` schema migration in
+      `are-self-api/hippocampus`, which itself blocks on Frerichs/
+      Clark paper finalization. Once the schema lands, seven new
+      Effectors implement the consolidation cycle. Coordinate with
+      Samuel Frerichs.
+
 ### P2 — Remaining courses (in rough order)
 
 - [ ] Small Business Training.
@@ -211,5 +253,15 @@ Last updated: 2026-04-20.
 - **SDCC 2026** is the hard deadline for booth-ready visuals.
 - **UCSD Dean of Neuroscience** review is the quality bar for HS Bio.
 - **MIT license.** Not revisited.
+- **Pathway-companion pattern (introduced 2026-04-28).** Three courses
+  now ship with a `pathway.md` companion that mirrors the course as
+  an executable NeuralPathway in Are-Self. Future implementation-heavy
+  courses should follow the pattern. Course = teaching version,
+  pathway = machine version, same operations described two ways.
+- **Sovereignty stance for the AI courses.** No HuggingFace runtime
+  dependency. PyTorch the library is fine; HuggingFace Hub is not. The
+  reasoning lives in each course's index — autonomy, dependency surface,
+  educational dilution. Hold this line on future tuning/training
+  courses unless Michael explicitly revises.
 - If you are Claude and you are reading this after a context compression,
   re-read `CLAUDE.md` and `PLAN.md` before touching anything.

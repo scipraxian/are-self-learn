@@ -490,8 +490,27 @@ The linter validates:
 
 ## The course catalog (current scope)
 
-All eleven courses planned so far. Each is a folder. Each gets its own
+All fourteen courses planned so far. Each is a folder. Each gets its own
 frontmatter, its own template instantiation, its own page under `/learn`.
+
+**The pathway-companion pattern.** Three of the courses (Build AI From
+Scratch, Tune Pretrained Models, Graphs and Sleep Consolidation) ship
+with a `pathway.md` companion document — a NeuralPathway specification
+that mirrors the course's content as an executable graph of Effectors
+inside Are-Self. Course = teaching version. Pathway = machine version.
+Same eight (or six) operations described two ways. The pattern was
+introduced 2026-04-28; future implementation-heavy courses should
+follow it. The pathway specs are implementation-ready; the Effectors
+themselves live in `are-self-api/` and are P2 work tracked separately.
+
+**Sovereignty stance for the AI courses.** The two AI-engineering
+courses (#12, #13) explicitly avoid HuggingFace as a runtime
+dependency. PyTorch the library stays; HuggingFace Hub does not.
+Reasoning is in each course's index — autonomy, dependency surface,
+and educational dilution. Course #13 dispenses with HF entirely
+because course #12 is a prereq, so students already know how to load
+checkpoints and write LoRA wrappers themselves.
+
 
 | # | Course | Audience | Priority | Notes |
 |---|---|---|---|---|
@@ -506,6 +525,9 @@ frontmatter, its own template instantiation, its own page under `/learn`.
 | 9 | Python Intermediate | Self-learner | Medium | Same angle, harder problems. |
 | 10 | Python Advanced | Self-learner | Medium | Same angle, production concerns. |
 | 11 | Unreal Engine: Don't Make These Mistakes | Hobbyist / Game Dev | Medium | The "landmines" format. Novel genre. Reusable chapter template — every advanced course may include a `landmines` chapter. |
+| 12 | Build an AI From Scratch | Self-learner / University | High — sovereignty + reviewer-trust | 8 modules, self-paced. nanoGPT arc: tokenizer → embeddings → attention → transformer block → tiny model → training → data → capstone. PyTorch only, no HuggingFace, no hub dependencies. Ships with a `pathway.md` companion (NeuralPathway: `BuildTinyTransformer`). Prereqs: *What Is AI*, *Python Intermediate*. |
+| 13 | Tune Pretrained Models | Self-learner / Corporate | High — practical complement to #12 | 8 modules, self-paced. Build vs tune decision → load checkpoints → baseline eval → LoRA from scratch → fine-tune loop → eval → serve → capstone. PyTorch only, NO HuggingFace runtime dependency. Sovereignty stance: download base weights from stable open sources (Meta, Mistral, Microsoft Phi, Allen AI OLMo) once, never depend on a hub. Ships with `pathway.md` companion (NeuralPathway: `TunePretrainedModel`, includes a CONDITIONAL axon that gates Hypothalamus registration on eval quality). Prereq: course #12 (so we can dispense with HF entirely). |
+| 14 | Graphs and Sleep Consolidation | Self-learner / University / Hobbyist | High — strongest Are-Self differentiator + research-curriculum bridge | 6 modules, self-paced. Graphs 101 → typed edges + hypergraphs → graph algorithms → brain-as-graph → sleep consolidation → Are-Self implementation. Anchored to the *Hippocampus Hypergraph Migration* paper (Frerichs/Clark, U. Pittsburgh). Ships with `pathway.md` companion (NeuralPathway: `HippocampalConsolidation`, the executable form of the paper's future-work section). Prereq: *What Is AI*. |
 
 **Worksheets are always required.** Every lesson in every course has at
 least one interactive worksheet. This is a framework-level rule.

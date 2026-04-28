@@ -124,7 +124,7 @@ reviewers. It is NOT primarily read by developers. The README, PLAN,
 and landing page should be welcoming to non-developers. The Django
 driver and linter are internal.
 
-## Current status (2026-04-20)
+## Current status (2026-04-28)
 
 - Repo scaffolded: README, CLAUDE, TASKS, PLAN, tags.yaml all in place.
 - `_template/` created with full course template (index, week-N,
@@ -142,7 +142,7 @@ driver and linter are internal.
 - HS Bio course skeleton complete: `courses/hs-bio-brain/` with index,
   6 week files (30 days), 30 worksheets, rubrics, lab protocols, sidebar
   registered. UCSD-pitch ready.
-- 12 courses total now in the catalog, all with sidebar entries and
+- 15 courses total now in the catalog, all with sidebar entries and
   landing page cards:
   - 4th Grade Curriculum (elementary, 6 weeks)
   - Middle School Brain (grades 6-8, 6 weeks)
@@ -154,6 +154,18 @@ driver and linter are internal.
   - Corporate CI/CD: Neural Pathways (1 week intensive)
   - Hypothalamus Cost Management (2 weeks, corporate)
   - Agile / Experience Master (7 modules, for PMs and Workers)
+  - **Build an AI From Scratch** (8 modules + pathway, draft 2026-04-28) —
+    nanoGPT arc, PyTorch only, no HuggingFace
+  - **Tune Pretrained Models** (8 modules + pathway, draft 2026-04-28) —
+    LoRA from scratch, no HF runtime dependency, eval and serve
+  - **Graphs and Sleep Consolidation** (6 modules + pathway, draft
+    2026-04-28) — typed-edge hypergraphs, anchored to the Hippocampus
+    Hypergraph Migration paper (Frerichs/Clark)
+- **Pathway-companion pattern (2026-04-28).** Three new courses each
+  ship with a `pathway.md` companion — a NeuralPathway specification
+  that mirrors the course as an executable graph of Effectors. Course
+  = teaching version, pathway = machine version. The Effectors and
+  fixtures themselves are P2 work in `are-self-api`.
 - All courses have prerequisites cross-linked to other courses in catalog.
 - Landing page redesigned with glassmorphic course cards.
 - **Rubric system v1.5 locked (2026-04-20).** Three-file pattern per
@@ -166,8 +178,11 @@ driver and linter are internal.
   updated with canonical rules. See §"Rubric rules" above and
   PLAN.md §"The rubric system (v1.5 — locked 2026-04-20)".
 - **Next:** Apply the v1.5 three-file rubric pattern to the remaining
-  11 courses. Build verification, linter (P3), NanoBanana diagram,
+  14 courses. Build verification, linter (P3), NanoBanana diagram,
   Unreal Engine course (waiting for Michael), Small Business (TBD).
+  Cross-repo: implement the three new pathways' Effectors and
+  fixtures in `are-self-api` (P2, see TASKS.md §"P2 — Pathway
+  implementations").
 
 ## Scipraxianism
 

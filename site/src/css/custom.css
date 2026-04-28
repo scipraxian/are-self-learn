@@ -975,6 +975,12 @@ a.course-card:hover h3 {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.course-card__badge--draft {
+  background: rgba(6, 182, 212, 0.12);
+  color: var(--ifm-color-primary-light);
+  border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
 .course-card__meta {
   display: flex;
   flex-wrap: wrap;
