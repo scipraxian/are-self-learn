@@ -48,6 +48,29 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      // Local, offline, no-Algolia search. Builds a Lunr index at
+      // build time and renders a search box in the navbar.
+      // Mirrors the search wired into are-self-docs. The docs preset
+      // here uses routeBasePath: '/', so docsRouteBasePath is '/'.
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: true,
+        docsRouteBasePath: '/',
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchBarShortcut: true,
+        searchBarShortcutHint: true,
+      }),
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
