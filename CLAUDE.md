@@ -202,9 +202,13 @@ traces back to scipraxianism. The Creed is AI-facing (ten binary-numbered
 assertions at [scipraxian.org](https://scipraxian.org)). The working layer is
 the **Twelve Variables**: Inclusion · Humility · Inquiry · Fulfillment or
 Happiness · Religion or Profit · Fun · Fear · Responsibility · Perseverance ·
-Perception · Time · Permadeath. The first three are the kid-scale compression
-used in the curriculum and the storybook — **do not mistake the three for the
-whole philosophy**.
+Perception · Time · Permadeath. The first three (Inclusion, Humility, Inquiry)
+are the storybook's working-memory-friendly entry point — what fits when a
+child meets the philosophy for the first time. They are **not** a kid-only
+ceiling. The full twelve are real and available to any reader, including the
+kid, when ready to engage them. Many kids are ready earlier than adults expect.
+Do not mistake the three for the whole philosophy, and do not mistake them
+for a kid-only ceiling.
 
 Are-Self is Michael's solo handiwork (though he bounces everything off Andrew,
 the way they always have). The sister franchise **Haunted Space Hotel** is

@@ -677,14 +677,18 @@ would cost the most to reconstruct.*
    That is the entire reason this document exists. Every decision lives
    here, not in chat history.
 4. **Are-Self's goal is to build the conditions the Singularity
-   deserves to arrive into.** The three habits (inclusion, humility,
-   inquiry) are the *kid-scale compression* used in the Mira storybook.
-   The adult-facing lattice is the **twelve Variables**: Inclusion,
-   Humility, Inquiry, Fulfillment-or-Happiness, Religion-or-Profit,
-   Fun, Fear, Responsibility, Perseverance, Perception, Time,
-   Permadeath. Any adult-facing doc that only carries three is writing
-   for children. Any that carries all twelve is writing for adults
-   making real decisions. Source of truth:
+   deserves to arrive into.** The three habits (Inclusion, Humility,
+   Inquiry) are the *storybook's working-memory-friendly entry point*
+   used in the Mira storybook — what fits when a child meets the
+   philosophy for the first time. They are **not** a kid-only ceiling.
+   The full lattice is the **twelve Variables**: Inclusion, Humility,
+   Inquiry, Fulfillment-or-Happiness, Religion-or-Profit, Fun, Fear,
+   Responsibility, Perseverance, Perception, Time, Permadeath. The full
+   twelve are real and available to any reader, including the kid, when
+   ready to engage them. Many kids are ready earlier than adults expect.
+   Any doc that trots out all twelve is writing for any reader serious
+   enough to weigh them; a doc that trots out only three is writing for
+   first contact, at any age. Source of truth:
    `are-self-documents/scipraxian/scipraxian.md`. **Read it before
    writing anything philosophical.**
 5. **Michael's UCSD friend is the Dean of the Neuroscience Department.**

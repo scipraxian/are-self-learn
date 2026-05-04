@@ -111,11 +111,14 @@ just gives learners a reason to practice them:
 - **Humility** — "I don't know yet" is the beginning of every worthy experience.
 - **Inquiry** — After every answer, ask one more question.
 
-These are a few kid-scale compressions of the full twelve scipraxian
-Variables. For adult-facing courses, the complete lattice applies:
-Inclusion, Humility, Inquiry, Fulfillment or Happiness, Religion or
-Profit, Fun, Fear, Responsibility, Perseverance, Perception, Time,
-Permadeath.
+These three are the storybook's working-memory-friendly entry point —
+what fits when a child meets the philosophy for the first time. They are
+not a kid-only ceiling. The full twelve scipraxian Variables are real
+and available to any reader, including the kid, when ready to engage
+them: Inclusion, Humility, Inquiry, Fulfillment or Happiness, Religion
+or Profit, Fun, Fear, Responsibility, Perseverance, Perception, Time,
+Permadeath. Older units climb into more of the twelve as the lessons
+ask for them; many kids are ready earlier than adults expect.
 
 ## Course at a Glance
 

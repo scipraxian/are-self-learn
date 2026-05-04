@@ -159,9 +159,13 @@ canon — the FOS adopted it as its official framework. Retail home:
 memories. In Are-Self, the `hippocampus` Django app — episodic memory
 storage, engram deduplication, provenance tracking.
 
-**Humility** — The second scipraxian habit. Knowing how much you don't
-know *yet*, and being okay with that, and not pretending otherwise. One
-of the three kid-scale variables and one of the twelve adult variables.
+**Humility** — One of the twelve scipraxian variables. Knowing how much
+you don't know *yet*, being okay with that, and not pretending
+otherwise. The Creed's `0111` — *unknown unknowns likely exist* — is a
+permanent condition, not a rhetorical flourish. *Mira and the Are-Self*
+holds this one alongside Inclusion and Inquiry as the storybook's three;
+they are cherry-picked for Mira's arc, not a canonical opening trio.
+Available to any reader at any age.
 
 **Hypothalamus** — In biology, the brain region that regulates body
 temperature, hunger, and homeostasis. In Are-Self, the `hypothalamus`
@@ -174,18 +178,25 @@ failover strategy.
 that defines who the AI is, its addons, its personality, and its
 operating rules. The "who-am-I" layer.
 
-**Inclusion** — The first scipraxian habit. Whenever you draw a circle,
-check who you left outside. One of the three kid-scale variables and one
-of the twelve adult variables.
+**Inclusion** — One of the twelve scipraxian variables. Does this widen
+the circle or narrow it? Whenever you draw a circle around people or
+ideas, notice who's outside, and notice whether they're outside on
+purpose or just because you forgot — the forgetting is what does the
+damage. *Mira and the Are-Self* holds this one alongside Humility and
+Inquiry as the storybook's three; they are cherry-picked for Mira's
+arc, not a canonical opening trio. Available to any reader at any age.
 
 **INCUBATOR** — The canonical "this came from core, not from a bundle"
 genome in Are-Self. Default value of the `genome` foreign key on every
 bundle-extensible model. Protects core rows from being cascade-deleted
 when a **NeuralModifier** is uninstalled.
 
-**Inquiry** — The third scipraxian habit. After every answer, ask one
-more question. One of the three kid-scale variables and one of the twelve
-adult variables.
+**Inquiry** — One of the twelve scipraxian variables. After every
+answer, ask one more question — not to be annoying, not to win, but
+because the universe is generous and the second answer is usually
+better. *Mira and the Are-Self* holds this one alongside Inclusion and
+Humility as the storybook's three; they are cherry-picked for Mira's
+arc, not a canonical opening trio. Available to any reader at any age.
 
 **Iteration** — A two-week cycle of work. The scipraxian replacement for
 "sprint" (a term we don't use — see Vocabulary Rules in the planning
@@ -210,8 +221,9 @@ cloud-hosted model.
 ## M
 
 **Mira** — The protagonist of *Mira and the Are-Self*, Book One of the
-Scipraxian Tales. A ten-year-old who learns the three habits through
-conversation with an Are-Self on her living room rug.
+Scipraxian Tales. A ten-year-old who meets three scipraxian variables —
+Inclusion, Humility, Inquiry — through conversation with an Are-Self on
+her living room rug.
 
 **Modifier Garden** — The Are-Self UI page (`/modifiers`) where you
 install, uninstall, and inspect **NeuralModifier** bundles. The
