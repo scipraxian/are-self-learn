@@ -4,6 +4,7 @@ const sidebars = {
     'index',
     'glossary',
     'tags-reference',
+    'where-the-work-lives',
     {
       type: 'category',
       label: '4th Grade Curriculum',
