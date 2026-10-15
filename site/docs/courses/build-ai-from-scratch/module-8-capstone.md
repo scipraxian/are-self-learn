@@ -58,7 +58,7 @@ worth it for my use case" before stepping up to a bigger model.
 ### Project D — Are-Self Pathway
 
 Build the same model, but expose it as an Effector inside Are-Self.
-Use the pathway specified in [`pathway.md`](./pathway). The Frontal
+Use the pathway specified in [`pathway.md`](./pathway.md). The Frontal
 Lobe can now route certain low-cost requests to your local tiny
 model instead of an external LLM. The quality will be lower; the
 sovereignty and cost profile will be very different.
@@ -189,7 +189,7 @@ and `bafs-data` via the Modifier Garden's `requires` field.
 | Screenshot | *Modifier Garden after full install (eight bundles ENABLED) — captured during play-through.* |
 
 When all eight modifiers are installed and ENABLED, the
-[BuildTinyTransformer pathway](./pathway) runs end-to-end. Firing
+[BuildTinyTransformer pathway](./pathway.md) runs end-to-end. Firing
 its Begin Play Neuron triggers the full pipeline: train tokenizer,
 tokenize corpus, init model, train, evaluate, record outcome.
 

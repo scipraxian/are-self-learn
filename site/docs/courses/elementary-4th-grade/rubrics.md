@@ -8,11 +8,11 @@ version: v1.5
 
 ## How to Use These Rubrics
 
-Share the relevant rubric with learners at the start of each week. Use them formatively — comment on specific criteria while work is in progress, not just at the end. These are coaching aids, not grade sheets. The companion single-page aids live at [Course Rubric](./course-rubric) (course-scale) and [Lesson Rubric](./lesson-rubric) (day-scale).
+Share the relevant rubric with learners at the start of each week. Use them formatively — comment on specific criteria while work is in progress, not just at the end. These are coaching aids, not grade sheets. The companion single-page aids live at [Course Rubric](./course-rubric.md) (course-scale) and [Lesson Rubric](./lesson-rubric.md) (day-scale).
 
 These tables emphasize the core practices of Are-Self: asking better questions, thinking critically, iterating with feedback, and collaborating with AI as a partner.
 
-**Standards alignment.** The criteria in these rubrics align to 4th-grade Common Core (ELA W.4, Math 4.OA / 4.NBT / 4.NF / 4.MD, MP.1 / MP.3), NGSS (4-PS4, 4-ESS, SEP-1 / SEP-3 / SEP-4), and the C3 Social Studies framework (D1–D4). The full standards map lives on the [course index page](./) — kept there so the rubric cells themselves stay in plain language for learners, facilitators, and anyone else reading along.
+**Standards alignment.** The criteria in these rubrics align to 4th-grade Common Core (ELA W.4, Math 4.OA / 4.NBT / 4.NF / 4.MD, MP.1 / MP.3), NGSS (4-PS4, 4-ESS, SEP-1 / SEP-3 / SEP-4), and the C3 Social Studies framework (D1–D4). The full standards map lives on the [course index page](./index.md) — kept there so the rubric cells themselves stay in plain language for learners, facilitators, and anyone else reading along.
 
 **Ladder (0→5 is growth):** 0 Blank · 1 Term Recognition · 2 Limited Awareness · 3 Applicable Awareness · 4 Synergetic · 5 Instructor Level
 

@@ -225,5 +225,5 @@ tuned run record.
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 The output of this Effector is what the course-level
-[pathway](./pathway)'s CONDITIONAL axon evaluates to decide whether
+[pathway](./pathway.md)'s CONDITIONAL axon evaluates to decide whether
 the tuned model gets served and registered with the Hypothalamus.

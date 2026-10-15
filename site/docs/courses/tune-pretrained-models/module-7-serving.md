@@ -258,6 +258,6 @@ hook to your Are-Self instance.
 This modifier closes the loop. After it installs and the served
 model registers with the Hypothalamus, the Hypothalamus can route
 real requests to your locally-served fine-tune. The course-level
-[pathway](./pathway)'s `ServeAndRegister` Neuron calls this
+[pathway](./pathway.md)'s `ServeAndRegister` Neuron calls this
 Effector — but only when the CONDITIONAL axon predicate (Module 6's
 output) clears.

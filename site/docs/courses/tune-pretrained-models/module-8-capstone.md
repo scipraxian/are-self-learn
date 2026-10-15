@@ -188,7 +188,7 @@ NeuralPathway: it ships the `TunePretrainedModel` pathway fixture
 | Screenshot | *Modifier Garden after full install (eight bundles ENABLED) + a successful pathway run completing through `ServeAndRegister` — captured during play-through.* |
 
 When all eight modifiers are installed and ENABLED, the
-[TunePretrainedModel pathway](./pathway) runs end-to-end. Firing
+[TunePretrainedModel pathway](./pathway.md) runs end-to-end. Firing
 its Begin Play Neuron triggers: load checkpoint, evaluate baseline,
 inject LoRA, fine-tune, evaluate tuned, compare, conditionally
 serve and register, record outcome.

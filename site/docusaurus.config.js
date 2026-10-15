@@ -9,6 +9,8 @@ const config = {
 
   url: 'https://are-self.com',
   baseUrl: '/learn/',
+  // GitHub Pages 301s /x to /x/, so every URL we publish carries the slash.
+  trailingSlash: true,
 
   organizationName: 'scipraxian',
   projectName: 'are-self-learn',

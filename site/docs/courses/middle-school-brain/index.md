@@ -90,12 +90,12 @@ They don't memorize the list. They encounter the Variables when decisions demand
 
 | Week | Theme | Focus | Primary Variable |
 |------|-------|-------|------------------|
-| [Week 1](./week-1-meet-your-brain) | Meet Your Brain | Brain regions, AI introduction, first impressions | Humility |
-| [Week 2](./week-2-memory-and-identity) | Memory and Identity | Hippocampus, memory, the Identity system | Inquiry |
-| [Week 3](./week-3-thinking-and-feeling) | Thinking and Feeling | Frontal lobe, emotions, decision-making | Responsibility |
-| [Week 4](./week-4-staying-alive) | Staying Alive | Hypothalamus, homeostasis, resource management | Fear + Perseverance |
-| [Week 5](./week-5-talking-and-listening) | Talking and Listening | CNS, PNS, synapses, communication systems | Inclusion + Perception |
-| [Week 6](./week-6-capstone) | Where Does It Break? | Capstone: build an argument, present it | All twelve |
+| [Week 1](./week-1-meet-your-brain.md) | Meet Your Brain | Brain regions, AI introduction, first impressions | Humility |
+| [Week 2](./week-2-memory-and-identity.md) | Memory and Identity | Hippocampus, memory, the Identity system | Inquiry |
+| [Week 3](./week-3-thinking-and-feeling.md) | Thinking and Feeling | Frontal lobe, emotions, decision-making | Responsibility |
+| [Week 4](./week-4-staying-alive.md) | Staying Alive | Hypothalamus, homeostasis, resource management | Fear + Perseverance |
+| [Week 5](./week-5-talking-and-listening.md) | Talking and Listening | CNS, PNS, synapses, communication systems | Inclusion + Perception |
+| [Week 6](./week-6-capstone.md) | Where Does It Break? | Capstone: build an argument, present it | All twelve |
 
 ## What Students Will Be Able to Do
 

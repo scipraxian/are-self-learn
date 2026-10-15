@@ -39,18 +39,18 @@ Use these terms. They matter.
 
 | Module | Title | Focus |
 |--------|-------|-------|
-| [Module 1](./module-1-operating-system) | The Operating System | What Experience Master is, Iterations, the daily standup, the rhythm |
-| [Module 2](./module-2-definition-of-ready) | Definition of Ready | The six DoR fields and why each exists |
-| [Module 3](./module-3-definition-of-done) | Definition of Done | The three DoD conditions and why these three |
-| [Module 4](./module-4-ceremonies) | The Ceremonies | Sifting, Pre-Planning, Demo, Retrospective, One-on-One, Roundup |
-| [Module 5](./module-5-pm-vs-worker) | PM vs Worker | Two roles, clear responsibilities, the PM shield |
-| [Module 6](./module-6-agile-addon) | The Agile Addon | How Are-Self encodes Experience Master in software |
-| [Module 7](./module-7-applying-em) | Applying EM to Your Team | How to adopt Experience Master incrementally |
+| [Module 1](./module-1-operating-system.md) | The Operating System | What Experience Master is, Iterations, the daily standup, the rhythm |
+| [Module 2](./module-2-definition-of-ready.md) | Definition of Ready | The six DoR fields and why each exists |
+| [Module 3](./module-3-definition-of-done.md) | Definition of Done | The three DoD conditions and why these three |
+| [Module 4](./module-4-ceremonies.md) | The Ceremonies | Sifting, Pre-Planning, Demo, Retrospective, One-on-One, Roundup |
+| [Module 5](./module-5-pm-vs-worker.md) | PM vs Worker | Two roles, clear responsibilities, the PM shield |
+| [Module 6](./module-6-agile-addon.md) | The Agile Addon | How Are-Self encodes Experience Master in software |
+| [Module 7](./module-7-applying-em.md) | Applying EM to Your Team | How to adopt Experience Master incrementally |
 
 ## Prerequisites
 
 - **None for PMs and Workers learning the system.** No software development experience is required for Modules 1-5 and 7.
-- **For understanding the Agile Addon (Module 6):** [Python Intermediate](../python-intermediate/) recommended, as the module walks through Django model code and addon registry patterns.
+- **For understanding the Agile Addon (Module 6):** [Python Intermediate](../python-intermediate/index.md) recommended, as the module walks through Django model code and addon registry patterns.
 - Experience with any agile methodology (Scrum, Kanban, XP) is helpful but not required.
 
 ## What You Will Be Able to Do

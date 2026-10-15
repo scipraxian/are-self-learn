@@ -357,7 +357,7 @@ Each participant presents their strategy to the group. You have five to seven mi
 ### What Comes Next
 
 - **Advanced Hypothalamus Configuration** — custom selection strategies, multi-objective optimization, cost forecasting models
-- **Neural Pathways Training** — designing workflows that leverage the Hypothalamus for cost-aware AI integration (see the [CI/CD Training course](../corporate-ci-cd/))
+- **Neural Pathways Training** — designing workflows that leverage the Hypothalamus for cost-aware AI integration (see the [CI/CD Training course](../corporate-ci-cd/index.md))
 - **Identity and Budget Architecture** — designing budget hierarchies for complex organizational structures
 - **Cost Governance** — policies, audits, and compliance for AI spending
 

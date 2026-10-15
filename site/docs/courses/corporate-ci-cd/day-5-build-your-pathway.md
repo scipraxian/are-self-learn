@@ -150,7 +150,7 @@ Congratulations. You have designed, built, tested, and presented a Neural Pathwa
 ### What Comes Next
 
 - **Advanced Effector Development** — writing custom Effectors and registering them
-- **Hypothalamus Deep Dive** — model selection, budget management, and cost optimization (see the [AI Cost Management course](../corporate-ai-cost-management/))
+- **Hypothalamus Deep Dive** — model selection, budget management, and cost optimization (see the [AI Cost Management course](../corporate-ai-cost-management/index.md))
 - **Identity and Permissions** — controlling who can launch which Pathways with what budgets
 - **Pathway Composition** — Neurons that launch sub-Pathways, creating hierarchical workflows
 

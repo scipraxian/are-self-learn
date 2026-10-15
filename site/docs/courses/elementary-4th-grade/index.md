@@ -29,22 +29,22 @@ These come from the companion storybook *Mira and the Are-Self* (Book One of the
 
 | Week | Theme | Subject Focus | Scipraxian Habit |
 |------|-------|---------------|------------------|
-| [Week 1](./week-1-welcome) | Welcome to the Brain | Introduction & Orientation | All three |
-| [Week 2](./week-2-writing) | The Broken Toaster | Writing & Language Arts | Humility |
-| [Week 3](./week-3-math) | One More Question | Math & Problem Solving | Inquiry |
-| [Week 4](./week-4-science) | The Hippocampus Experiment | Science | Inquiry + Humility |
-| [Week 5](./week-5-social-studies) | The Circle That Kept Getting Bigger | Social Studies & History | Inclusion |
-| [Week 6](./week-6-capstone) | The Grid Is Free | Capstone Project | All three |
+| [Week 1](./week-1-welcome.md) | Welcome to the Brain | Introduction & Orientation | All three |
+| [Week 2](./week-2-writing.md) | The Broken Toaster | Writing & Language Arts | Humility |
+| [Week 3](./week-3-math.md) | One More Question | Math & Problem Solving | Inquiry |
+| [Week 4](./week-4-science.md) | The Hippocampus Experiment | Science | Inquiry + Humility |
+| [Week 5](./week-5-social-studies.md) | The Circle That Kept Getting Bigger | Social Studies & History | Inclusion |
+| [Week 6](./week-6-capstone.md) | The Grid Is Free | Capstone Project | All three |
 
 ## What You'll Find Here
 
-- **[Teacher Setup Guide](./teacher-setup)** — Get Are-Self running in your classroom. Written for non-technical teachers and IT volunteers. If your grandma could follow it, so can you.
-- **[Classroom Norms & Safety](./classroom-norms)** — How to introduce AI use to students, the three habits, and the ground rules that keep learning productive.
+- **[Teacher Setup Guide](./teacher-setup.md)** — Get Are-Self running in your classroom. Written for non-technical teachers and IT volunteers. If your grandma could follow it, so can you.
+- **[Classroom Norms & Safety](./classroom-norms.md)** — How to introduce AI use to students, the three habits, and the ground rules that keep learning productive.
 - **Weekly Lesson Plans** — Five days of activities per week, each with objectives, materials, procedures, differentiation, and assessment notes.
-- **[Rubrics](./rubrics)** — Standards-aligned rubrics for every major assignment, designed for 4th grade Common Core. Companion coaching aids: **[Course Rubric](./course-rubric)** (single-page, all subjects at a glance) and **[Lesson Rubric](./lesson-rubric)** (today's subjects + carry-forward).
-- **[Worksheets & Handouts](./worksheets)** — Printable student-facing materials for every week.
-- **[Parent/Guardian Letter](./parent-letter)** — A template letter explaining what Are-Self is, why you're using it, and why it's safe.
-- **[Administrator & IT Guide](./admin-guide)** — For principals, IT staff, and district leaders: privacy, compliance, and infrastructure.
+- **[Rubrics](./rubrics.md)** — Standards-aligned rubrics for every major assignment, designed for 4th grade Common Core. Companion coaching aids: **[Course Rubric](./course-rubric.md)** (single-page, all subjects at a glance) and **[Lesson Rubric](./lesson-rubric.md)** (today's subjects + carry-forward).
+- **[Worksheets & Handouts](./worksheets.md)** — Printable student-facing materials for every week.
+- **[Parent/Guardian Letter](./parent-letter.md)** — A template letter explaining what Are-Self is, why you're using it, and why it's safe.
+- **[Administrator & IT Guide](./admin-guide.md)** — For principals, IT staff, and district leaders: privacy, compliance, and infrastructure.
 
 ## What Students Will Be Able to Do
 

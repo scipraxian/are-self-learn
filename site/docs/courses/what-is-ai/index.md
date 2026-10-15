@@ -40,12 +40,12 @@ There are no quizzes, no deadlines, no certificates. This is learning for its ow
 
 | Module | Title | The Big Question |
 |--------|-------|-----------------|
-| [Module 1](./module-1-tokens) | Tokens | How does AI read your words? |
-| [Module 2](./module-2-models) | Models | What is a language model, and how does it think? |
-| [Module 3](./module-3-vectors) | Vectors | How does AI understand meaning? |
-| [Module 4](./module-4-training-and-inference) | Training and Inference | How does AI learn, and how does it answer? |
-| [Module 5](./module-5-datacenters) | Datacenters and Scale | Where does AI physically live? |
-| [Module 6](./module-6-business-models) | The Business Model | Who pays for all of this? |
+| [Module 1](./module-1-tokens.md) | Tokens | How does AI read your words? |
+| [Module 2](./module-2-models.md) | Models | What is a language model, and how does it think? |
+| [Module 3](./module-3-vectors.md) | Vectors | How does AI understand meaning? |
+| [Module 4](./module-4-training-and-inference.md) | Training and Inference | How does AI learn, and how does it answer? |
+| [Module 5](./module-5-datacenters.md) | Datacenters and Scale | Where does AI physically live? |
+| [Module 6](./module-6-business-models.md) | The Business Model | Who pays for all of this? |
 
 ## About Are-Self
 

@@ -68,11 +68,11 @@ This is a summer camp. Fun is the primary variable. If campers aren't having a g
 
 | Day | Title | What Happens |
 |-----|-------|-------------|
-| [Day 1](./day-1-whats-inside) | What's Inside Your Head? | Brain anatomy speed round, draw-your-brain, brain region bingo |
-| [Day 2](./day-2-can-computers-think) | Can Computers Think? | What AI really is, tokens explained with candy, live AI demo |
-| [Day 3](./day-3-memory-wars) | Memory Wars | Human vs. AI memory showdown, hippocampus deep dive |
-| [Day 4](./day-4-build-your-experiment) | Build Your Own AI Experiment | Campers design and run a test: what can brains do that AI can't? |
-| [Day 5](./day-5-show-and-tell) | Show and Tell + Big Questions | Presentations, class discussion, certificates, party |
+| [Day 1](./day-1-whats-inside.md) | What's Inside Your Head? | Brain anatomy speed round, draw-your-brain, brain region bingo |
+| [Day 2](./day-2-can-computers-think.md) | Can Computers Think? | What AI really is, tokens explained with candy, live AI demo |
+| [Day 3](./day-3-memory-wars.md) | Memory Wars | Human vs. AI memory showdown, hippocampus deep dive |
+| [Day 4](./day-4-build-your-experiment.md) | Build Your Own AI Experiment | Campers design and run a test: what can brains do that AI can't? |
+| [Day 5](./day-5-show-and-tell.md) | Show and Tell + Big Questions | Presentations, class discussion, certificates, party |
 
 ## What to Bring
 

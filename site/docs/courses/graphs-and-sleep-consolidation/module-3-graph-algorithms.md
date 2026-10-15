@@ -295,7 +295,7 @@ during reasoning).
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 This modifier composes with the others in the course. The course-
-level [pathway](./pathway) calls `run_louvain` during
+level [pathway](./pathway.md) calls `run_louvain` during
 consolidation Phase 4. The Parietal tools are usable by Identities
 in waking reasoning sessions, independent of the consolidation
 pathway.

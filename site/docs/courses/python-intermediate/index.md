@@ -20,7 +20,7 @@ This course engages several Variables from scipraxianism:
 
 ## Prerequisites
 
-- Completion of [Python Beginner](../python-beginner/) or equivalent experience. "Equivalent" means you are comfortable with: variables, data types, conditionals, functions, loops, lists, dictionaries, and file I/O.
+- Completion of [Python Beginner](../python-beginner/index.md) or equivalent experience. "Equivalent" means you are comfortable with: variables, data types, conditionals, functions, loops, lists, dictionaries, and file I/O.
 - Access to the Are-Self repository
 - Python 3.12+ and a text editor
 

@@ -228,5 +228,5 @@ in the rest of the course.
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 This modifier composes with the others in the course. It is
-optional for the [pathway](./pathway) to run, but useful for
+optional for the [pathway](./pathway.md) to run, but useful for
 Identities that want to reason about their own architecture.

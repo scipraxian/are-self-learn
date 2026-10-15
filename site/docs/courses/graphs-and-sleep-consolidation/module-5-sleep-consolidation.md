@@ -231,7 +231,7 @@ operations above are exactly the operations described in the
 *Hippocampus Hypergraph Migration* paper's "Future Work" section
 on sleep consolidation. The implementation will be a NeuralPathway
 called `HippocampalConsolidation` with one Neuron per phase — see
-[`pathway.md`](./pathway) for the spec.
+[`pathway.md`](./pathway.md) for the spec.
 
 The temporal trigger for the pathway will be a Temporal Lobe
 shift named `Sleeping`, which already exists in the iteration
@@ -280,6 +280,6 @@ seven phase Effectors that the consolidation pathway composes.
 | Screenshot | *Modifier Garden after install + a successful test run of the pathway against synthetic data — captured during play-through.* |
 
 This modifier provides the heart of the pathway. The course-level
-[pathway](./pathway) sequences the seven Effectors registered here
+[pathway](./pathway.md) sequences the seven Effectors registered here
 into the consolidation cycle that runs during the `Sleeping` shift
 of an Are-Self iteration.

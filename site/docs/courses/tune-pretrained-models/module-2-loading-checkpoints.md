@@ -261,5 +261,5 @@ safetensors files into a transformer architecture you control.
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 This modifier composes with the others in the course. The course-
-level [pathway](./pathway) wires the Effector registered here into
+level [pathway](./pathway.md) wires the Effector registered here into
 the start of the tuning pipeline.

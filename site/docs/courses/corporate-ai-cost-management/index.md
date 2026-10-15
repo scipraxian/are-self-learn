@@ -48,12 +48,12 @@ This course engages all twelve Variables, because money touches everything:
 
 | Week | Title | Focus |
 |------|-------|-------|
-| [Week 1](./week-1-biology-of-budgets) | The Biology of Budgets | Feedback loops, the Hypothalamus algorithm, budget systems, circuit breakers |
-| [Week 2](./week-2-operating-at-scale) | Operating at Scale | Vector routing, scar tissue, fleet economics, dashboards, capstone |
+| [Week 1](./week-1-biology-of-budgets.md) | The Biology of Budgets | Feedback loops, the Hypothalamus algorithm, budget systems, circuit breakers |
+| [Week 2](./week-2-operating-at-scale.md) | Operating at Scale | Vector routing, scar tissue, fleet economics, dashboards, capstone |
 
 ## Prerequisites
 
-- **None for Week 1.** Basic familiarity with AI concepts is helpful — the [What Is AI?](../what-is-ai/) course is a good starting point if the terminology is new to you.
+- **None for Week 1.** Basic familiarity with AI concepts is helpful — the [What Is AI?](../what-is-ai/index.md) course is a good starting point if the terminology is new to you.
 - No programming is required.
 - A running Are-Self instance (v6.x) with Hypothalamus app enabled
 - Django admin access with permission to modify AIModelPricing, IdentityBudget, and BudgetPeriod records

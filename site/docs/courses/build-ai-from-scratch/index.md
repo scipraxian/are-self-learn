@@ -68,14 +68,14 @@ introduce when we need it.
 
 | Module | Title | What You Build |
 |--------|-------|---------------|
-| [Module 1](./module-1-tokenizer) | Tokenizer From Scratch | A byte-pair-encoding tokenizer in pure Python |
-| [Module 2](./module-2-embeddings) | Embeddings and Positions | Token embeddings + positional encoding |
-| [Module 3](./module-3-attention) | Attention | Single-head attention, then multi-head |
-| [Module 4](./module-4-transformer-block) | The Transformer Block | Residuals, layer norm, MLP, the sandwich |
-| [Module 5](./module-5-tiny-model) | A Tiny Transformer | Assemble a 1–5M-parameter end-to-end model |
-| [Module 6](./module-6-training-loop) | Training Loop | Loss, optimizer, gradient accumulation, checkpoints |
-| [Module 7](./module-7-data) | Data | A small corpus, a real dataloader, and packing |
-| [Module 8](./module-8-capstone) | Capstone | Train your own tiny model on a corpus you chose |
+| [Module 1](./module-1-tokenizer.md) | Tokenizer From Scratch | A byte-pair-encoding tokenizer in pure Python |
+| [Module 2](./module-2-embeddings.md) | Embeddings and Positions | Token embeddings + positional encoding |
+| [Module 3](./module-3-attention.md) | Attention | Single-head attention, then multi-head |
+| [Module 4](./module-4-transformer-block.md) | The Transformer Block | Residuals, layer norm, MLP, the sandwich |
+| [Module 5](./module-5-tiny-model.md) | A Tiny Transformer | Assemble a 1–5M-parameter end-to-end model |
+| [Module 6](./module-6-training-loop.md) | Training Loop | Loss, optimizer, gradient accumulation, checkpoints |
+| [Module 7](./module-7-data.md) | Data | A small corpus, a real dataloader, and packing |
+| [Module 8](./module-8-capstone.md) | Capstone | Train your own tiny model on a corpus you chose |
 
 Every module ends with a runnable artifact. Every module's artifact
 becomes an ingredient in the next one. By Module 5 you assemble the
@@ -126,7 +126,7 @@ installable bundle per module (`bafs-tokenizer`, `bafs-embeddings`,
 (`bafs-pathway-composition`) that wires them into the
 `BuildTinyTransformer` neural pathway. See each module's "Module
 Genome — Neural Modifier" section for what its bundle registers,
-and the [pathway companion](./pathway) for how the eight modules
+and the [pathway companion](./pathway.md) for how the eight modules
 compose into an end-to-end pipeline you can run inside Are-Self.
 
 ## A Note on Difficulty

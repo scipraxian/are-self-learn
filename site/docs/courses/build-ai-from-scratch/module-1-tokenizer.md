@@ -226,5 +226,5 @@ It adds BPE tokenizer training to your Are-Self instance.
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 This modifier composes with the others in the course. The course-
-level [pathway](./pathway) wires the Effectors registered here into
+level [pathway](./pathway.md) wires the Effectors registered here into
 the rest of the build pipeline.

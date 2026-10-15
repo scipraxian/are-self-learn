@@ -317,5 +317,5 @@ formatted dataset loader to your Are-Self instance.
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 This modifier composes with the others in the course. The course-
-level [pathway](./pathway) calls `run_lora_fine_tune` after
+level [pathway](./pathway.md) calls `run_lora_fine_tune` after
 `inject_lora_adapters` and before the post-tune eval.

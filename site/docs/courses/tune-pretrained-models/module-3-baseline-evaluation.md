@@ -246,6 +246,6 @@ loaded model, save outputs as a run record for later comparison.
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 This modifier is used twice in the course-level
-[pathway](./pathway) — once to capture the baseline (before LoRA
+[pathway](./pathway.md) — once to capture the baseline (before LoRA
 injection) and once to capture the tuned-model's behavior (after
 fine-tuning). Module 6's modifier compares the two runs.

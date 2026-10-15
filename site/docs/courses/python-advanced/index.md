@@ -20,7 +20,7 @@ At this level, scipraxianism's Variables take on their deepest form:
 
 ## Prerequisites
 
-- Completion of [Python Intermediate](../python-intermediate/) or equivalent professional experience. "Equivalent" means you have a strong understanding of: object-oriented programming, inheritance, error handling, working with APIs, Django ORM basics, and testing.
+- Completion of [Python Intermediate](../python-intermediate/index.md) or equivalent professional experience. "Equivalent" means you have a strong understanding of: object-oriented programming, inheritance, error handling, working with APIs, Django ORM basics, and testing.
 - Familiarity with the command line, Git, and basic networking
 - Access to the Are-Self repository
 

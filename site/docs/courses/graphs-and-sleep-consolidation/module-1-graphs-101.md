@@ -252,6 +252,6 @@ an importable module to your Are-Self instance.
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 This modifier composes with the others in the course. The course-
-level [pathway](./pathway) does not call it directly, but Module 2
+level [pathway](./pathway.md) does not call it directly, but Module 2
 (`gsc-edges-and-types`) extends `Graph` into the typed-edge variant
 the rest of the pipeline needs.

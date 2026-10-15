@@ -91,7 +91,7 @@ sidebar_position: 1
 ## Prerequisites
 
 - High school biology (concurrent enrollment is OK). No programming required.
-- [Your Brain, Your AI](../middle-school-brain/) (the middle school brain course) is recommended but not required.
+- [Your Brain, Your AI](../middle-school-brain/index.md) (the middle school brain course) is recommended but not required.
 
 ## Who This Is For
 
@@ -113,19 +113,19 @@ Every meaningful decision weighs against all twelve. The course surfaces them na
 
 | Week | Theme | Focus | Primary Variable |
 |------|-------|-------|------------------|
-| [Week 1](./week-1-architecture) | The Architecture | Orientation: the human brain and its software mirror | Humility |
-| [Week 2](./week-2-memory) | How Brains Remember | Hippocampus: biological memory vs. engrams and vectors | Inquiry |
-| [Week 3](./week-3-reasoning) | How Brains Decide | Frontal Lobe and Prefrontal Cortex: reasoning, planning, executive function | Responsibility |
-| [Week 4](./week-4-homeostasis) | How Brains Survive | Hypothalamus: homeostasis, resource management, cost | Fear + Perseverance |
-| [Week 5](./week-5-communication) | How Brains Talk | CNS, PNS, Thalamus, Synaptic Cleft: signal transmission and coordination | Inclusion + Perception |
-| [Week 6](./week-6-capstone) | Where the Metaphor Breaks | Capstone: what real brains do that software doesn't (yet) | All twelve |
+| [Week 1](./week-1-architecture.md) | The Architecture | Orientation: the human brain and its software mirror | Humility |
+| [Week 2](./week-2-memory.md) | How Brains Remember | Hippocampus: biological memory vs. engrams and vectors | Inquiry |
+| [Week 3](./week-3-reasoning.md) | How Brains Decide | Frontal Lobe and Prefrontal Cortex: reasoning, planning, executive function | Responsibility |
+| [Week 4](./week-4-homeostasis.md) | How Brains Survive | Hypothalamus: homeostasis, resource management, cost | Fear + Perseverance |
+| [Week 5](./week-5-communication.md) | How Brains Talk | CNS, PNS, Thalamus, Synaptic Cleft: signal transmission and coordination | Inclusion + Perception |
+| [Week 6](./week-6-capstone.md) | Where the Metaphor Breaks | Capstone: what real brains do that software doesn't (yet) | All twelve |
 
 ## What You'll Find Here
 
 - **Weekly Lesson Plans** — Five days of activities per week, each with objectives, materials, procedures, differentiation, and assessment notes.
-- **[Worksheets](./worksheets)** — Printable student-facing materials for every week.
-- **[Rubrics](./rubrics)** — NGSS-aligned rubrics for every major assignment. Companion coaching aids: **[Course Rubric](./course-rubric)** (single-page, all subjects at a glance) and **[Lesson Rubric](./lesson-rubric)** (today's subjects + carry-forward).
-- **[Lab Protocols](./labs)** — Four structured lab activities with full protocols.
+- **[Worksheets](./worksheets/index.md)** — Printable student-facing materials for every week.
+- **[Rubrics](./rubrics.md)** — NGSS-aligned rubrics for every major assignment. Companion coaching aids: **[Course Rubric](./course-rubric.md)** (single-page, all subjects at a glance) and **[Lesson Rubric](./lesson-rubric.md)** (today's subjects + carry-forward).
+- **[Lab Protocols](./labs.md)** — Four structured lab activities with full protocols.
 
 ## What Students Will Be Able to Do
 

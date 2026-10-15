@@ -65,14 +65,14 @@ dependency that can disappear or charge you.
 
 | Module | Title | What You Build |
 |--------|-------|---------------|
-| [Module 1](./module-1-build-vs-tune) | Build vs Tune | Decision framework for which approach fits which problem |
-| [Module 2](./module-2-loading-checkpoints) | Loading Checkpoints | Load weights from disk into a transformer you understand |
-| [Module 3](./module-3-baseline-evaluation) | Baseline Evaluation | Measure what the model already does, before you change it |
-| [Module 4](./module-4-lora-from-scratch) | LoRA From Scratch | Implement Low-Rank Adaptation as a thin PyTorch wrapper |
-| [Module 5](./module-5-fine-tuning-loop) | The Fine-Tuning Loop | Train only the LoRA adapters; freeze the base model |
-| [Module 6](./module-6-evaluation) | Evaluation | Held-out sets, regression vs base, qualitative review |
-| [Module 7](./module-7-serving) | Serving | Quantization, local serving, latency vs cost |
-| [Module 8](./module-8-capstone) | Capstone | Pick a base model, pick a domain, fine-tune, evaluate, serve |
+| [Module 1](./module-1-build-vs-tune.md) | Build vs Tune | Decision framework for which approach fits which problem |
+| [Module 2](./module-2-loading-checkpoints.md) | Loading Checkpoints | Load weights from disk into a transformer you understand |
+| [Module 3](./module-3-baseline-evaluation.md) | Baseline Evaluation | Measure what the model already does, before you change it |
+| [Module 4](./module-4-lora-from-scratch.md) | LoRA From Scratch | Implement Low-Rank Adaptation as a thin PyTorch wrapper |
+| [Module 5](./module-5-fine-tuning-loop.md) | The Fine-Tuning Loop | Train only the LoRA adapters; freeze the base model |
+| [Module 6](./module-6-evaluation.md) | Evaluation | Held-out sets, regression vs base, qualitative review |
+| [Module 7](./module-7-serving.md) | Serving | Quantization, local serving, latency vs cost |
+| [Module 8](./module-8-capstone.md) | Capstone | Pick a base model, pick a domain, fine-tune, evaluate, serve |
 
 ## The Sovereignty Stance, Explicitly
 
@@ -130,7 +130,7 @@ installable bundle per module (`tune-decision-rubric`,
 composition modifier (`tune-pathway-composition`) that wires them
 into the `TunePretrainedModel` neural pathway. See each module's
 "Module Genome — Neural Modifier" section for what its bundle
-registers, and the [pathway companion](./pathway) for how the modules
+registers, and the [pathway companion](./pathway.md) for how the modules
 compose into an end-to-end fine-tune-evaluate-serve pipeline.
 
 ## Why Skip HuggingFace, Really

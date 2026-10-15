@@ -42,15 +42,15 @@ This course engages several of the twelve scipraxian Variables directly:
 
 | Day | Title | Focus |
 |-----|-------|-------|
-| [Day 1](./day-1-neural-pathways) | Neural Pathways as Workflow Templates | DAGs, neurons, axons, effectors, the visual graph editor |
-| [Day 2](./day-2-spike-trains) | Spike Trains | Execution instances, status propagation, axoplasm flow, cerebrospinal_fluid |
-| [Day 3](./day-3-branching-and-error-handling) | Branching and Error Handling | Axon types, conditional routing, retry patterns, circuit breakers |
-| [Day 4](./day-4-fleet-management) | Fleet Management | PNS distribution modes, heartbeat monitoring, NerveTerminals, neurotransmitter signals |
-| [Day 5](./day-5-build-your-pathway) | Build Your First Pathway | Design, build, test, run, demo |
+| [Day 1](./day-1-neural-pathways.md) | Neural Pathways as Workflow Templates | DAGs, neurons, axons, effectors, the visual graph editor |
+| [Day 2](./day-2-spike-trains.md) | Spike Trains | Execution instances, status propagation, axoplasm flow, cerebrospinal_fluid |
+| [Day 3](./day-3-branching-and-error-handling.md) | Branching and Error Handling | Axon types, conditional routing, retry patterns, circuit breakers |
+| [Day 4](./day-4-fleet-management.md) | Fleet Management | PNS distribution modes, heartbeat monitoring, NerveTerminals, neurotransmitter signals |
+| [Day 5](./day-5-build-your-pathway.md) | Build Your First Pathway | Design, build, test, run, demo |
 
 ## Prerequisites
 
-- Familiarity with Are-Self concepts. The [What Is AI?](../what-is-ai/) course is optional but useful preparation for understanding the neural pathway execution model.
+- Familiarity with Are-Self concepts. The [What Is AI?](../what-is-ai/index.md) course is optional but useful preparation for understanding the neural pathway execution model.
 - No programming is required — this course is about understanding and operating the workflow system, not writing code.
 - Basic understanding of workflow or pipeline concepts is helpful (e.g., "steps run in order, some can branch").
 - A running Are-Self instance (v6.x) with superuser access

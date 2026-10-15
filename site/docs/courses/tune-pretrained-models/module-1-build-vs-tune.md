@@ -226,6 +226,6 @@ fine-tuning.
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 This modifier composes with the others in the course. The course-
-level [pathway](./pathway) calls this tool early in any tuning
+level [pathway](./pathway.md) calls this tool early in any tuning
 NeuralPathway to gate whether the rest of the pipeline should
 execute at all.

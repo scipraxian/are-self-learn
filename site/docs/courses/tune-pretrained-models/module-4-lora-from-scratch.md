@@ -232,5 +232,5 @@ Are-Self instance.
 | Screenshot | *Modifier Garden after install — captured during play-through.* |
 
 This modifier composes with the others in the course. The course-
-level [pathway](./pathway) calls `inject_lora_adapters` after the
+level [pathway](./pathway.md) calls `inject_lora_adapters` after the
 baseline eval and before fine-tuning.

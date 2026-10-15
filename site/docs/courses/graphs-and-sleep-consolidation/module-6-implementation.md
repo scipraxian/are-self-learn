@@ -136,7 +136,7 @@ the consolidation pathway.
 The `HippocampalConsolidation` NeuralPathway is the executable
 form of Module 5's seven-phase cycle. Its specification is the
 companion document to this course:
-[`pathway.md`](./pathway).
+[`pathway.md`](./pathway.md).
 
 To summarize: a graph of seven Neurons, connected by SEQUENTIAL
 Axons, each Neuron carrying an Effector that performs one phase
@@ -285,7 +285,7 @@ how to put it in software. That is rare.
   a refinement.
 - Build the consolidation pathway, end to end, in your local
   Are-Self installation. The pathway companion to this course
-  ([`pathway.md`](./pathway)) is the spec to follow.
+  ([`pathway.md`](./pathway.md)) is the spec to follow.
 
 The migration is in flight. There is room to contribute.
 
@@ -307,7 +307,7 @@ fires on every `save_engram` call.
 | Screenshot | *Modifier Garden after install + Django admin showing the new EngramEdge table populated by edge extraction — captured during play-through.* |
 
 This modifier is the **first dependency** of the course-level
-[consolidation pathway](./pathway). Until it ships and the
+[consolidation pathway](./pathway.md). Until it ships and the
 `EngramEdge` migration runs, the consolidation Effectors from
 Module 5 have nothing to write to. It is also the modifier that
 makes the *Hippocampus Hypergraph Migration* paper a real

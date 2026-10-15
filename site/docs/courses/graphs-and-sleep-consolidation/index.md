@@ -64,12 +64,12 @@ what is happening inside Are-Self.
 
 | Module | Title | Big Question |
 |--------|-------|--------------|
-| [Module 1](./module-1-graphs-101) | Graphs 101 | What is a graph, and why is it the right shape for memory? |
-| [Module 2](./module-2-edges-and-types) | Edges and Types | What does an edge mean, and what does it mean for an edge to have a type? |
-| [Module 3](./module-3-graph-algorithms) | Graph Algorithms | How do you walk, search, and cluster a graph efficiently? |
-| [Module 4](./module-4-brain-as-graph) | The Brain as a Graph | What does it mean to model a brain as a graph, and what insights does this unlock? |
-| [Module 5](./module-5-sleep-consolidation) | Sleep Consolidation | What happens when a brain (or an AI) is idle, and why does it matter? |
-| [Module 6](./module-6-implementation) | Are-Self's Implementation | How does this all show up, concretely, inside Are-Self's Hippocampus? |
+| [Module 1](./module-1-graphs-101.md) | Graphs 101 | What is a graph, and why is it the right shape for memory? |
+| [Module 2](./module-2-edges-and-types.md) | Edges and Types | What does an edge mean, and what does it mean for an edge to have a type? |
+| [Module 3](./module-3-graph-algorithms.md) | Graph Algorithms | How do you walk, search, and cluster a graph efficiently? |
+| [Module 4](./module-4-brain-as-graph.md) | The Brain as a Graph | What does it mean to model a brain as a graph, and what insights does this unlock? |
+| [Module 5](./module-5-sleep-consolidation.md) | Sleep Consolidation | What happens when a brain (or an AI) is idle, and why does it matter? |
+| [Module 6](./module-6-implementation.md) | Are-Self's Implementation | How does this all show up, concretely, inside Are-Self's Hippocampus? |
 
 ## What You Will Be Able to Do
 
@@ -102,7 +102,7 @@ the formal specification. This course also ships as a set of
 plus a composition modifier (`gsc-pathway-composition`) that wires
 them into the `HippocampalConsolidation` neural pathway. See each
 module's "Module Genome — Neural Modifier" section for what its
-bundle registers, and the [pathway companion](./pathway) for how
+bundle registers, and the [pathway companion](./pathway.md) for how
 the modules compose into the seven-phase consolidation cycle that
 runs during the `Sleeping` shift of an iteration.
 

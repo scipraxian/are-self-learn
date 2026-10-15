@@ -98,12 +98,12 @@ sidebar_position: 1
 
 ## Prerequisites
 
-- [Python Intermediate](../python-intermediate/) or equivalent proficiency (classes, decorators, context managers, virtual environments)
+- [Python Intermediate](../python-intermediate/index.md) or equivalent proficiency (classes, decorators, context managers, virtual environments)
 - Basic SQL (SELECT, INSERT, JOIN, WHERE)
 - Comfort with the command line (navigation, Git basics, pip)
 - Familiarity with HTTP (methods, status codes, request/response cycle)
 
-**Note:** [Python Advanced](../python-advanced/) is NOT required but is recommended for students who want deeper preparation.
+**Note:** [Python Advanced](../python-advanced/index.md) is NOT required but is recommended for students who want deeper preparation.
 
 ## Who This Is For
 
@@ -158,16 +158,16 @@ A piece of work is Done when:
 
 | Week | Theme | Focus | Primary Variable |
 |------|-------|-------|------------------|
-| [Week 1](./week-1-fundamentals) | Django Fundamentals | Project structure, settings, apps, manage.py | Humility |
-| [Week 2](./week-2-models) | Models and Migrations | Fields, relationships, Are-Self mixin patterns | Inquiry |
-| [Week 3](./week-3-admin) | Admin and Management Commands | Django admin, custom management commands | Responsibility |
-| [Week 4](./week-4-views) | Views and URLs | FBVs, CBVs, URL routing, Are-Self API structure | Perception |
-| [Week 5](./week-5-drf) | Django REST Framework | Serializers, ViewSets, routers, light/full pattern | Inclusion |
-| [Week 6](./week-6-auth) | Authentication and Permissions | Django auth, DRF permissions, token auth | Fear + Responsibility |
-| [Week 7](./week-7-signals) | Signals and Middleware | Django signals, m2m_changed, neurotransmitter pattern | Perseverance |
-| [Week 8](./week-8-celery) | Background Tasks | Celery, task queues, periodic tasks, PNS heartbeat | Time |
-| [Week 9](./week-9-websockets) | WebSockets and Real-Time | Django Channels, WebSocket consumers, synaptic cleft | Fulfillment |
-| [Week 10](./week-10-capstone) | Capstone | Design, build, test, deploy, demo | All twelve |
+| [Week 1](./week-1-fundamentals.md) | Django Fundamentals | Project structure, settings, apps, manage.py | Humility |
+| [Week 2](./week-2-models.md) | Models and Migrations | Fields, relationships, Are-Self mixin patterns | Inquiry |
+| [Week 3](./week-3-admin.md) | Admin and Management Commands | Django admin, custom management commands | Responsibility |
+| [Week 4](./week-4-views.md) | Views and URLs | FBVs, CBVs, URL routing, Are-Self API structure | Perception |
+| [Week 5](./week-5-drf.md) | Django REST Framework | Serializers, ViewSets, routers, light/full pattern | Inclusion |
+| [Week 6](./week-6-auth.md) | Authentication and Permissions | Django auth, DRF permissions, token auth | Fear + Responsibility |
+| [Week 7](./week-7-signals.md) | Signals and Middleware | Django signals, m2m_changed, neurotransmitter pattern | Perseverance |
+| [Week 8](./week-8-celery.md) | Background Tasks | Celery, task queues, periodic tasks, PNS heartbeat | Time |
+| [Week 9](./week-9-websockets.md) | WebSockets and Real-Time | Django Channels, WebSocket consumers, synaptic cleft | Fulfillment |
+| [Week 10](./week-10-capstone.md) | Capstone | Design, build, test, deploy, demo | All twelve |
 
 ## Iteration Schedule
 
